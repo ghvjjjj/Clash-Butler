@@ -16,7 +16,7 @@ rename_pattern = "${COUNTRYCODE}_${ISP}"
 need_add_pool = true
 # 代理节点池
 pools = [
-    "https://raw.githubusercontent.com/ghvjjjj/NoMoreWalls/refs/heads/master/snippets/nodes_US.meta.yml"
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_US.meta.yml"
 ]
 
 # 测试分组大小
@@ -30,6 +30,6 @@ timeout = 500
 
 # 带宽测速配置
 [speed_test]
-enabled = false
+enabled = true
 url = "https://speed.cloudflare.com/__down?bytes=104857600"
 timeout = 3000
