@@ -166,20 +166,6 @@ proxies:
       Host: us.4056860.xyz
     path: /ws
 - flow: ''
-  name: US_Google LLC_OpenAI
-  network: ws
-  port: 443
-  server: 162.159.7.226
-  servername: d4.medicaldream.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
-  ws-opts:
-    headers:
-      Host: d4.medicaldream.ir
-    path: /?ed=2560
-- flow: ''
   name: US_H4Y Technologies LLC_OpenAI
   network: ws
   port: 443
@@ -193,6 +179,21 @@ proxies:
     headers:
       Host: usb.mjjs.dpdns.org
     path: /usb
+- alterId: 0
+  cipher: auto
+  name: US_HostPapa_OpenAI
+  network: ws
+  port: 443
+  server: codepen.io
+  servername: fastclubcloud.alpha-panel.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  ws-opts:
+    headers:
+      HOST: fastclubcloud.alpha-panel.ir
+    path: /1WWeeRtTt.131.PP.ua/h7Rcu0y30lhjdVjJ3gc4aj
 - name: US_Madcityservers LLC_OpenAI
   network: ws
   port: 443
@@ -205,14 +206,20 @@ proxies:
     headers:
       Host: keji.madcity.lol
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
+- flow: ''
   name: US_Multacom Corporation_OpenAI1
-  port: 23564
-  server: 142.171.118.132
-  tls: false
-  type: vmess
-  uuid: 28cf94d4-46cc-4151-b94e-1073a4594dc5
+  network: ws
+  port: 443
+  server: 162.159.7.226
+  servername: d4.medicaldream.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
+  ws-opts:
+    headers:
+      Host: d4.medicaldream.ir
+    path: /?ed=2560
 - flow: ''
   name: US_Multacom Corporation_OpenAI2
   network: ws
@@ -263,8 +270,8 @@ proxy-groups:
   - US_Aiyun (HK) Network Technology Limited_OpenAI5
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Google LLC_OpenAI
   - US_H4Y Technologies LLC_OpenAI
+  - US_HostPapa_OpenAI
   - US_Madcityservers LLC_OpenAI
   - US_Multacom Corporation_OpenAI1
   - US_Multacom Corporation_OpenAI2
@@ -329,8 +336,8 @@ proxy-groups:
   - US_Aiyun (HK) Network Technology Limited_OpenAI5
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Google LLC_OpenAI
   - US_H4Y Technologies LLC_OpenAI
+  - US_HostPapa_OpenAI
   - US_Madcityservers LLC_OpenAI
   - US_Multacom Corporation_OpenAI1
   - US_Multacom Corporation_OpenAI2
@@ -350,8 +357,8 @@ proxy-groups:
   - US_Aiyun (HK) Network Technology Limited_OpenAI5
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Google LLC_OpenAI
   - US_H4Y Technologies LLC_OpenAI
+  - US_HostPapa_OpenAI
   - US_Madcityservers LLC_OpenAI
   - US_Multacom Corporation_OpenAI1
   - US_Multacom Corporation_OpenAI2
