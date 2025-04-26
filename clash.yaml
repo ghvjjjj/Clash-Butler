@@ -71,92 +71,192 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: FR_Ivry-sur-Seine_Online S.A.S._OpenAI
-  password: dongtaiwang.com
-  port: 59967
-  server: 195.154.33.70
+- alterId: 0
+  cipher: auto
+  name: US_Aiyun (HK) Network Technology Limited_OpenAI1
+  network: ws
+  port: 443
+  server: gs03-1.guoshi1520.com
+  servername: gs03-1.guoshi1520.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 82ff6d30-2920-4ebd-b95c-b016ede1a841
+  ws-opts:
+    headers:
+      HOST: gs03-1.guoshi1520.com
+    path: /82ff6d30
+- alterId: 0
+  cipher: auto
+  name: US_Aiyun (HK) Network Technology Limited_OpenAI2
+  network: ws
+  port: 443
+  server: xcmg19.dtkj0328.com
+  servername: xcmg19.dtkj0328.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bc94f742-0e7b-4cf8-e897-6214f9bec8da
+  ws-opts:
+    headers:
+      HOST: xcmg19.dtkj0328.com
+    path: /xcmg1234
+- alterId: 0
+  cipher: auto
+  name: US_Aiyun (HK) Network Technology Limited_OpenAI3
+  network: ws
+  port: 443
+  server: yymg12.haibo168.com
+  servername: yymg12.haibo168.com
+  tls: true
+  type: vmess
+  uuid: 555dc227-b8a9-4c41-eb2b-b6f9e5bdc168
+  ws-opts:
+    headers:
+      Host: yymg12.haibo168.com
+    path: /yymg1234
+- alterId: 0
+  cipher: auto
+  name: US_Aiyun (HK) Network Technology Limited_OpenAI4
+  network: ws
+  port: 443
+  server: xcf046.facai2024.com
+  servername: xcf046.facai2024.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c47d5728-8d15-4e07-b5ac-9acff953b12b
+  ws-opts:
+    headers:
+      Host: xcf046.facai2024.com
+    path: /c47d5728
+- alterId: 0
+  cipher: auto
+  name: US_Aiyun (HK) Network Technology Limited_OpenAI5
+  network: ws
+  port: 443
+  server: xc011-2.meiziba5566.com
+  servername: xc011-2.meiziba5566.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 42576a04-5a4d-4c7e-fcb4-a8582ab46031
+  ws-opts:
+    headers:
+      Host: xc011-2.meiziba5566.com
+    path: /xc1234
+- alterId: 0
+  cipher: auto
+  name: US_Aiyun (HK) Network Technology Limited_OpenAI6
+  network: ws
+  port: 443
+  server: xc125-1.meiziba5566.com
+  servername: xc125-1.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 6b95d340-30a5-47bd-ac53-49584e5d4ddf
+  ws-opts:
+    headers:
+      Host: xc125-1.meiziba5566.com
+    path: /6b95d340
+- name: US_Cloudflare, Inc._OpenAI1
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.204.186
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
+- name: US_Cloudflare, Inc._OpenAI2
   network: ws
-  port: 80
-  server: 45.131.5.206
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳@WangCai2
-- cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc._OpenAI1
-  password: amazonskr05
   port: 443
-  server: 52.197.57.24
-  type: ss
-- cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc._OpenAI2
-  password: amazonskr05
-  port: 443
-  server: 52.199.237.27
-  type: ss
-- cipher: aes-256-cfb
-  name: SG_Singapore_Amazon Technologies Inc._OpenAI
-  password: amazonskr05
-  port: 443
-  server: 13.229.210.217
-  type: ss
-- cipher: aes-256-cfb
-  name: SG_Singapore_Amazon.com, Inc._OpenAI
-  password: amazonskr05
-  port: 443
-  server: 13.250.5.171
-  type: ss
-- name: US_Portland_Amazon.com, Inc._OpenAI
-  network: ws
-  port: 80
-  server: 45.131.5.27
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- flow: xtls-rprx-vision
-  name: github.com/Ruk1ng001_1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: 1a
-  server: t9.qifei.app
-  servername: www.amazon.com
+  server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
+  servername: us.4056860.xyz
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: ef23ddd0-14c5-39c2-9880-af55ce892363
-- flow: xtls-rprx-vision
-  name: github.com/Ruk1ng001_2
-  network: tcp
-  port: 1443
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: 1a
-  server: t14.qifei.app
-  servername: www.amazon.com
+  uuid: bc2a2e87-e34b-4126-91ce-e7bccdafc4d4
+  ws-opts:
+    headers:
+      Host: us.4056860.xyz
+    path: /ws
+- flow: ''
+  name: US_Google LLC_OpenAI
+  network: ws
+  port: 443
+  server: 162.159.0.33
+  servername: d4.medicaldream.ir
   tls: true
   type: vless
-  uuid: ef23ddd0-14c5-39c2-9880-af55ce892363
-- cipher: aes-256-cfb
-  name: ❓_🇸🇬_💼_github.com/Ruk1ng001_
-  password: amazonskr05
+  udp: false
+  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
+  ws-opts:
+    headers:
+      Host: d4.medicaldream.ir
+    path: /?ed=2560
+- flow: ''
+  name: US_H4Y Technologies LLC_OpenAI
+  network: ws
   port: 443
-  server: 13.229.48.116
+  server: 104.18.5.83
+  servername: usb.mjjs.dpdns.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: acbb8b71-58a0-4944-bea2-f5bdeddf7d8c
+  ws-opts:
+    headers:
+      Host: usb.mjjs.dpdns.org
+    path: /usb
+- name: US_Madcityservers LLC_OpenAI
+  network: ws
+  port: 443
+  server: 5.10.245.58
+  servername: keji.madcity.lol
+  tls: true
+  type: vless
+  uuid: 87603b79-0ec8-4192-9152-795e0efd956f
+  ws-opts:
+    headers:
+      Host: keji.madcity.lol
+    path: /?ed=2560
+- flow: ''
+  name: US_Multacom Corporation_OpenAI1
+  network: ws
+  port: 443
+  server: 162.159.7.226
+  servername: d4.medicaldream.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
+  ws-opts:
+    headers:
+      Host: d4.medicaldream.ir
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: US_Multacom Corporation_OpenAI2
+  port: 23564
+  server: 142.171.118.132
+  tls: false
+  type: vmess
+  uuid: 28cf94d4-46cc-4151-b94e-1073a4594dc5
+- cipher: chacha20-ietf-poly1305
+  name: US_Nubes, LLC_OpenAI
+  password: 741ddced-e6ee-4175-9c1a-e524009f9045
+  port: 30100
+  server: 144.126.146.38
   type: ss
+- client-fingerprint: chrome
+  name: US_Psychz Networks_OpenAI
+  password: dongtaiwang.com
+  port: 65232
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
 proxy-groups:
 - name: PROXY
   type: select
@@ -172,16 +272,21 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - FR_Ivry-sur-Seine_Online S.A.S._OpenAI
-  - HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI1
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI2
-  - SG_Singapore_Amazon Technologies Inc._OpenAI
-  - SG_Singapore_Amazon.com, Inc._OpenAI
-  - US_Portland_Amazon.com, Inc._OpenAI
-  - github.com/Ruk1ng001_1
-  - github.com/Ruk1ng001_2
-  - ❓_🇸🇬_💼_github.com/Ruk1ng001_
+  - US_Aiyun (HK) Network Technology Limited_OpenAI1
+  - US_Aiyun (HK) Network Technology Limited_OpenAI2
+  - US_Aiyun (HK) Network Technology Limited_OpenAI3
+  - US_Aiyun (HK) Network Technology Limited_OpenAI4
+  - US_Aiyun (HK) Network Technology Limited_OpenAI5
+  - US_Aiyun (HK) Network Technology Limited_OpenAI6
+  - US_Cloudflare, Inc._OpenAI1
+  - US_Cloudflare, Inc._OpenAI2
+  - US_Google LLC_OpenAI
+  - US_H4Y Technologies LLC_OpenAI
+  - US_Madcityservers LLC_OpenAI
+  - US_Multacom Corporation_OpenAI1
+  - US_Multacom Corporation_OpenAI2
+  - US_Nubes, LLC_OpenAI
+  - US_Psychz Networks_OpenAI
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -198,7 +303,12 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
+  - US_Aiyun (HK) Network Technology Limited_OpenAI1
+  - US_Aiyun (HK) Network Technology Limited_OpenAI2
+  - US_Aiyun (HK) Network Technology Limited_OpenAI3
+  - US_Aiyun (HK) Network Technology Limited_OpenAI4
+  - US_Aiyun (HK) Network Technology Limited_OpenAI5
+  - US_Aiyun (HK) Network Technology Limited_OpenAI6
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -214,8 +324,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI1
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI2
+  - DIRECT
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -223,8 +332,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - SG_Singapore_Amazon Technologies Inc._OpenAI
-  - SG_Singapore_Amazon.com, Inc._OpenAI
+  - DIRECT
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -232,8 +340,21 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
-  - US_Portland_Amazon.com, Inc._OpenAI
+  - US_Aiyun (HK) Network Technology Limited_OpenAI1
+  - US_Aiyun (HK) Network Technology Limited_OpenAI2
+  - US_Aiyun (HK) Network Technology Limited_OpenAI3
+  - US_Aiyun (HK) Network Technology Limited_OpenAI4
+  - US_Aiyun (HK) Network Technology Limited_OpenAI5
+  - US_Aiyun (HK) Network Technology Limited_OpenAI6
+  - US_Cloudflare, Inc._OpenAI1
+  - US_Cloudflare, Inc._OpenAI2
+  - US_Google LLC_OpenAI
+  - US_H4Y Technologies LLC_OpenAI
+  - US_Madcityservers LLC_OpenAI
+  - US_Multacom Corporation_OpenAI1
+  - US_Multacom Corporation_OpenAI2
+  - US_Nubes, LLC_OpenAI
+  - US_Psychz Networks_OpenAI
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -241,13 +362,21 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - FR_Ivry-sur-Seine_Online S.A.S._OpenAI
-  - HK_Hong Kong_Alibaba (US) Technology Co., Ltd._OpenAI
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI1
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI2
-  - SG_Singapore_Amazon Technologies Inc._OpenAI
-  - SG_Singapore_Amazon.com, Inc._OpenAI
-  - US_Portland_Amazon.com, Inc._OpenAI
+  - US_Aiyun (HK) Network Technology Limited_OpenAI1
+  - US_Aiyun (HK) Network Technology Limited_OpenAI2
+  - US_Aiyun (HK) Network Technology Limited_OpenAI3
+  - US_Aiyun (HK) Network Technology Limited_OpenAI4
+  - US_Aiyun (HK) Network Technology Limited_OpenAI5
+  - US_Aiyun (HK) Network Technology Limited_OpenAI6
+  - US_Cloudflare, Inc._OpenAI1
+  - US_Cloudflare, Inc._OpenAI2
+  - US_Google LLC_OpenAI
+  - US_H4Y Technologies LLC_OpenAI
+  - US_Madcityservers LLC_OpenAI
+  - US_Multacom Corporation_OpenAI1
+  - US_Multacom Corporation_OpenAI2
+  - US_Nubes, LLC_OpenAI
+  - US_Psychz Networks_OpenAI
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
