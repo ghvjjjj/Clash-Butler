@@ -71,6 +71,50 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
+- cipher: aes-256-cfb
+  name: 62.100.205.48_OpenAI
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 62.100.205.48
+  type: ss
+- cipher: aes-256-gcm
+  name: AU_BrainStorm Network_OpenAI
+  password: BtHRbQVU
+  port: 9007
+  server: 103.106.231.55
+  type: ss
+- cipher: aes-256-cfb
+  name: CO_Kaopu Cloud HK Limited_OpenAI
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.16.212
+  type: ss
+- name: DE_Hetzner Online AG_OpenAI
+  network: tcp
+  port: 21147
+  server: 91.107.129.64
+  skip-cert-verify: true
+  type: vless
+  uuid: 3b69eb18-e8a4-488a-92a8-a2efc9758751
+- name: DE_ZTV CORP LLC_OpenAI
+  network: ws
+  port: 443
+  server: 151.101.4.20
+  servername: map.google.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6c5d8c35-ae8a-4d67-aa55-3eeebba06aa3
+  ws-opts:
+    headers:
+      Host: aklisvpn.com
+    path: /@aklisvpn@aklisvpn@aklisvpn@aklisvpn@aklisvpn@aklisvpn
+- cipher: aes-256-gcm
+  name: GB_G-Core Labs S.A._OpenAI
+  password: RJmLkze1
+  port: 5075
+  server: 109.107.159.202
+  type: ss
 - name: NL_Fast GEO Hosting S.R.L._OpenAI
   network: ws
   port: 2052
@@ -85,6 +129,28 @@ proxies:
     headers:
       Host: sPeedtest2.sbs.us.vless.sitespeedtest.net
     path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+- cipher: aes-256-gcm
+  name: NL_Hostman LTD_OpenAI
+  password: pR11jNCE
+  port: 3059
+  server: 212.192.2.253
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_Aiyun (HK) Network Technology Limited
+  network: ws
+  port: 443
+  server: xc011-2.meiziba5566.com
+  servername: xc011-2.meiziba5566.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 42576a04-5a4d-4c7e-fcb4-a8582ab46031
+  ws-opts:
+    headers:
+      Host: xc011-2.meiziba5566.com
+    path: /xc1234
 - alterId: 0
   cipher: auto
   name: US_Aiyun (HK) Network Technology Limited_OpenAI1
@@ -120,6 +186,20 @@ proxies:
   name: US_Aiyun (HK) Network Technology Limited_OpenAI3
   network: ws
   port: 443
+  server: yymg12.haibo168.com
+  servername: yymg12.haibo168.com
+  tls: true
+  type: vmess
+  uuid: 555dc227-b8a9-4c41-eb2b-b6f9e5bdc168
+  ws-opts:
+    headers:
+      Host: yymg12.haibo168.com
+    path: /yymg1234
+- alterId: 0
+  cipher: auto
+  name: US_Aiyun (HK) Network Technology Limited_OpenAI4
+  network: ws
+  port: 443
   server: xcf046.facai2024.com
   servername: xcf046.facai2024.com
   skip-cert-verify: true
@@ -131,22 +211,6 @@ proxies:
     headers:
       Host: xcf046.facai2024.com
     path: /c47d5728
-- alterId: 0
-  cipher: auto
-  name: US_Aiyun (HK) Network Technology Limited_OpenAI4
-  network: ws
-  port: 443
-  server: xc011-2.meiziba5566.com
-  servername: xc011-2.meiziba5566.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 42576a04-5a4d-4c7e-fcb4-a8582ab46031
-  ws-opts:
-    headers:
-      Host: xc011-2.meiziba5566.com
-    path: /xc1234
 - alterId: 0
   cipher: auto
   name: US_Aiyun (HK) Network Technology Limited_OpenAI5
@@ -195,6 +259,18 @@ proxies:
     headers:
       Host: usb.mjjs.dpdns.org
     path: /usb
+- name: US_HostPapa
+  network: ws
+  port: 80
+  server: 104.16.1.47
+  servername: flat-bread-ddb6-ppal03.joriy39169.workers.dev
+  tls: false
+  type: vless
+  uuid: b550a101-63fe-4862-bfd3-8b87bb4168dd
+  ws-opts:
+    headers:
+      Host: flat-bread-ddb6-ppal03.joriy39169.workers.dev
+    path: /?ed=2560
 - name: US_Madcityservers LLC_OpenAI
   network: ws
   port: 443
@@ -207,6 +283,32 @@ proxies:
     headers:
       Host: keji.madcity.lol
     path: /?ed=2560
+- flow: xtls-rprx-vision
+  name: US_Massivegrid LTD_OpenAI1
+  network: tcp
+  port: 16959
+  reality-opts:
+    public-key: t6sh0iIRRJKrAlhMrTtAJi8CrtCXQe4rYkIh0Pe7dl4
+    short-id: 6b04
+  server: 185.122.166.216
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 50d1defb-33e3-485a-b0ea-2c058e684703
+- flow: xtls-rprx-vision
+  name: US_Massivegrid LTD_OpenAI2
+  network: tcp
+  port: 38120
+  reality-opts:
+    public-key: qdki5D30_Ilz2-eR2YN-mkH9pCtUK2OtTdXNsh9Ikm8
+    short-id: '0378'
+  server: 185.122.166.216
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 684aaaf5-77b1-41db-972a-700df92f2569
 - flow: ''
   name: US_Multacom Corporation_OpenAI1
   network: ws
@@ -221,8 +323,16 @@ proxies:
     headers:
       Host: d4.medicaldream.ir
     path: /?ed=2560
-- flow: ''
+- alterId: 0
+  cipher: auto
   name: US_Multacom Corporation_OpenAI2
+  port: 23564
+  server: 142.171.118.132
+  tls: false
+  type: vmess
+  uuid: 28cf94d4-46cc-4151-b94e-1073a4594dc5
+- flow: ''
+  name: US_Multacom Corporation_OpenAI3
   network: ws
   port: 443
   server: 162.159.0.33
@@ -249,6 +359,97 @@ proxies:
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
+- name: ❓ 未知_1
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 27.50.49.47
+  skip-cert-verify: true
+  sni: epccs.ambercc.filegear-sg.me
+  type: trojan
+- name: ❓ 未知_10
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 5.182.84.9
+  skip-cert-verify: true
+  sni: epccs.ambercc.filegear-sg.me
+  type: trojan
+- name: ❓ 未知_2
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.239
+  skip-cert-verify: true
+  sni: epccs.ambercc.filegear-sg.me
+  type: trojan
+- client-fingerprint: chrome
+  name: ❓ 未知_3
+  password: 262e7386-f8a9-11ef-ba82-f23c913c8d2b
+  port: 8443
+  server: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: ❓ 未知_4
+  network: tcp
+  port: 58934
+  reality-opts:
+    public-key: L7IH7Ct-KazsvTA0s53_oiJj5x9aQ6IZfdH2TdK6Mwo
+    short-id: b4ba4e
+  server: 185.122.166.216
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c8ed21fc-eb88-4f8f-9565-dccd1ea9151f
+- cipher: aes-256-cfb
+  name: ❓ 未知_5
+  password: qwerREWQ@@
+  port: 58487
+  server: 221.150.109.90
+  type: ss
+- name: ❓ 未知_6
+  network: ws
+  port: 2052
+  server: 104.18.15.19
+  servername: 0107.cxypogon.workers.dev
+  tls: false
+  type: vless
+  uuid: 13ed4a8b-6049-4f26-8cb3-9870df4fda4c
+  ws-opts:
+    headers:
+      Host: 0107.cxypogon.workers.dev
+    path: /?ed=2560
+- name: ❓ 未知_7
+  network: ws
+  port: 8880
+  server: 188.114.97.1
+  servername: falcunargo-channel.be3374a836.workers.Dev
+  tls: false
+  type: vless
+  uuid: 91d9b8d8-2aab-4e1a-9573-0d59e9cd7f8e
+  ws-opts:
+    headers:
+      Host: falcunargo-channel.be3374a836.workers.Dev
+    path: /?ed=2048
+- name: ❓ 未知_8
+  network: ws
+  password: Aimer
+  port: 443
+  server: 188.164.159.171
+  skip-cert-verify: true
+  sni: epccs.ambercc.filegear-sg.me
+  type: trojan
+- name: ❓ 未知_9
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 188.164.159.91
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
 proxy-groups:
 - name: PROXY
   type: select
@@ -264,7 +465,15 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
+  - 62.100.205.48_OpenAI
+  - AU_BrainStorm Network_OpenAI
+  - CO_Kaopu Cloud HK Limited_OpenAI
+  - DE_Hetzner Online AG_OpenAI
+  - DE_ZTV CORP LLC_OpenAI
+  - GB_G-Core Labs S.A._OpenAI
   - NL_Fast GEO Hosting S.R.L._OpenAI
+  - NL_Hostman LTD_OpenAI
+  - US_Aiyun (HK) Network Technology Limited
   - US_Aiyun (HK) Network Technology Limited_OpenAI1
   - US_Aiyun (HK) Network Technology Limited_OpenAI2
   - US_Aiyun (HK) Network Technology Limited_OpenAI3
@@ -273,11 +482,25 @@ proxy-groups:
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_H4Y Technologies LLC_OpenAI
+  - US_HostPapa
   - US_Madcityservers LLC_OpenAI
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
   - US_Multacom Corporation_OpenAI1
   - US_Multacom Corporation_OpenAI2
+  - US_Multacom Corporation_OpenAI3
   - US_Nubes, LLC_OpenAI
   - US_Psychz Networks_OpenAI
+  - ❓ 未知_1
+  - ❓ 未知_10
+  - ❓ 未知_2
+  - ❓ 未知_3
+  - ❓ 未知_4
+  - ❓ 未知_5
+  - ❓ 未知_6
+  - ❓ 未知_7
+  - ❓ 未知_8
+  - ❓ 未知_9
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -294,6 +517,8 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
+  - CO_Kaopu Cloud HK Limited_OpenAI
+  - US_Aiyun (HK) Network Technology Limited
   - US_Aiyun (HK) Network Technology Limited_OpenAI1
   - US_Aiyun (HK) Network Technology Limited_OpenAI2
   - US_Aiyun (HK) Network Technology Limited_OpenAI3
@@ -330,6 +555,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
+  - US_Aiyun (HK) Network Technology Limited
   - US_Aiyun (HK) Network Technology Limited_OpenAI1
   - US_Aiyun (HK) Network Technology Limited_OpenAI2
   - US_Aiyun (HK) Network Technology Limited_OpenAI3
@@ -338,9 +564,13 @@ proxy-groups:
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_H4Y Technologies LLC_OpenAI
+  - US_HostPapa
   - US_Madcityservers LLC_OpenAI
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
   - US_Multacom Corporation_OpenAI1
   - US_Multacom Corporation_OpenAI2
+  - US_Multacom Corporation_OpenAI3
   - US_Nubes, LLC_OpenAI
   - US_Psychz Networks_OpenAI
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
@@ -350,7 +580,14 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
+  - 62.100.205.48_OpenAI
+  - AU_BrainStorm Network_OpenAI
+  - CO_Kaopu Cloud HK Limited_OpenAI
+  - DE_Hetzner Online AG_OpenAI
+  - DE_ZTV CORP LLC_OpenAI
+  - GB_G-Core Labs S.A._OpenAI
   - NL_Fast GEO Hosting S.R.L._OpenAI
+  - NL_Hostman LTD_OpenAI
   - US_Aiyun (HK) Network Technology Limited_OpenAI1
   - US_Aiyun (HK) Network Technology Limited_OpenAI2
   - US_Aiyun (HK) Network Technology Limited_OpenAI3
@@ -360,8 +597,11 @@ proxy-groups:
   - US_Cloudflare, Inc._OpenAI2
   - US_H4Y Technologies LLC_OpenAI
   - US_Madcityservers LLC_OpenAI
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
   - US_Multacom Corporation_OpenAI1
   - US_Multacom Corporation_OpenAI2
+  - US_Multacom Corporation_OpenAI3
   - US_Nubes, LLC_OpenAI
   - US_Psychz Networks_OpenAI
   filter: (?i)OpenAI
