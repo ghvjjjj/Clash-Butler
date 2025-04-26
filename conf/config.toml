@@ -17,6 +17,7 @@ need_add_pool = true
 # 代理节点池
 pools = [
     "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_US.meta.yml"
+    "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml"
 ]
 
 # 测试分组大小
