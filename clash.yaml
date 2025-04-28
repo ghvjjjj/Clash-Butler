@@ -1,6 +1,6 @@
 mixed-port: 7890
 socks-port: 7891
-allow-lan: true
+allow-lan: false
 bind-address: '*'
 mode: rule
 log-level: info
@@ -99,49 +99,28 @@ proxies:
     headers:
       Host: redfree8mahsang6.redfree8.ir
     path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
-- name: 2|🇺🇸13 |  1.6MB/s
-  network: tcp
+- flow: ''
+  name: 2|🇺🇸29 |  2.1MB/s
+  network: ws
   port: 443
-  server: 51.81.37.20
-  servername: 147135010072.sec21org.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
-- flow: xtls-rprx-vision
-  name: 2|🇺🇸20 |  3.4MB/s
-  network: tcp
-  port: 58236
-  reality-opts:
-    public-key: pL-OG-swF1oA_ogetFCr4zfGUoxFdeUYIu7bhmDZn3s
-    short-id: 00337819a82d
-  server: 172.82.67.154
-  servername: yahoo.com
+  server: 104.21.35.247
+  servername: 3edcvb.huangshang2030.dpdns.org
   tls: true
   type: vless
   udp: false
-  uuid: 73384fd8-2b99-497f-add8-a62e962f518a
-- flow: xtls-rprx-vision
-  name: US_Cloudflare, Inc._OpenAI1
-  network: tcp
-  port: 33718
-  reality-opts:
-    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-  server: 31.59.111.49
-  servername: icloud.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e657e5fb-c417-4d3f-d84e-a3a8f010f9fa
-- name: US_Cloudflare, Inc._OpenAI2
+  uuid: 53249200-30ff-436f-a032-0bb00605f8f9
+  ws-opts:
+    headers:
+      Host: 3edcvb.huangshang2030.dpdns.org
+    path: /MgovppNO6WZwOCU5JqXZxjQ5ILc
+- name: US_Cloudflare, Inc._OpenAI1
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: US_Cloudflare, Inc._OpenAI3
+- name: US_Cloudflare, Inc._OpenAI2
   network: ws
   port: 443
   server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
@@ -179,49 +158,6 @@ proxies:
   cipher: auto
   name: US_HostPapa_OpenAI2
   network: ws
-  port: 443
-  server: 192.227.175.225
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /dabai.in172.64.8.26
-- flow: ''
-  name: US_HostPapa_OpenAI3
-  network: ws
-  port: 443
-  server: 104.21.35.247
-  servername: 3edcvb.huangshang2030.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 53249200-30ff-436f-a032-0bb00605f8f9
-  ws-opts:
-    headers:
-      Host: 3edcvb.huangshang2030.dpdns.org
-    path: /MgovppNO6WZwOCU5JqXZxjQ5ILc
-- alterId: 0
-  cipher: auto
-  name: US_HostPapa_OpenAI4
-  network: ws
-  port: 8880
-  server: 104.17.213.241
-  servername: 100-10-70-214.s4.cn-db.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: a1a607e6-a04c-3db6-a36f-c2a4312e2fe1
-  ws-opts:
-    headers:
-      HOST: 100-10-70-214.s4.cn-db.top
-    path: /dabai.in104.17.200.82
-- alterId: 0
-  cipher: auto
-  name: US_HostPapa_OpenAI5
-  network: ws
   port: 2053
   server: 141.101.121.127
   servername: ''
@@ -233,7 +169,7 @@ proxies:
       Host: 1744007578.speed.mamha.cccp.freefly.pp.ua
     path: /
 - flow: ''
-  name: US_HostPapa_OpenAI6
+  name: US_HostPapa_OpenAI3
   network: ws
   port: 443
   server: 172.67.181.193
@@ -248,7 +184,7 @@ proxies:
     path: /MgovppNO6WZwOCU5JqXZxjQ5ILc
 - alterId: 0
   cipher: auto
-  name: US_HostPapa_OpenAI7
+  name: US_HostPapa_OpenAI4
   network: ws
   port: 8080
   server: 104.17.221.248
@@ -260,7 +196,17 @@ proxies:
     headers:
       Host: 100-54-104-116.s1.cn-db.top
     path: /dabai.in104.24.181.249
-- name: US_OVH SAS_OpenAI
+- name: US_OVH SAS_OpenAI1
+  network: tcp
+  port: 443
+  server: 51.81.37.20
+  servername: 147135010072.sec21org.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
+- name: US_OVH SAS_OpenAI2
   network: tcp
   port: 443
   server: 135.148.195.57
@@ -269,12 +215,13 @@ proxies:
   type: vless
   udp: true
   uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- name: US_Psychz Networks_OpenAI
-  password: dongtaiwang.com
-  port: 65232
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
+- client-fingerprint: chrome
+  name: US_Sharktech
+  password: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+  port: 8443
+  server: 7bd0f82d-suz340-svvaj9-fa3p.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 7bd0f82d-suz340-svvaj9-fa3p.hy2.gotochinatown.net
   type: hysteria2
 proxy-groups:
 - name: PROXY
@@ -293,21 +240,17 @@ proxy-groups:
   proxies:
   - 14|US_speednode_
   - 2,14|US_speednode_
-  - 2|🇺🇸13 |  1.6MB/s
-  - 2|🇺🇸20 |  3.4MB/s
+  - 2|🇺🇸29 |  2.1MB/s
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Cloudflare, Inc._OpenAI3
   - US_DMIT Cloud Services_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_OVH SAS_OpenAI
-  - US_Psychz Networks_OpenAI
+  - US_OVH SAS_OpenAI1
+  - US_OVH SAS_OpenAI2
+  - US_Sharktech
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -360,17 +303,14 @@ proxy-groups:
   - 2,14|US_speednode_
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Cloudflare, Inc._OpenAI3
   - US_DMIT Cloud Services_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_OVH SAS_OpenAI
-  - US_Psychz Networks_OpenAI
+  - US_OVH SAS_OpenAI1
+  - US_OVH SAS_OpenAI2
+  - US_Sharktech
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -380,17 +320,13 @@ proxy-groups:
   proxies:
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Cloudflare, Inc._OpenAI3
   - US_DMIT Cloud Services_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_OVH SAS_OpenAI
-  - US_Psychz Networks_OpenAI
+  - US_OVH SAS_OpenAI1
+  - US_OVH SAS_OpenAI2
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
