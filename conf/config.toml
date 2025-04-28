@@ -17,6 +17,9 @@ need_add_pool = true
 # 代理节点池
 pools = [
     "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_US.meta.yml",
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_HK.meta.yml",
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_SG.meta.yml",
+    "https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/Clash.yml",
     "https://subconverters.com/sub?target=clash&url=https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml&insert=false&sort=true&emoji=true&list=true&xudp=true&udp=true&tfo=true&expand=true&scv=true&fdn=false&new_name=true&include=%E7%BE%8E%E5%9B%BD|US|%E5%8F%B0%E6%B9%BE|TW|%E6%96%B0%E5%8A%A0%E5%9D%A1|SG",
 ]
 
