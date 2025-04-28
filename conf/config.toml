@@ -27,10 +27,10 @@ test_group_size = 50
 [connect_test]
 url = "http://www.google.com/generate_204"
 expected = 204
-timeout = 500
+timeout = 300
 
 # 带宽测速配置
 [speed_test]
-enabled = true
+enabled = false
 url = "https://speed.cloudflare.com/__down?bytes=104857600"
 timeout = 3000
