@@ -34,6 +34,6 @@ timeout = 300
 
 # 带宽测速配置
 [speed_test]
-enabled = false
+enabled = true
 url = "https://speed.cloudflare.com/__down?bytes=104857600"
 timeout = 3000
