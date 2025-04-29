@@ -75,7 +75,7 @@ proxies:
   name: '1'
   network: ws
   port: 2052
-  server: 172.67.6.3
+  server: 190.93.246.151
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -84,34 +84,25 @@ proxies:
     path: /?ed=2048
 - name: 14|US_speednode_
   network: ws
-  port: 8080
-  server: tgju.org
-  servername: M4.nF9JZ2st7N.zULAiR.ORG.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6abbaf96-4b16-48d3-b996-a6067fc6eb2c
-  ws-opts:
-    headers:
-      Host: M4.nF9JZ2st7N.zULAiR.ORG.
-    path: /
-- flow: ''
-  name: 1|🇺🇸10 |  4.5MB/s
-  network: ws
-  port: 443
-  server: 104.21.82.39
-  servername: 5rty.191288.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: fefba36d-5142-42f1-b14d-db5249511d93
-  ws-opts:
-    headers:
-      Host: 5rty.191288.xyz
-    path: /dRTvoZIiPpwkqKrjE
+  password: Aimer
+  port: 8443
+  server: 104.129.167.255
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
 - flow: ''
   name: '2'
+  network: ws
+  port: 2052
+  server: upload.yunzhongzhuan.com
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: huajuan.yzcjd.workers.dev
+    path: /?ed=2048
+- flow: ''
+  name: FR_Online S.A.S.
   network: ws
   port: 8080
   server: tgju.org
@@ -123,37 +114,39 @@ proxies:
       Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /?ed=2048
-- flow: ''
-  name: '3'
+- name: TW_Chunghwa Telecom Co., Ltd.
   network: ws
-  port: 2052
-  server: 198.41.199.247
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: huajuan.yzcjd.workers.dev
-    path: /?ed=2048
-- name: US_Cloudflare, Inc._OpenAI1
+  password: Aimer
+  port: 443
+  server: 108.165.152.219
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+- cipher: aes-256-gcm
+  name: US_Amazon Technologies Inc._OpenAI
+  password: omoa8ufq
+  port: 15802
+  server: 3.218.100.218
+  type: ss
+- cipher: aes-256-gcm
+  name: US_Amazon.com, Inc._OpenAI1
+  password: FnUBfINL
+  port: 27826
+  server: 34.215.118.253
+  type: ss
+- cipher: aes-256-gcm
+  name: US_Amazon.com, Inc._OpenAI2
+  password: JLMk9bhp
+  port: 14743
+  server: 18.190.62.192
+  type: ss
+- name: US_Cloudflare, Inc._OpenAI
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: US_Cloudflare, Inc._OpenAI2
-  network: ws
-  port: 443
-  server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
-  servername: us.4056860.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: bc2a2e87-e34b-4126-91ce-e7bccdafc4d4
-  ws-opts:
-    headers:
-      Host: us.4056860.xyz
-    path: /ws
 - alterId: 0
   cipher: auto
   name: US_DMIT Cloud Services_OpenAI
@@ -167,23 +160,9 @@ proxies:
   uuid: baec9adb-d6b9-465a-f531-d0a38144cf6c
   ws-opts:
     path: /
-- flow: ''
-  name: US_HostPapa_OpenAI1
-  network: ws
-  port: 443
-  server: 172.67.152.170
-  servername: 8uio0.191288.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd
-  ws-opts:
-    headers:
-      Host: 8uio0.191288.xyz
-    path: /4U4Is3KKzxRV9PS
 - alterId: 0
   cipher: auto
-  name: US_HostPapa_OpenAI2
+  name: US_HostPapa_OpenAI1
   network: ws
   port: 2053
   server: 141.101.121.127
@@ -198,23 +177,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: US_HostPapa_OpenAI3
+  name: US_HostPapa_OpenAI2
   network: ws
-  port: 8880
+  port: 2052
   server: 104.17.213.241
   servername: ''
   tls: false
   type: vmess
-  uuid: a1a607e6-a04c-3db6-a36f-c2a4312e2fe1
+  uuid: 3e2baf6a-65f1-319a-add3-039029c97372
   ws-opts:
     headers:
-      Host: 100-10-70-214.s4.cn-db.top
-    path: /dabai.in104.17.200.82
+      Host: 100-98-75-157.s2.db-link01.top
+    path: /dabai.in104.21.188.174
 - flow: ''
-  name: US_HostPapa_OpenAI4
+  name: US_HostPapa_OpenAI3
   network: ws
   port: 443
-  server: 172.67.152.170
+  server: 104.21.82.39
   servername: 5rty.191288.xyz
   tls: true
   type: vless
@@ -226,35 +205,20 @@ proxies:
     path: /dRTvoZIiPpwkqKrjE
 - alterId: 0
   cipher: auto
-  name: US_HostPapa_OpenAI5
+  name: US_HostPapa_OpenAI4
   network: ws
-  port: 2082
-  server: 104.16.155.10
-  servername: 100-22-66-14.s2.cn-db.top
-  skip-cert-verify: true
+  port: 8880
+  server: 104.17.221.248
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: c7ce4f2f-1f87-3a7c-b407-3f8b8a6c33d4
   ws-opts:
     headers:
-      HOST: 100-22-66-14.s2.cn-db.top
-    path: /dabai.in104.21.22.199
-- alterId: 0
-  cipher: auto
-  name: US_HostPapa_OpenAI6
-  network: ws
-  port: 443
-  server: 192.227.175.225
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /dabai.in172.64.8.26
+      Host: 100-62-180-62.s3.cn-db.top
+    path: /dabai.in104.20.32.71
 - flow: ''
-  name: US_HostPapa_OpenAI7
+  name: US_HostPapa_OpenAI5
   network: ws
   port: 443
   server: 104.21.69.50
@@ -268,24 +232,14 @@ proxies:
       Host: 4o.191292.xyz
     path: /cXwWQOGtZd9NCd8WBZ57XYkE
 - flow: ''
-  name: US_OVH SAS_OpenAI1
-  network: tcp
-  port: 443
-  server: 135.148.152.106
-  servername: 147135001195.sec22org.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- name: US_OVH SAS_OpenAI2
-  network: tcp
+  name: US_OVH SAS_OpenAI
+  network: ''
   port: 443
   server: 51.81.37.20
   servername: 147135010072.sec21org.com
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
+  udp: false
   uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
 - flow: ''
   name: US_Oracle Corporation_OpenAI
@@ -307,55 +261,27 @@ proxies:
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- name: 🇨🇳 台湾_1
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 161.145.150.29
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_10
-  network: ws
-  password: Aimer
+- name: US_Sharktech1
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
   port: 8443
-  server: 23.95.240.37
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_11
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 46.254.93.175
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_2
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 108.165.152.163
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_3
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 45.67.214.41
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_4
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 27.50.49.209
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_5
+  server: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
+  type: hysteria2
+- name: US_Sharktech2
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  port: 8443
+  server: 50b8214a-suz340-sx19e8-gacy.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 50b8214a-suz340-sx19e8-gacy.hy2.gotochinatown.net
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇨🇳 台湾_1
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- name: 🇨🇳 台湾_10
   network: ws
   password: Aimer
   port: 8443
@@ -363,7 +289,7 @@ proxies:
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
-- name: 🇨🇳 台湾_6
+- name: 🇨🇳 台湾_11
   network: ws
   password: Aimer
   port: 443
@@ -371,27 +297,67 @@ proxies:
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
+- name: 🇨🇳 台湾_2
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 162.120.94.23
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+- name: 🇨🇳 台湾_3
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 108.165.152.163
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+- name: 🇨🇳 台湾_4
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 45.150.115.195
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+- name: 🇨🇳 台湾_5
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 27.50.49.209
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+- name: 🇨🇳 台湾_6
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 46.254.93.175
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
 - name: 🇨🇳 台湾_7
   network: ws
   password: Aimer
   port: 8443
-  server: 108.165.152.239
+  server: 188.164.159.74
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
 - name: 🇨🇳 台湾_8
   network: ws
   password: Aimer
-  port: 2053
-  server: 2.56.255.224
+  port: 443
+  server: 172.64.33.144
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
 - name: 🇨🇳 台湾_9
   network: ws
   password: Aimer
-  port: 443
-  server: 159.54.173.8
+  port: 2083
+  server: 45.67.214.41
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
@@ -412,23 +378,24 @@ proxy-groups:
   proxies:
   - '1'
   - 14|US_speednode_
-  - 1|🇺🇸10 |  4.5MB/s
   - '2'
-  - '3'
-  - US_Cloudflare, Inc._OpenAI1
-  - US_Cloudflare, Inc._OpenAI2
+  - FR_Online S.A.S.
+  - TW_Chunghwa Telecom Co., Ltd.
+  - US_Amazon Technologies Inc._OpenAI
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Cloudflare, Inc._OpenAI
   - US_DMIT Cloud Services_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_OVH SAS_OpenAI1
-  - US_OVH SAS_OpenAI2
+  - US_OVH SAS_OpenAI
   - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
+  - US_Sharktech1
+  - US_Sharktech2
   - 🇨🇳 台湾_1
   - 🇨🇳 台湾_10
   - 🇨🇳 台湾_11
@@ -464,6 +431,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
+  - TW_Chunghwa Telecom Co., Ltd.
   - 🇨🇳 台湾_1
   - 🇨🇳 台湾_10
   - 🇨🇳 台湾_11
@@ -499,20 +467,21 @@ proxy-groups:
   tolerance: 2000
   proxies:
   - 14|US_speednode_
-  - US_Cloudflare, Inc._OpenAI1
-  - US_Cloudflare, Inc._OpenAI2
+  - US_Amazon Technologies Inc._OpenAI
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Cloudflare, Inc._OpenAI
   - US_DMIT Cloud Services_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_OVH SAS_OpenAI1
-  - US_OVH SAS_OpenAI2
+  - US_OVH SAS_OpenAI
   - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
+  - US_Sharktech1
+  - US_Sharktech2
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -520,18 +489,17 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - US_Cloudflare, Inc._OpenAI1
-  - US_Cloudflare, Inc._OpenAI2
+  - US_Amazon Technologies Inc._OpenAI
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Cloudflare, Inc._OpenAI
   - US_DMIT Cloud Services_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_OVH SAS_OpenAI1
-  - US_OVH SAS_OpenAI2
+  - US_OVH SAS_OpenAI
   - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
   filter: (?i)OpenAI
