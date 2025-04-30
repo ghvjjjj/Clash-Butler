@@ -75,7 +75,7 @@ proxies:
   name: '1'
   network: ws
   port: 2052
-  server: 190.93.246.151
+  server: upload.yunzhongzhuan.com
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
@@ -84,39 +84,27 @@ proxies:
     path: /?ed=2048
 - name: 14|US_speednode_
   network: ws
-  password: Aimer
-  port: 8443
-  server: 104.129.167.255
+  port: 2095
+  server: 162.159.20.34
+  servername: 5-55sfjslf.ifenxiang.cfd
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  ws-opts:
+    headers:
+      Host: 5-55sfjslf.ifenxiang.cfd
+    path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+- name: 192.227.152.86_OpenAI
+  password: 5CBqBh6MeDq6GajcilBiDg==
+  port: 61001
+  server: 192-227-152-86.nip.io
   skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
+  sni: 192-227-152-86.nip.io
+  type: hysteria2
 - flow: ''
   name: '2'
-  network: ws
-  port: 2052
-  server: upload.yunzhongzhuan.com
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: huajuan.yzcjd.workers.dev
-    path: /?ed=2048
-- flow: ''
-  name: 2|🇺🇸10 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 172.67.204.120
-  servername: mas3d1.890614.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: ae8ee2e7-4e62-44ea-8cc3-c584515bacb1
-  ws-opts:
-    headers:
-      Host: mas3d1.890614.xyz
-    path: /
-- flow: ''
-  name: FR_Online S.A.S.
   network: ws
   port: 8080
   server: tgju.org
@@ -128,176 +116,90 @@ proxies:
       Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /?ed=2048
-- cipher: aes-256-cfb
-  name: TW_Data Center Network Limited_OpenAI
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: US_Cloudflare, Inc._OpenAI1
+- name: FR_Online S.A.S._OpenAI
   network: ws
-  port: 443
-  server: 104.18.149.76
-  servername: us.kkp.me.eu.org
+  port: 8080
+  server: tgju.org
+  servername: IO.IhJtq0hklC.ZULAiR.OrG.
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  tls: false
+  type: vless
+  udp: true
+  uuid: 690ab90e-3f21-422b-8cb1-bc9845c7af1e
   ws-opts:
     headers:
-      Host: us.kkp.me.eu.org
-    path: /aa
-- name: US_Cloudflare, Inc._OpenAI2
+      Host: IO.IhJtq0hklC.ZULAiR.OrG.
+    path: /?ed=2048
+- name: JP_Oracle Corporation_OpenAI
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: redfree8mahsang6.redfree8.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8mahsang6.redfree8.ir
+    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+- flow: ''
+  name: US_Amazon.com, Inc._OpenAI1
+  network: ws
+  port: 80
+  server: 104.21.56.44
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: REEdfREe8MahSaNg2.rEDOrG.IR
+    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+- flow: ''
+  name: US_Amazon.com, Inc._OpenAI2
+  network: ws
+  port: 80
+  server: 172.66.44.193
+  servername: masaleini.mahsaamini.dpdns.org
+  tls: false
+  type: vless
+  udp: false
+  uuid: 10d9df89-9a20-4110-9711-bca119490ee9
+  ws-opts:
+    headers:
+      Host: masaleini.mahsaamini.dpdns.org
+    path: /TM@AZAFBAYJAB1
+- name: US_Cloudflare, Inc._OpenAI1
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- name: US_Cloudflare, Inc._OpenAI2
+  network: ws
+  port: 443
+  server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
+  servername: us.4056860.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: bc2a2e87-e34b-4126-91ce-e7bccdafc4d4
+  ws-opts:
+    headers:
+      Host: us.4056860.xyz
+    path: /ws
+- cipher: aes-256-gcm
+  name: US_GTHost_OpenAI
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.114.114.108
+  type: ss
 - flow: ''
-  name: US_Google LLC_OpenAI
-  network: ws
-  port: 443
-  server: 4.255.56.138
-  servername: usa.rtot.me
-  tls: true
-  type: vless
-  udp: false
-  uuid: f19ed531-81cb-433e-8746-1a69e009f9df
-  ws-opts:
-    headers:
-      Host: usa.rtot.me
-    path: /bing
-- flow: ''
-  name: US_HostPapa_OpenAI1
-  network: ws
-  port: 443
-  server: 104.16.155.10
-  servername: vx.bgm2024.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: vx.bgm2024.dpdns.org
-    path: ''
-- flow: ''
-  name: US_HostPapa_OpenAI10
-  network: ws
-  port: 443
-  server: 172.67.212.82
-  servername: 6ercvbnm.131.pp.ua
-  tls: true
-  type: vless
-  udp: false
-  uuid: f82fb954-06a1-4f0b-9180-17e07585b61f
-  ws-opts:
-    headers:
-      Host: 6ercvbnm.131.pp.ua
-    path: /0HKVAwzpuQtCNTI3SlZor0
-- name: US_HostPapa_OpenAI11
-  network: ws
-  port: 443
-  server: 192.0.54.0
-  servername: vx.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vx.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI12
-  network: ws
-  port: 443
-  server: 135.84.76.110
-  servername: vx.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vx.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI2
-  network: ws
-  port: 443
-  server: 212.183.88.136
-  servername: vx.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vx.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI3
-  network: ws
-  port: 443
-  server: 45.67.215.117
-  servername: vx.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vx.bgm2024.dpdns.org
-    path: /ss.vs2024.us.kg
-- name: US_HostPapa_OpenAI4
-  network: ws
-  port: 443
-  server: 63.141.128.102
-  servername: vx.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vx.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI5
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: vx.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vx.bgm2024.dpdns.org
-    path: /ss.vs2024.us.kg
-- flow: ''
-  name: US_HostPapa_OpenAI6
-  network: ws
-  port: 443
-  server: 104.17.221.248
-  servername: vx.bgm2024.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: vx.bgm2024.dpdns.org
-    path: ''
-- flow: ''
-  name: US_HostPapa_OpenAI7
+  name: US_HostPapa_OpenAI
   network: ws
   port: 443
   server: 172.67.152.170
@@ -310,66 +212,18 @@ proxies:
     headers:
       Host: 8uio0.191288.xyz
     path: /4U4Is3KKzxRV9PS
-- name: US_HostPapa_OpenAI8
-  network: ws
-  port: 443
-  server: 212.183.88.193
-  servername: vx.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vx.bgm2024.dpdns.org
-    path: /?ed=2560
-- flow: ''
-  name: US_HostPapa_OpenAI9
-  network: ws
-  port: 443
-  server: 172.67.208.155
-  servername: 2werty.2030.pp.ua
-  tls: true
-  type: vless
-  udp: false
-  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
-  ws-opts:
-    headers:
-      Host: 2werty.2030.pp.ua
-    path: /ok1UBnf7txQ8YJFJxz
-- flow: ''
-  name: US_Massivegrid LTD_OpenAI1
-  network: ws
-  port: 2083
-  server: 104.21.77.44
-  servername: mas3f2e9e7a0-76d0-6ef2-8403-2a2ccb5da856.890602.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: da1796fd-0916-4939-8c5e-e9593593f96c
-  ws-opts:
-    headers:
-      Host: mas3f2e9e7a0-76d0-6ef2-8403-2a2ccb5da856.890602.xyz
-    path: /
-- flow: ''
-  name: US_Massivegrid LTD_OpenAI2
-  network: ws
-  port: 2087
-  server: 172.67.204.120
-  servername: mas33a9278f1-c22b-aecb-72b1-bc8ddc42b35f.890603.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 31022df4-d581-4e3a-b891-be3cd029e675
-  ws-opts:
-    headers:
-      Host: mas33a9278f1-c22b-aecb-72b1-bc8ddc42b35f.890603.xyz
-    path: /
-- name: US_OVH US LLC_OpenAI
+- name: US_OVH US LLC
   network: tcp
   port: 443
   server: 135.148.152.106
+  servername: 147135001195.sec22org.com
+  tls: true
+  type: vless
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
+- name: US_OVH US LLC_OpenAI
+  network: tcp
+  port: 443
+  server: 135.148.152.97
   servername: 147135001195.sec22org.com
   tls: true
   type: vless
@@ -394,132 +248,11 @@ proxies:
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- name: US_Sharktech1
-  password: 3c461e2c-9d13-11ef-8563-f23c913c8d2b
-  port: 8443
-  server: 4e4babe3-suk9s0-t234dm-eso8.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 4e4babe3-suk9s0-t234dm-eso8.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Sharktech10
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  port: 8443
-  server: 50b8214a-suz340-sx19e8-gacy.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 50b8214a-suz340-sx19e8-gacy.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Sharktech11
-  password: b3370cdc-c26e-11ef-bd97-f23c9164ca5d
-  port: 8443
-  server: c157a1f7-suz340-sw0aec-1t3oz.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: c157a1f7-suz340-sw0aec-1t3oz.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Sharktech2
-  password: 40639730-e027-11ea-87ad-f23c913c8d2b
-  port: 8443
-  server: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Sharktech3
-  password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-  port: 8443
-  server: 80f221ad-sv8cg0-sy9xc0-1s3lb.hy2.gotochinatown.net
-  skip-cert-verify: false
-  type: hysteria2
-- name: US_Sharktech4
-  password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-  port: 8443
-  server: debeadd2-supts0-t1rksu-1ssud.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: debeadd2-supts0-t1rksu-1ssud.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Sharktech5
-  password: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
-  port: 8443
-  server: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Sharktech6
-  password: be8ba532-0dcf-11f0-9a65-f23c9164ca5d
-  port: 8443
-  server: 8b21ebfd-suif40-tcvn0z-1tlyg.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 8b21ebfd-suif40-tcvn0z-1tlyg.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Sharktech7
-  password: 262e7386-f8a9-11ef-ba82-f23c913c8d2b
-  port: 8443
-  server: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
-  skip-cert-verify: false
-  type: hysteria2
-- name: US_Sharktech8
-  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  port: 8443
-  server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Sharktech9
-  password: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
-  port: 8443
-  server: b6ea3219-supts0-swbd0b-716s.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: b6ea3219-supts0-swbd0b-716s.hy2.gotochinatown.net
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: US_Vantiva USA Shared Services Inc._OpenAI
-  network: ws
-  port: 443
-  server: xc131.meiziba5566.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 3e3d59fd-bc2f-407d-a8d3-a1dee0a257d5
-  ws-opts:
-    headers:
-      Host: xc131.meiziba5566.com
-    path: /3e3d59fd
-- name: 🇨🇳 台湾_1
-  network: ws
-  password: Aimer
-  port: 444
-  server: 37.123.193.154
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_2
-  network: ws
-  password: Aimer
-  port: 443
-  server: 170.106.152.78
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_3
-  network: ws
-  password: Aimer
-  port: 8080
-  server: 80.251.215.186
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_4
-  network: ws
-  password: Aimer
-  port: 14105
-  server: 80.251.219.120
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国_
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.114.114.108
+- cipher: aes-256-cfb
+  name: 🇨🇳 台湾_
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
   type: ss
 proxy-groups:
 - name: PROXY
@@ -538,47 +271,21 @@ proxy-groups:
   proxies:
   - '1'
   - 14|US_speednode_
+  - 192.227.152.86_OpenAI
   - '2'
-  - 2|🇺🇸10 |  5.6MB/s
-  - FR_Online S.A.S.
-  - TW_Data Center Network Limited_OpenAI
+  - FR_Online S.A.S._OpenAI
+  - JP_Oracle Corporation_OpenAI
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Google LLC_OpenAI
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI2
-  - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Massivegrid LTD_OpenAI1
-  - US_Massivegrid LTD_OpenAI2
+  - US_GTHost_OpenAI
+  - US_HostPapa_OpenAI
+  - US_OVH US LLC
   - US_OVH US LLC_OpenAI
   - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
-  - US_Sharktech1
-  - US_Sharktech10
-  - US_Sharktech11
-  - US_Sharktech2
-  - US_Sharktech3
-  - US_Sharktech4
-  - US_Sharktech5
-  - US_Sharktech6
-  - US_Sharktech7
-  - US_Sharktech8
-  - US_Sharktech9
-  - US_Vantiva USA Shared Services Inc._OpenAI
-  - 🇨🇳 台湾_1
-  - 🇨🇳 台湾_2
-  - 🇨🇳 台湾_3
-  - 🇨🇳 台湾_4
-  - 🇺🇸 美国_
+  - 🇨🇳 台湾_
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -603,11 +310,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - TW_Data Center Network Limited_OpenAI
-  - 🇨🇳 台湾_1
-  - 🇨🇳 台湾_2
-  - 🇨🇳 台湾_3
-  - 🇨🇳 台湾_4
+  - 🇨🇳 台湾_
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -615,7 +318,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - DIRECT
+  - JP_Oracle Corporation_OpenAI
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -632,39 +335,16 @@ proxy-groups:
   tolerance: 2000
   proxies:
   - 14|US_speednode_
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Google LLC_OpenAI
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI2
-  - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Massivegrid LTD_OpenAI1
-  - US_Massivegrid LTD_OpenAI2
+  - US_GTHost_OpenAI
+  - US_HostPapa_OpenAI
+  - US_OVH US LLC
   - US_OVH US LLC_OpenAI
   - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
-  - US_Sharktech1
-  - US_Sharktech10
-  - US_Sharktech11
-  - US_Sharktech2
-  - US_Sharktech3
-  - US_Sharktech4
-  - US_Sharktech5
-  - US_Sharktech6
-  - US_Sharktech7
-  - US_Sharktech8
-  - US_Sharktech9
-  - US_Vantiva USA Shared Services Inc._OpenAI
-  - 🇺🇸 美国_
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -672,28 +352,18 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - TW_Data Center Network Limited_OpenAI
+  - 192.227.152.86_OpenAI
+  - FR_Online S.A.S._OpenAI
+  - JP_Oracle Corporation_OpenAI
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
-  - US_Google LLC_OpenAI
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI2
-  - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Massivegrid LTD_OpenAI1
-  - US_Massivegrid LTD_OpenAI2
+  - US_GTHost_OpenAI
+  - US_HostPapa_OpenAI
   - US_OVH US LLC_OpenAI
   - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
-  - US_Vantiva USA Shared Services Inc._OpenAI
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
