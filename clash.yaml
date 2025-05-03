@@ -71,32 +71,19 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- flow: xtls-rprx-vision
-  name: 172.82.67.155_OpenAI
-  network: tcp
-  port: 21799
-  reality-opts:
-    public-key: 2kmInR-wqrw2BaYtDVWIpssOTTYs4Q8nYnXJCO5UPwI
-    short-id: 426f439fddf6
-  server: 172.82.67.155
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: e1a5059b-8599-4eb2-95f6-57ce34f5495b
-- name: 2,14|CR_speednode_
+- name: 14|US_speednode_
   network: ws
-  port: 443
-  server: 190.93.247.245
-  servername: vless.vvzxyvv.sbs
+  port: 8443
+  server: 104.16.44.151
+  servername: x5kh.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b3fe99f8-17d0-4011-a042-f8642b42c609
+  uuid: d9deb36e-aa79-409a-ba54-012d69b0f9d7
   ws-opts:
     headers:
-      Host: vless.vvzxyvv.sbs
+      Host: x5kh.org
     path: /?ed=2560
 - name: FI_Hetzner Online GmbH_OpenAI
   network: ws
@@ -125,49 +112,14 @@ proxies:
       Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /?ed=2048
-- name: US_Amazon.com, Inc._OpenAI1
-  password: '3836026311357505536'
-  port: 443
-  server: internal-newt.quetzal024.lat
+- name: US_Cloudflare, Inc.
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.204.186
   skip-cert-verify: true
-  sni: internal-newt.quetzal024.lat
-  type: trojan
-- name: US_Amazon.com, Inc._OpenAI2
-  password: '3836026311357505536'
-  port: 443
-  server: grand-falcon.quetzal024.lat
-  skip-cert-verify: true
-  sni: grand-falcon.quetzal024.lat
-  type: trojan
-- name: US_Amazon.com, Inc._OpenAI3
-  password: '3836026311357505536'
-  port: 443
-  server: stunning-walrus.quetzal024.lat
-  skip-cert-verify: true
-  sni: stunning-walrus.quetzal024.lat
-  type: trojan
-- name: US_BrainStorm Network, Inc_OpenAI1
-  password: '3836026311357505536'
-  port: 443
-  server: peaceful-turkey.quetzal024.lat
-  skip-cert-verify: true
-  sni: peaceful-turkey.quetzal024.lat
-  type: trojan
-- name: US_BrainStorm Network, Inc_OpenAI2
-  password: '3836026311357505536'
-  port: 443
-  server: set-gopher.quetzal024.lat
-  skip-cert-verify: true
-  sni: set-gopher.quetzal024.lat
-  type: trojan
-- name: US_BrainStorm Network, Inc_OpenAI3
-  password: '3836026311357505536'
-  port: 443
-  server: trusty-hog.quetzal024.lat
-  skip-cert-verify: true
-  sni: trusty-hog.quetzal024.lat
-  type: trojan
-- name: US_Cloudflare, Inc._OpenAI1
+  sni: www.bing.com
+  type: hysteria2
+- name: US_Cloudflare, Inc._OpenAI
   network: ws
   port: 443
   server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
@@ -180,42 +132,27 @@ proxies:
     headers:
       Host: us.4056860.xyz
     path: /ws
-- name: US_Cloudflare, Inc._OpenAI2
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.204.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- cipher: aes-256-gcm
+  name: US_GTHost_OpenAI
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.110.1.146
+  type: ss
 - name: US_HostPapa_OpenAI1
   network: ws
   port: 443
-  server: 104.16.89.89
-  servername: uziyyds1.uztryildg.sbs
+  server: 104.16.131.9
+  servername: worker.nexvivagroup.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 10f3806e-ddc1-431e-bd76-ec66345e94b7
+  uuid: 7f3776d8-65bd-4767-a995-34fb4e0937e2
   ws-opts:
     headers:
-      Host: uziyyds1.uztryildg.sbs
+      Host: worker.nexvivagroup.com
     path: /?ed=2560
 - name: US_HostPapa_OpenAI10
-  network: ws
-  port: 2096
-  server: 104.16.143.139
-  servername: ghh.wsthh.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4527ff0c-8ac2-452a-95cb-c2d29e5a8421
-  ws-opts:
-    headers:
-      Host: ghh.wsthh.site
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI11
   network: ws
   port: 8443
   server: 104.16.72.104
@@ -228,6 +165,20 @@ proxies:
   ws-opts:
     headers:
       Host: egcf.shijie.icu
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI11
+  network: ws
+  port: 2096
+  server: 104.16.143.139
+  servername: ghh.wsthh.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4527ff0c-8ac2-452a-95cb-c2d29e5a8421
+  ws-opts:
+    headers:
+      Host: ghh.wsthh.site
     path: /?ed=2560
 - name: US_HostPapa_OpenAI12
   network: ws
@@ -330,17 +281,17 @@ proxies:
     path: /rn2
 - name: US_HostPapa_OpenAI2
   network: ws
-  port: 2053
-  server: 104.16.30.244
-  servername: ezdriv-server.help
+  port: 2087
+  server: 104.16.54.173
+  servername: agstick.eu.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: af84b164-93b2-4658-89d3-ef9ec44c0d69
+  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
   ws-opts:
     headers:
-      Host: ezdriv-server.help
+      Host: agstick.eu.org
     path: /?ed=2560
 - name: US_HostPapa_OpenAI20
   network: ws
@@ -370,34 +321,6 @@ proxies:
     path: /ok1UBnf7txQ8YJFJxz
 - name: US_HostPapa_OpenAI3
   network: ws
-  port: 443
-  server: 104.16.156.225
-  servername: autumn.norjson.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f40b19a1-5515-4c93-804c-334873d38449
-  ws-opts:
-    headers:
-      Host: autumn.norjson.top
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI4
-  network: ws
-  port: 2087
-  server: 104.16.54.173
-  servername: agstick.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
-  ws-opts:
-    headers:
-      Host: agstick.eu.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI5
-  network: ws
   port: 2053
   server: 104.16.96.123
   servername: 4534295.dpdns.org
@@ -410,21 +333,21 @@ proxies:
     headers:
       Host: 4534295.dpdns.org
     path: /?ed=2560
-- name: US_HostPapa_OpenAI6
+- name: US_HostPapa_OpenAI4
   network: ws
-  port: 8443
-  server: 104.16.44.151
-  servername: x5kh.org
+  port: 2053
+  server: 104.16.30.244
+  servername: ezdriv-server.help
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d9deb36e-aa79-409a-ba54-012d69b0f9d7
+  uuid: af84b164-93b2-4658-89d3-ef9ec44c0d69
   ws-opts:
     headers:
-      Host: x5kh.org
+      Host: ezdriv-server.help
     path: /?ed=2560
-- name: US_HostPapa_OpenAI7
+- name: US_HostPapa_OpenAI5
   network: ws
   port: 443
   server: 104.24.25.27
@@ -438,19 +361,47 @@ proxies:
     headers:
       Host: 227123.xyz
     path: /?ed=2560
-- name: US_HostPapa_OpenAI8
+- name: US_HostPapa_OpenAI6
   network: ws
   port: 443
-  server: 104.16.131.9
-  servername: worker.nexvivagroup.com
+  server: 104.16.89.89
+  servername: uziyyds1.uztryildg.sbs
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7f3776d8-65bd-4767-a995-34fb4e0937e2
+  uuid: 10f3806e-ddc1-431e-bd76-ec66345e94b7
   ws-opts:
     headers:
-      Host: worker.nexvivagroup.com
+      Host: uziyyds1.uztryildg.sbs
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI7
+  network: ws
+  port: 443
+  server: 104.16.156.225
+  servername: autumn.norjson.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f40b19a1-5515-4c93-804c-334873d38449
+  ws-opts:
+    headers:
+      Host: autumn.norjson.top
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI8
+  network: ws
+  port: 443
+  server: 190.93.247.245
+  servername: vless.vvzxyvv.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b3fe99f8-17d0-4011-a042-f8642b42c609
+  ws-opts:
+    headers:
+      Host: vless.vvzxyvv.sbs
     path: /?ed=2560
 - name: US_HostPapa_OpenAI9
   network: ws
@@ -467,7 +418,7 @@ proxies:
       Host: agstick.eu.org
     path: /?ed=2560
 - flow: xtls-rprx-vision
-  name: US_MASSIVEGRID_OpenAI
+  name: US_MASSIVEGRID_OpenAI1
   network: tcp
   port: 53603
   reality-opts:
@@ -479,6 +430,19 @@ proxies:
   type: vless
   udp: false
   uuid: 2c5e47af-3e6f-40b6-a0d0-ac3c34898afa
+- flow: xtls-rprx-vision
+  name: US_MASSIVEGRID_OpenAI2
+  network: tcp
+  port: 21799
+  reality-opts:
+    public-key: 2kmInR-wqrw2BaYtDVWIpssOTTYs4Q8nYnXJCO5UPwI
+    short-id: 426f439fddf6
+  server: 172.82.67.155
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: e1a5059b-8599-4eb2-95f6-57ce34f5495b
 - flow: ''
   name: US_Massivegrid LTD_OpenAI
   network: ws
@@ -582,18 +546,12 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 172.82.67.155_OpenAI
-  - 2,14|CR_speednode_
+  - 14|US_speednode_
   - FI_Hetzner Online GmbH_OpenAI
   - FR_Online S.A.S._OpenAI
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
-  - US_Amazon.com, Inc._OpenAI3
-  - US_BrainStorm Network, Inc_OpenAI1
-  - US_BrainStorm Network, Inc_OpenAI2
-  - US_BrainStorm Network, Inc_OpenAI3
-  - US_Cloudflare, Inc._OpenAI1
-  - US_Cloudflare, Inc._OpenAI2
+  - US_Cloudflare, Inc.
+  - US_Cloudflare, Inc._OpenAI
+  - US_GTHost_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI10
   - US_HostPapa_OpenAI11
@@ -615,7 +573,8 @@ proxy-groups:
   - US_HostPapa_OpenAI7
   - US_HostPapa_OpenAI8
   - US_HostPapa_OpenAI9
-  - US_MASSIVEGRID_OpenAI
+  - US_MASSIVEGRID_OpenAI1
+  - US_MASSIVEGRID_OpenAI2
   - US_Massivegrid LTD_OpenAI
   - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
@@ -674,14 +633,10 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
-  - US_Amazon.com, Inc._OpenAI3
-  - US_BrainStorm Network, Inc_OpenAI1
-  - US_BrainStorm Network, Inc_OpenAI2
-  - US_BrainStorm Network, Inc_OpenAI3
-  - US_Cloudflare, Inc._OpenAI1
-  - US_Cloudflare, Inc._OpenAI2
+  - 14|US_speednode_
+  - US_Cloudflare, Inc.
+  - US_Cloudflare, Inc._OpenAI
+  - US_GTHost_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI10
   - US_HostPapa_OpenAI11
@@ -703,7 +658,8 @@ proxy-groups:
   - US_HostPapa_OpenAI7
   - US_HostPapa_OpenAI8
   - US_HostPapa_OpenAI9
-  - US_MASSIVEGRID_OpenAI
+  - US_MASSIVEGRID_OpenAI1
+  - US_MASSIVEGRID_OpenAI2
   - US_Massivegrid LTD_OpenAI
   - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
@@ -721,17 +677,10 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 172.82.67.155_OpenAI
   - FI_Hetzner Online GmbH_OpenAI
   - FR_Online S.A.S._OpenAI
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
-  - US_Amazon.com, Inc._OpenAI3
-  - US_BrainStorm Network, Inc_OpenAI1
-  - US_BrainStorm Network, Inc_OpenAI2
-  - US_BrainStorm Network, Inc_OpenAI3
-  - US_Cloudflare, Inc._OpenAI1
-  - US_Cloudflare, Inc._OpenAI2
+  - US_Cloudflare, Inc._OpenAI
+  - US_GTHost_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI10
   - US_HostPapa_OpenAI11
@@ -753,7 +702,8 @@ proxy-groups:
   - US_HostPapa_OpenAI7
   - US_HostPapa_OpenAI8
   - US_HostPapa_OpenAI9
-  - US_MASSIVEGRID_OpenAI
+  - US_MASSIVEGRID_OpenAI1
+  - US_MASSIVEGRID_OpenAI2
   - US_Massivegrid LTD_OpenAI
   - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
