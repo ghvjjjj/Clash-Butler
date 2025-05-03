@@ -71,31 +71,33 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 152.70.124.233_OpenAI
+- flow: xtls-rprx-vision
+  name: 172.82.67.155_OpenAI
   network: tcp
-  port: 30002
+  port: 21799
   reality-opts:
-    public-key: Mg15AliRh4C_Jh5RQywOyLPxldCeKwlfGg_0Lt25TEM
-    short-id: 0cd46745
-  server: 152.70.124.233
-  servername: icloud.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: cbeaa3aa-4364-4d79-8f60-e964a28724bf
-- flow: ''
-  name: 1|🇺🇸70 |  4.9MB/s
-  network: ws
-  port: 443
-  server: 104.16.90.246
-  servername: rnca.majiang.pp.ua
+    public-key: 2kmInR-wqrw2BaYtDVWIpssOTTYs4Q8nYnXJCO5UPwI
+    short-id: 426f439fddf6
+  server: 172.82.67.155
+  servername: yahoo.com
   tls: true
   type: vless
   udp: false
-  uuid: f84898a3-1691-489a-8d6e-0eb0981bef00
+  uuid: e1a5059b-8599-4eb2-95f6-57ce34f5495b
+- name: 2,14|CR_speednode_
+  network: ws
+  port: 443
+  server: 190.93.247.245
+  servername: vless.vvzxyvv.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b3fe99f8-17d0-4011-a042-f8642b42c609
   ws-opts:
     headers:
-      Host: rnca.majiang.pp.ua
-    path: /rn2
+      Host: vless.vvzxyvv.sbs
+    path: /?ed=2560
 - name: FI_Hetzner Online GmbH_OpenAI
   network: ws
   port: 80
@@ -123,6 +125,48 @@ proxies:
       Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /?ed=2048
+- name: US_Amazon.com, Inc._OpenAI1
+  password: '3836026311357505536'
+  port: 443
+  server: internal-newt.quetzal024.lat
+  skip-cert-verify: true
+  sni: internal-newt.quetzal024.lat
+  type: trojan
+- name: US_Amazon.com, Inc._OpenAI2
+  password: '3836026311357505536'
+  port: 443
+  server: grand-falcon.quetzal024.lat
+  skip-cert-verify: true
+  sni: grand-falcon.quetzal024.lat
+  type: trojan
+- name: US_Amazon.com, Inc._OpenAI3
+  password: '3836026311357505536'
+  port: 443
+  server: stunning-walrus.quetzal024.lat
+  skip-cert-verify: true
+  sni: stunning-walrus.quetzal024.lat
+  type: trojan
+- name: US_BrainStorm Network, Inc_OpenAI1
+  password: '3836026311357505536'
+  port: 443
+  server: peaceful-turkey.quetzal024.lat
+  skip-cert-verify: true
+  sni: peaceful-turkey.quetzal024.lat
+  type: trojan
+- name: US_BrainStorm Network, Inc_OpenAI2
+  password: '3836026311357505536'
+  port: 443
+  server: set-gopher.quetzal024.lat
+  skip-cert-verify: true
+  sni: set-gopher.quetzal024.lat
+  type: trojan
+- name: US_BrainStorm Network, Inc_OpenAI3
+  password: '3836026311357505536'
+  port: 443
+  server: trusty-hog.quetzal024.lat
+  skip-cert-verify: true
+  sni: trusty-hog.quetzal024.lat
+  type: trojan
 - name: US_Cloudflare, Inc._OpenAI1
   network: ws
   port: 443
@@ -146,34 +190,6 @@ proxies:
 - name: US_HostPapa_OpenAI1
   network: ws
   port: 443
-  server: 190.93.247.245
-  servername: vless.vvzxyvv.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3fe99f8-17d0-4011-a042-f8642b42c609
-  ws-opts:
-    headers:
-      Host: vless.vvzxyvv.sbs
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI10
-  network: ws
-  port: 443
-  server: 104.16.156.225
-  servername: autumn.norjson.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f40b19a1-5515-4c93-804c-334873d38449
-  ws-opts:
-    headers:
-      Host: autumn.norjson.top
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI11
-  network: ws
-  port: 443
   server: 104.16.89.89
   servername: uziyyds1.uztryildg.sbs
   skip-cert-verify: false
@@ -185,160 +201,7 @@ proxies:
     headers:
       Host: uziyyds1.uztryildg.sbs
     path: /?ed=2560
-- name: US_HostPapa_OpenAI12
-  network: ws
-  port: 2053
-  server: 104.16.96.123
-  servername: 4534295.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12e26518-cb0c-41a7-a03e-1454999b7254
-  ws-opts:
-    headers:
-      Host: 4534295.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI13
-  network: ws
-  port: 443
-  server: 104.16.131.9
-  servername: worker.nexvivagroup.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f3776d8-65bd-4767-a995-34fb4e0937e2
-  ws-opts:
-    headers:
-      Host: worker.nexvivagroup.com
-    path: /?ed=2560
-- flow: ''
-  name: US_HostPapa_OpenAI14
-  network: ws
-  port: 443
-  server: 104.21.69.50
-  servername: 4o.191292.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 075b9690-f1cc-4d0c-aa1e-f80f07f09815
-  ws-opts:
-    headers:
-      Host: 4o.191292.xyz
-    path: /cXwWQOGtZd9NCd8WBZ57XYkE
-- name: US_HostPapa_OpenAI15
-  password: 5CBqBh6MeDq6GajcilBiDg==
-  port: 61001
-  server: 192-227-152-86.nip.io
-  skip-cert-verify: true
-  sni: 192-227-152-86.nip.io
-  type: hysteria2
-- name: US_HostPapa_OpenAI16
-  network: ws
-  port: 443
-  server: 104.24.146.230
-  servername: kx.yage.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: dc977bb9-e998-48a2-9459-f1931cd7fa9b
-  ws-opts:
-    headers:
-      Host: kx.yage.pp.ua
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI17
-  network: ws
-  port: 443
-  server: 104.24.93.241
-  servername: free.5niu.xyz
-  tls: true
-  type: vless
-  uuid: df5144c2-02e0-40ef-9992-1819225ca2ec
-  ws-opts:
-    headers:
-      Host: free.5niu.xyz
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI18
-  network: ws
-  port: 443
-  server: 172.67.212.82
-  servername: 6ercvbnm.131.pp.ua
-  tls: true
-  type: vless
-  uuid: f82fb954-06a1-4f0b-9180-17e07585b61f
-  ws-opts:
-    headers:
-      Host: 6ercvbnm.131.pp.ua
-    path: /0HKVAwzpuQtCNTI3SlZor0
-- name: US_HostPapa_OpenAI19
-  network: ws
-  port: 2083
-  server: 104.24.182.250
-  servername: x5kh.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9deb36e-aa79-409a-ba54-012d69b0f9d7
-  ws-opts:
-    headers:
-      Host: x5kh.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI2
-  network: ws
-  port: 2083
-  server: 190.93.246.224
-  servername: agstick.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
-  ws-opts:
-    headers:
-      Host: agstick.eu.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI20
-  network: ws
-  port: 443
-  server: 188.114.96.147
-  servername: free.5niu.xyz
-  tls: true
-  type: vless
-  uuid: df5144c2-02e0-40ef-9992-1819225ca2ec
-  ws-opts:
-    headers:
-      Host: free.5niu.xyz
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI3
-  network: ws
-  port: 2096
-  server: 104.16.94.194
-  servername: agstick.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
-  ws-opts:
-    headers:
-      Host: agstick.eu.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI4
-  network: ws
-  port: 8443
-  server: 104.16.72.104
-  servername: egcf.shijie.icu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 09486821-5166-4b4c-806b-80c1c8fb101a
-  ws-opts:
-    headers:
-      Host: egcf.shijie.icu
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI5
+- name: US_HostPapa_OpenAI10
   network: ws
   port: 2096
   server: 104.16.143.139
@@ -352,10 +215,24 @@ proxies:
     headers:
       Host: ghh.wsthh.site
     path: /?ed=2560
-- name: US_HostPapa_OpenAI6
+- name: US_HostPapa_OpenAI11
   network: ws
-  port: 2087
-  server: 104.16.54.173
+  port: 8443
+  server: 104.16.72.104
+  servername: egcf.shijie.icu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 09486821-5166-4b4c-806b-80c1c8fb101a
+  ws-opts:
+    headers:
+      Host: egcf.shijie.icu
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI12
+  network: ws
+  port: 2096
+  server: 104.16.94.194
   servername: agstick.eu.org
   skip-cert-verify: false
   tls: true
@@ -366,7 +243,92 @@ proxies:
     headers:
       Host: agstick.eu.org
     path: /?ed=2560
-- name: US_HostPapa_OpenAI7
+- name: US_HostPapa_OpenAI13
+  password: 5CBqBh6MeDq6GajcilBiDg==
+  port: 61001
+  server: 192-227-152-86.nip.io
+  skip-cert-verify: true
+  sni: 192-227-152-86.nip.io
+  type: hysteria2
+- name: US_HostPapa_OpenAI14
+  network: ws
+  port: 443
+  server: 104.24.146.230
+  servername: kx.yage.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: dc977bb9-e998-48a2-9459-f1931cd7fa9b
+  ws-opts:
+    headers:
+      Host: kx.yage.pp.ua
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI15
+  network: ws
+  port: 443
+  server: 104.24.93.241
+  servername: free.5niu.xyz
+  tls: true
+  type: vless
+  uuid: df5144c2-02e0-40ef-9992-1819225ca2ec
+  ws-opts:
+    headers:
+      Host: free.5niu.xyz
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI16
+  network: ws
+  port: 443
+  server: 172.67.212.82
+  servername: 6ercvbnm.131.pp.ua
+  tls: true
+  type: vless
+  uuid: f82fb954-06a1-4f0b-9180-17e07585b61f
+  ws-opts:
+    headers:
+      Host: 6ercvbnm.131.pp.ua
+    path: /0HKVAwzpuQtCNTI3SlZor0
+- name: US_HostPapa_OpenAI17
+  network: ws
+  port: 2083
+  server: 104.24.182.250
+  servername: x5kh.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9deb36e-aa79-409a-ba54-012d69b0f9d7
+  ws-opts:
+    headers:
+      Host: x5kh.org
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: US_HostPapa_OpenAI18
+  network: ws
+  port: 2053
+  server: 141.101.121.127
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1744007578.speed.mamha.cccp.freefly.pp.ua
+    path: /
+- flow: ''
+  name: US_HostPapa_OpenAI19
+  network: ws
+  port: 443
+  server: 104.16.90.246
+  servername: rnca.majiang.pp.ua
+  tls: true
+  type: vless
+  udp: false
+  uuid: f84898a3-1691-489a-8d6e-0eb0981bef00
+  ws-opts:
+    headers:
+      Host: rnca.majiang.pp.ua
+    path: /rn2
+- name: US_HostPapa_OpenAI2
   network: ws
   port: 2053
   server: 104.16.30.244
@@ -380,21 +342,75 @@ proxies:
     headers:
       Host: ezdriv-server.help
     path: /?ed=2560
-- name: US_HostPapa_OpenAI8
+- name: US_HostPapa_OpenAI20
   network: ws
   port: 443
-  server: 104.24.25.27
-  servername: 227123.xyz
+  server: 188.114.96.147
+  servername: free.5niu.xyz
+  tls: true
+  type: vless
+  uuid: df5144c2-02e0-40ef-9992-1819225ca2ec
+  ws-opts:
+    headers:
+      Host: free.5niu.xyz
+    path: /?ed=2560
+- flow: ''
+  name: US_HostPapa_OpenAI21
+  network: ws
+  port: 443
+  server: 172.67.208.155
+  servername: 2werty.2030.pp.ua
+  tls: true
+  type: vless
+  udp: false
+  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  ws-opts:
+    headers:
+      Host: 2werty.2030.pp.ua
+    path: /ok1UBnf7txQ8YJFJxz
+- name: US_HostPapa_OpenAI3
+  network: ws
+  port: 443
+  server: 104.16.156.225
+  servername: autumn.norjson.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7848a81e-3ed7-488f-8339-5a032e1c46c2
+  uuid: f40b19a1-5515-4c93-804c-334873d38449
   ws-opts:
     headers:
-      Host: 227123.xyz
+      Host: autumn.norjson.top
     path: /?ed=2560
-- name: US_HostPapa_OpenAI9
+- name: US_HostPapa_OpenAI4
+  network: ws
+  port: 2087
+  server: 104.16.54.173
+  servername: agstick.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
+  ws-opts:
+    headers:
+      Host: agstick.eu.org
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI5
+  network: ws
+  port: 2053
+  server: 104.16.96.123
+  servername: 4534295.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12e26518-cb0c-41a7-a03e-1454999b7254
+  ws-opts:
+    headers:
+      Host: 4534295.dpdns.org
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI6
   network: ws
   port: 8443
   server: 104.16.44.151
@@ -408,8 +424,50 @@ proxies:
     headers:
       Host: x5kh.org
     path: /?ed=2560
+- name: US_HostPapa_OpenAI7
+  network: ws
+  port: 443
+  server: 104.24.25.27
+  servername: 227123.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7848a81e-3ed7-488f-8339-5a032e1c46c2
+  ws-opts:
+    headers:
+      Host: 227123.xyz
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI8
+  network: ws
+  port: 443
+  server: 104.16.131.9
+  servername: worker.nexvivagroup.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f3776d8-65bd-4767-a995-34fb4e0937e2
+  ws-opts:
+    headers:
+      Host: worker.nexvivagroup.com
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI9
+  network: ws
+  port: 2083
+  server: 190.93.246.224
+  servername: agstick.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
+  ws-opts:
+    headers:
+      Host: agstick.eu.org
+    path: /?ed=2560
 - flow: xtls-rprx-vision
-  name: US_MASSIVEGRID_OpenAI1
+  name: US_MASSIVEGRID_OpenAI
   network: tcp
   port: 53603
   reality-opts:
@@ -421,19 +479,20 @@ proxies:
   type: vless
   udp: false
   uuid: 2c5e47af-3e6f-40b6-a0d0-ac3c34898afa
-- flow: xtls-rprx-vision
-  name: US_MASSIVEGRID_OpenAI2
-  network: tcp
-  port: 21799
-  reality-opts:
-    public-key: 2kmInR-wqrw2BaYtDVWIpssOTTYs4Q8nYnXJCO5UPwI
-    short-id: 426f439fddf6
-  server: 172.82.67.155
-  servername: yahoo.com
+- flow: ''
+  name: US_Massivegrid LTD_OpenAI
+  network: ws
+  port: 443
+  server: 172.67.204.120
+  servername: mas3d1.890614.xyz
   tls: true
   type: vless
   udp: false
-  uuid: e1a5059b-8599-4eb2-95f6-57ce34f5495b
+  uuid: ae8ee2e7-4e62-44ea-8cc3-c584515bacb1
+  ws-opts:
+    headers:
+      Host: mas3d1.890614.xyz
+    path: /
 - flow: ''
   grpc-opts:
     grpc-service-name: vless-grpc
@@ -456,6 +515,17 @@ proxies:
   type: vless
   udp: false
   uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+- name: US_Oracle Corporation_OpenAI
+  network: tcp
+  port: 30002
+  reality-opts:
+    public-key: Mg15AliRh4C_Jh5RQywOyLPxldCeKwlfGg_0Lt25TEM
+    short-id: 0cd46745
+  server: 152.70.124.233
+  servername: icloud.cdn-apple.com
+  tls: true
+  type: vless
+  uuid: cbeaa3aa-4364-4d79-8f60-e964a28724bf
 - name: US_Psychz Networks_OpenAI
   password: dongtaiwang.com
   port: 65232
@@ -463,187 +533,39 @@ proxies:
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- name: 🇨🇳 台湾_1
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 161.145.150.29
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_10
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 199.34.228.191
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_11
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 103.116.7.133
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_12
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 154.197.64.166
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_13
-  network: ws
-  password: Aimer
+- name: US_Sharktech1
+  password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
   port: 8443
-  server: 108.165.152.82
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_14
-  network: ws
-  password: Aimer
-  port: 443
-  server: sage.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_15
-  network: ws
-  password: Aimer
+  server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net
+  sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net
+  type: hysteria2
+- name: US_Sharktech2
+  password: fceba144-0aa0-11ee-bf3c-f23c9164ca5d
   port: 8443
-  server: 92.243.74.239
+  server: 7de3017c-svsps0-sz6btt-1fee.hy2.gotochinatown.net
   skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_16
-  network: ws
-  password: Aimer
+  sni: 7de3017c-svsps0-sz6btt-1fee.hy2.gotochinatown.net
+  type: hysteria2
+- name: US_Sharktech3
+  password: 262e7386-f8a9-11ef-ba82-f23c913c8d2b
   port: 8443
-  server: 104.129.167.255
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_17
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 103.116.7.220
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_18
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 172.64.33.73
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_19
-  network: ws
-  password: Aimer
-  port: 443
-  server: 154.197.64.206
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_2
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 27.50.49.41
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_20
-  network: ws
-  password: Aimer
+  server: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
+  type: hysteria2
+- name: US_Sharktech4
+  password: a6a3c7fc-0de8-11ef-ba67-f23c91cfbbc9
   port: 8443
-  server: 104.129.166.131
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_21
-  network: ws
-  password: Aimer
+  server: ea9b4647-supts0-sxw44d-1re2s.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: ea9b4647-supts0-sxw44d-1re2s.hy2.gotochinatown.net
+  type: hysteria2
+- name: US_Sharktech5
+  password: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
   port: 8443
-  server: 188.164.159.74
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_22
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 46.254.93.175
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_3
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 154.211.8.12
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_4
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 45.67.215.217
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_5
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 46.254.92.142
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_6
-  network: ws
-  password: Aimer
-  port: 443
-  server: kip.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_7
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 135.84.64.36
-  skip-cert-verify: true
-  sni: epccf.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_8
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 27.50.49.234
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇨🇳 台湾_9
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 188.164.159.138
-  skip-cert-verify: true
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_
-  password: sysadmin.sysadmin
-  port: 443
-  server: 107.172.5.215
-  skip-cert-verify: true
+  server: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
   type: hysteria2
 proxy-groups:
 - name: PROXY
@@ -660,10 +582,16 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 152.70.124.233_OpenAI
-  - 1|🇺🇸70 |  4.9MB/s
+  - 172.82.67.155_OpenAI
+  - 2,14|CR_speednode_
   - FI_Hetzner Online GmbH_OpenAI
   - FR_Online S.A.S._OpenAI
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_BrainStorm Network, Inc_OpenAI1
+  - US_BrainStorm Network, Inc_OpenAI2
+  - US_BrainStorm Network, Inc_OpenAI3
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_HostPapa_OpenAI1
@@ -679,6 +607,7 @@ proxy-groups:
   - US_HostPapa_OpenAI19
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI20
+  - US_HostPapa_OpenAI21
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
@@ -686,34 +615,17 @@ proxy-groups:
   - US_HostPapa_OpenAI7
   - US_HostPapa_OpenAI8
   - US_HostPapa_OpenAI9
-  - US_MASSIVEGRID_OpenAI1
-  - US_MASSIVEGRID_OpenAI2
+  - US_MASSIVEGRID_OpenAI
+  - US_Massivegrid LTD_OpenAI
   - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
+  - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
-  - 🇨🇳 台湾_1
-  - 🇨🇳 台湾_10
-  - 🇨🇳 台湾_11
-  - 🇨🇳 台湾_12
-  - 🇨🇳 台湾_13
-  - 🇨🇳 台湾_14
-  - 🇨🇳 台湾_15
-  - 🇨🇳 台湾_16
-  - 🇨🇳 台湾_17
-  - 🇨🇳 台湾_18
-  - 🇨🇳 台湾_19
-  - 🇨🇳 台湾_2
-  - 🇨🇳 台湾_20
-  - 🇨🇳 台湾_21
-  - 🇨🇳 台湾_22
-  - 🇨🇳 台湾_3
-  - 🇨🇳 台湾_4
-  - 🇨🇳 台湾_5
-  - 🇨🇳 台湾_6
-  - 🇨🇳 台湾_7
-  - 🇨🇳 台湾_8
-  - 🇨🇳 台湾_9
-  - 🇺🇸 美国_
+  - US_Sharktech1
+  - US_Sharktech2
+  - US_Sharktech3
+  - US_Sharktech4
+  - US_Sharktech5
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -738,28 +650,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 🇨🇳 台湾_1
-  - 🇨🇳 台湾_10
-  - 🇨🇳 台湾_11
-  - 🇨🇳 台湾_12
-  - 🇨🇳 台湾_13
-  - 🇨🇳 台湾_14
-  - 🇨🇳 台湾_15
-  - 🇨🇳 台湾_16
-  - 🇨🇳 台湾_17
-  - 🇨🇳 台湾_18
-  - 🇨🇳 台湾_19
-  - 🇨🇳 台湾_2
-  - 🇨🇳 台湾_20
-  - 🇨🇳 台湾_21
-  - 🇨🇳 台湾_22
-  - 🇨🇳 台湾_3
-  - 🇨🇳 台湾_4
-  - 🇨🇳 台湾_5
-  - 🇨🇳 台湾_6
-  - 🇨🇳 台湾_7
-  - 🇨🇳 台湾_8
-  - 🇨🇳 台湾_9
+  - DIRECT
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -783,6 +674,12 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_BrainStorm Network, Inc_OpenAI1
+  - US_BrainStorm Network, Inc_OpenAI2
+  - US_BrainStorm Network, Inc_OpenAI3
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_HostPapa_OpenAI1
@@ -798,6 +695,7 @@ proxy-groups:
   - US_HostPapa_OpenAI19
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI20
+  - US_HostPapa_OpenAI21
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
@@ -805,12 +703,17 @@ proxy-groups:
   - US_HostPapa_OpenAI7
   - US_HostPapa_OpenAI8
   - US_HostPapa_OpenAI9
-  - US_MASSIVEGRID_OpenAI1
-  - US_MASSIVEGRID_OpenAI2
+  - US_MASSIVEGRID_OpenAI
+  - US_Massivegrid LTD_OpenAI
   - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
+  - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
-  - 🇺🇸 美国_
+  - US_Sharktech1
+  - US_Sharktech2
+  - US_Sharktech3
+  - US_Sharktech4
+  - US_Sharktech5
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -818,9 +721,15 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 152.70.124.233_OpenAI
+  - 172.82.67.155_OpenAI
   - FI_Hetzner Online GmbH_OpenAI
   - FR_Online S.A.S._OpenAI
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_BrainStorm Network, Inc_OpenAI1
+  - US_BrainStorm Network, Inc_OpenAI2
+  - US_BrainStorm Network, Inc_OpenAI3
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_HostPapa_OpenAI1
@@ -836,6 +745,7 @@ proxy-groups:
   - US_HostPapa_OpenAI19
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI20
+  - US_HostPapa_OpenAI21
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
@@ -843,10 +753,11 @@ proxy-groups:
   - US_HostPapa_OpenAI7
   - US_HostPapa_OpenAI8
   - US_HostPapa_OpenAI9
-  - US_MASSIVEGRID_OpenAI1
-  - US_MASSIVEGRID_OpenAI2
+  - US_MASSIVEGRID_OpenAI
+  - US_Massivegrid LTD_OpenAI
   - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
+  - US_Oracle Corporation_OpenAI
   - US_Psychz Networks_OpenAI
   filter: (?i)OpenAI
 - name: Claude
