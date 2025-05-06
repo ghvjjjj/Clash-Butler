@@ -71,144 +71,62 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- flow: ''
-  name: 107.175.212.252_OpenAI
-  network: ws
-  port: 443
-  server: 172.67.208.155
-  servername: 2werty.2030.pp.ua
-  tls: true
-  type: vless
-  udp: false
-  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
-  ws-opts:
-    headers:
-      Host: 2werty.2030.pp.ua
-    path: /ok1UBnf7txQ8YJFJxz
-- name: 13|US_speednode_1
-  network: ws
-  port: 2096
-  server: 104.16.116.221
-  servername: robook.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: robook.dpdns.org
-    path: /?ed=2560
-- name: 13|US_speednode_2
-  network: ws
-  port: 2053
-  server: 104.24.240.115
-  servername: xpvip168.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39a2588a-2980-4ae6-a32e-63fb3456daef
-  ws-opts:
-    headers:
-      Host: xpvip168.eu.org
-    path: /?ed=2560
-- name: 13|US_speednode_3
+- name: 132.145.82.61_OpenAI1
   network: ws
   port: 80
-  server: 151.101.64.155
-  servername: Irancellman.net
+  server: 104.18.121.12
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: f3cdd808-a562-4c9d-c895-99dcaa9aaaf8
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
   ws-opts:
     headers:
-      Host: Irancellman.net
-    path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
-- name: 13|US_speednode_4
-  network: ws
-  port: 2082
-  server: 104.17.147.22
-  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 130b1170-8352-4bc5-f4e7-98c46a850cb0
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: 13|US_speednode_5
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 132.145.82.61_OpenAI2
   network: ws
   port: 80
-  server: www.speedtest.net
-  servername: Www.speedtest.net.sIgmasigmaboy.site.
-  skip-cert-verify: true
+  server: 104.18.121.106
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 4d506ea0-89cf-4ffb-b8d9-340fe0066fa6
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
   ws-opts:
     headers:
-      Host: Www.speedtest.net.sIgmasigmaboy.site.
-    path: /-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN?ed=2048
-- name: 13|US_speednode_6
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 15|US_speednode_
   network: ws
-  port: 443
-  server: 104.19.194.8
-  servername: 123456789-1xt.pages.dev
+  port: 8880
+  server: 135.84.75.75
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 9bb8610b-c76e-40e4-84e2-6591df2e0344
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
   ws-opts:
     headers:
-      Host: 123456789-1xt.pages.dev
-    path: /
-- flow: xtls-rprx-vision
-  name: 172.82.67.155_OpenAI
-  network: tcp
-  port: 53603
-  reality-opts:
-    public-key: WjMw6hL2q80pWIiWo_b3i-Ql7rLHZfwbwvxuvln8fRY
-    short-id: '692819'
-  server: 172.82.67.155
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 2c5e47af-3e6f-40b6-a0d0-ac3c34898afa
-- flow: ''
-  name: 1|🇺🇸35 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 172.67.163.14
-  servername: 1QQsSS.2031.PP.UA
-  tls: true
-  type: vless
-  udp: false
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    headers:
-      Host: 1qqsss.2031.pp.ua
-    path: /XcQF058rNJ3gc4aj
-- name: 1|🇺🇸53 |  2.8MB/s
-  network: ws
-  port: 2083
-  server: 104.24.182.250
-  servername: x5kh.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9deb36e-aa79-409a-ba54-012d69b0f9d7
-  ws-opts:
-    headers:
-      Host: x5kh.org
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
     path: /?ed=2560
+- name: 2603:c022:8019:4bc7:582b:f90a:ce3b:528a_OpenAI
+  network: ws
+  port: 80
+  server: 104.18.121.131
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  ws-opts:
+    headers:
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - name: CH_Infomaniak Network Management_OpenAI
   network: ws
   port: 80
@@ -223,63 +141,21 @@ proxies:
     headers:
       Host: wwwaparataternos.com
     path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
-- name: DE_Hetzner Online GmbH_OpenAI1
+- name: DE_Hetzner Online GmbH_OpenAI
   network: ws
   port: 80
-  server: www.speedtest.net
-  servername: redfree8mahsang6.redfree8.ir
+  server: 151.101.64.155
+  servername: Irancellman.net
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  uuid: f3cdd808-a562-4c9d-c895-99dcaa9aaaf8
   ws-opts:
     headers:
-      Host: redfree8mahsang6.redfree8.ir
-    path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-- name: DE_Hetzner Online GmbH_OpenAI2
-  network: ws
-  port: 2082
-  server: 104.17.148.22
-  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 130b1170-8352-4bc5-f4e7-98c46a850cb0
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: JP_Oracle Corporation_OpenAI
-  network: ws
-  port: 443
-  server: 188.114.96.4
-  servername: MyphOTOgRApicpIcTUre.iR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d91916f-a7fd-419b-8b90-640bb8d4b3f2
-  ws-opts:
-    headers:
-      Host: myphotograpicpicture.ir
-    path: /I4OZ4PupsElhvJ7c
-- name: KR_Oracle Corporation_OpenAI1
-  network: ws
-  port: 80
-  server: 104.18.121.106
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: KR_Oracle Corporation_OpenAI2
+      Host: Irancellman.net
+    path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
+- name: KR_Oracle Corporation_OpenAI
   network: ws
   port: 8880
   server: 135.84.76.75
@@ -293,48 +169,20 @@ proxies:
     headers:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
     path: /?ed=2560
-- name: KR_Oracle Corporation_OpenAI3
+- name: NL_Oracle Corporation_OpenAI
   network: ws
-  port: 80
-  server: 104.18.121.131
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 188.114.96.4
+  servername: MyphOTOgRApicpIcTUre.iR
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 4d91916f-a7fd-419b-8b90-640bb8d4b3f2
   ws-opts:
     headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: KR_Oracle Corporation_OpenAI4
-  network: ws
-  port: 80
-  server: 104.18.121.12
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: KR_Oracle Corporation_OpenAI5
-  network: ws
-  port: 8880
-  server: 135.84.75.75
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /?ed=2560
+      Host: myphotograpicpicture.ir
+    path: /I4OZ4PupsElhvJ7c
 - name: US_Cloudflare, Inc._OpenAI
   network: ws
   port: 443
@@ -362,77 +210,7 @@ proxies:
     headers:
       Host: usb.carvic.me
     path: /bing
-- name: US_Hetzner Online GmbH_OpenAI
-  network: ws
-  port: 443
-  server: 172.66.47.92
-  servername: Work-YUU00.pageS.dEv
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49d4b99d-7d99-416a-9778-2c75d79100bb
-  ws-opts:
-    headers:
-      Host: Work-YUU00.pageS.dEv
-    path: /
 - name: US_HostPapa_OpenAI1
-  network: ws
-  port: 443
-  server: 104.19.160.0
-  servername: lrnz.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97f26790-6e5a-4adc-83a8-5b17d873a4f0
-  ws-opts:
-    headers:
-      Host: lrnz.xyz
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI10
-  network: ws
-  port: 443
-  server: 104.24.188.214
-  servername: planetzh.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af713c0c-a79e-464b-b08e-831ce00fe235
-  ws-opts:
-    headers:
-      Host: planetzh.xyz
-    path: /
-- name: US_HostPapa_OpenAI11
-  network: ws
-  port: 443
-  server: 192.0.54.6
-  servername: cf.501508.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: cf.501508.xyz
-    path: /
-- name: US_HostPapa_OpenAI12
-  network: ws
-  port: 2087
-  server: 104.24.94.106
-  servername: w-am1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25636ecf-9958-48a3-9b0d-63c25a9db541
-  ws-opts:
-    headers:
-      Host: w-am1.pages.dev
-    path: /
-- name: US_HostPapa_OpenAI13
   network: ws
   port: 2087
   server: 104.16.4.142
@@ -446,320 +224,7 @@ proxies:
     headers:
       Host: robook.dpdns.org
     path: /?ed=2560
-- name: US_HostPapa_OpenAI14
-  network: ws
-  port: 443
-  server: 104.24.83.107
-  servername: wk.625229.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2fd18148-ef55-461c-bd5d-c9f5c851d467
-  ws-opts:
-    headers:
-      Host: wk.625229.xyz
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI15
-  network: ws
-  port: 8443
-  server: 104.24.40.146
-  servername: bitget1.asdasd.click
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI16
-  network: ws
-  port: 443
-  server: 104.18.160.0
-  servername: lrnz.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6dae3114-fb66-4e74-87d5-d48e271c0d04
-  ws-opts:
-    headers:
-      Host: lrnz.xyz
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI17
-  network: ws
-  port: 8443
-  server: 199.34.228.66
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: US_HostPapa_OpenAI18
-  network: ws
-  port: 443
-  server: 104.16.32.0
-  servername: lrnz.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6dae3114-fb66-4e74-87d5-d48e271c0d04
-  ws-opts:
-    headers:
-      Host: lrnz.xyz
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI19
-  network: ws
-  port: 8443
-  server: 199.34.228.47
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: US_HostPapa_OpenAI2
-  network: ws
-  port: 443
-  server: 104.24.152.190
-  servername: what.zhonghuoxing.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055d270-0e76-4a41-a53f-871bbb51b003
-  ws-opts:
-    headers:
-      Host: what.zhonghuoxing.top
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI20
-  network: ws
-  port: 443
-  server: 104.16.95.143
-  servername: bitget1.asdasd.click
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI21
-  network: ws
-  port: 2053
-  server: 104.16.12.247
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI22
-  network: ws
-  port: 2083
-  server: 190.93.246.224
-  servername: agstick.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
-  ws-opts:
-    headers:
-      Host: agstick.eu.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI23
-  network: ws
-  port: 443
-  server: 190.93.247.245
-  servername: vless.vvzxyvv.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3fe99f8-17d0-4011-a042-f8642b42c609
-  ws-opts:
-    headers:
-      Host: vless.vvzxyvv.sbs
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI24
-  network: ws
-  port: 2096
-  server: 104.16.143.139
-  servername: ghh.wsthh.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4527ff0c-8ac2-452a-95cb-c2d29e5a8421
-  ws-opts:
-    headers:
-      Host: ghh.wsthh.site
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI25
-  network: ws
-  port: 443
-  server: 104.24.93.241
-  servername: free.5niu.xyz
-  tls: true
-  type: vless
-  uuid: df5144c2-02e0-40ef-9992-1819225ca2ec
-  ws-opts:
-    headers:
-      Host: free.5niu.xyz
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI26
-  network: ws
-  port: 443
-  server: 172.67.212.82
-  servername: 6ercvbnm.131.pp.ua
-  tls: true
-  type: vless
-  uuid: f82fb954-06a1-4f0b-9180-17e07585b61f
-  ws-opts:
-    headers:
-      Host: 6ercvbnm.131.pp.ua
-    path: /0HKVAwzpuQtCNTI3SlZor0
-- name: US_HostPapa_OpenAI27
-  network: ws
-  port: 8443
-  server: 104.16.72.104
-  servername: egcf.shijie.icu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 09486821-5166-4b4c-806b-80c1c8fb101a
-  ws-opts:
-    headers:
-      Host: egcf.shijie.icu
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI28
-  network: ws
-  port: 443
-  server: 188.114.96.147
-  servername: free.5niu.xyz
-  tls: true
-  type: vless
-  uuid: df5144c2-02e0-40ef-9992-1819225ca2ec
-  ws-opts:
-    headers:
-      Host: free.5niu.xyz
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI29
-  network: ws
-  port: 2096
-  server: 104.16.94.194
-  servername: agstick.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
-  ws-opts:
-    headers:
-      Host: agstick.eu.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI3
-  network: ws
-  port: 8443
-  server: 162.159.152.81
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI4
-  network: ws
-  port: 443
-  server: 199.34.228.186
-  servername: cf.501508.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: cf.501508.xyz
-    path: /
-- name: US_HostPapa_OpenAI5
-  network: ws
-  port: 8443
-  server: 162.159.152.139
-  servername: www.pjw5.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 812d7dde-5f48-47eb-acc8-9c94c04550c2
-  ws-opts:
-    headers:
-      Host: www.pjw5.top
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI6
-  network: ws
-  port: 2053
-  server: 104.16.190.87
-  servername: bitget1.asdasd.click
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI7
-  network: ws
-  port: 443
-  server: 104.16.176.212
-  servername: vless-new.linginglu.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b6ad77f-aeef-413d-b1a1-6419770a8bc7
-  ws-opts:
-    headers:
-      Host: vless-new.linginglu.eu.org
-    path: /
-- name: US_HostPapa_OpenAI8
-  network: ws
-  port: 2083
-  server: 104.24.141.216
-  servername: go-79m.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3130b95-9ee8-4c6e-b0c4-50606dd0e9f2
-  ws-opts:
-    headers:
-      Host: go-79m.pages.dev
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI9
+- name: US_HostPapa_OpenAI10
   network: ws
   port: 443
   server: 104.16.83.224
@@ -773,19 +238,359 @@ proxies:
     headers:
       Host: taoj.eu.org
     path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: US_MASSIVEGRID_OpenAI1
-  port: 57355
-  reality-opts:
-    public-key: d-G52RaxhX8PN553Oa8wBPu7XG25_6lO-aThcOqNby4
-    short-id: 34548d
-  server: 172.82.67.156
-  servername: yahoo.com
+- name: US_HostPapa_OpenAI11
+  network: ws
+  port: 8443
+  server: 199.34.228.66
+  servername: txmt.conetcdata.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 274fc521-1b7a-43ce-a425-2f1a34a7ca6d
+  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
+  ws-opts:
+    headers:
+      Host: txmt.conetcdata.dpdns.org
+    path: /
+- name: US_HostPapa_OpenAI12
+  network: ws
+  port: 8443
+  server: 162.159.152.81
+  servername: txmt.conetcdata.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
+  ws-opts:
+    headers:
+      Host: txmt.conetcdata.dpdns.org
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI13
+  network: ws
+  port: 2053
+  server: 104.16.190.87
+  servername: bitget1.asdasd.click
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI14
+  network: ws
+  port: 8443
+  server: 199.34.228.47
+  servername: txmt.conetcdata.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
+  ws-opts:
+    headers:
+      Host: txmt.conetcdata.dpdns.org
+    path: /
+- name: US_HostPapa_OpenAI15
+  network: ws
+  port: 2053
+  server: 104.16.12.247
+  servername: txmt.conetcdata.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
+  ws-opts:
+    headers:
+      Host: txmt.conetcdata.dpdns.org
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI16
+  network: ws
+  port: 443
+  server: 104.16.95.143
+  servername: bitget1.asdasd.click
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI17
+  network: ws
+  port: 2083
+  server: 190.93.246.224
+  servername: agstick.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
+  ws-opts:
+    headers:
+      Host: agstick.eu.org
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI18
+  network: ws
+  port: 443
+  server: 190.93.247.245
+  servername: vless.vvzxyvv.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: b3fe99f8-17d0-4011-a042-f8642b42c609
+  ws-opts:
+    headers:
+      Host: vless.vvzxyvv.sbs
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI19
+  network: ws
+  port: 2096
+  server: 104.16.143.139
+  servername: ghh.wsthh.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4527ff0c-8ac2-452a-95cb-c2d29e5a8421
+  ws-opts:
+    headers:
+      Host: ghh.wsthh.site
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI2
+  network: ws
+  port: 443
+  server: 199.34.228.186
+  servername: cf.501508.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
+  ws-opts:
+    headers:
+      Host: cf.501508.xyz
+    path: /
+- flow: ''
+  name: US_HostPapa_OpenAI20
+  network: ws
+  port: 443
+  server: 172.67.163.14
+  servername: 1QQsSS.2031.PP.UA
+  tls: true
+  type: vless
+  udp: false
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  ws-opts:
+    headers:
+      Host: 1qqsss.2031.pp.ua
+    path: /XcQF058rNJ3gc4aj
+- name: US_HostPapa_OpenAI21
+  network: ws
+  port: 443
+  server: 104.24.93.241
+  servername: free.5niu.xyz
+  tls: true
+  type: vless
+  uuid: df5144c2-02e0-40ef-9992-1819225ca2ec
+  ws-opts:
+    headers:
+      Host: free.5niu.xyz
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI22
+  network: ws
+  port: 443
+  server: 172.67.212.82
+  servername: 6ercvbnm.131.pp.ua
+  tls: true
+  type: vless
+  uuid: f82fb954-06a1-4f0b-9180-17e07585b61f
+  ws-opts:
+    headers:
+      Host: 6ercvbnm.131.pp.ua
+    path: /0HKVAwzpuQtCNTI3SlZor0
+- name: US_HostPapa_OpenAI23
+  network: ws
+  port: 2083
+  server: 104.24.182.250
+  servername: x5kh.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9deb36e-aa79-409a-ba54-012d69b0f9d7
+  ws-opts:
+    headers:
+      Host: x5kh.org
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI24
+  network: ws
+  port: 8443
+  server: 104.16.72.104
+  servername: egcf.shijie.icu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 09486821-5166-4b4c-806b-80c1c8fb101a
+  ws-opts:
+    headers:
+      Host: egcf.shijie.icu
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI25
+  network: ws
+  port: 443
+  server: 188.114.96.147
+  servername: free.5niu.xyz
+  tls: true
+  type: vless
+  uuid: df5144c2-02e0-40ef-9992-1819225ca2ec
+  ws-opts:
+    headers:
+      Host: free.5niu.xyz
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI26
+  network: ws
+  port: 2096
+  server: 104.16.94.194
+  servername: agstick.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe75b904-7a0c-4a1c-b22a-e5f1399fe7be
+  ws-opts:
+    headers:
+      Host: agstick.eu.org
+    path: /?ed=2560
+- flow: ''
+  name: US_HostPapa_OpenAI27
+  network: ws
+  port: 443
+  server: 172.67.208.155
+  servername: 2werty.2030.pp.ua
+  tls: true
+  type: vless
+  udp: false
+  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  ws-opts:
+    headers:
+      Host: 2werty.2030.pp.ua
+    path: /ok1UBnf7txQ8YJFJxz
+- name: US_HostPapa_OpenAI3
+  network: ws
+  port: 2053
+  server: 104.24.240.115
+  servername: xpvip168.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39a2588a-2980-4ae6-a32e-63fb3456daef
+  ws-opts:
+    headers:
+      Host: xpvip168.eu.org
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI4
+  network: ws
+  port: 443
+  server: 104.24.188.214
+  servername: planetzh.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af713c0c-a79e-464b-b08e-831ce00fe235
+  ws-opts:
+    headers:
+      Host: planetzh.xyz
+    path: /
+- name: US_HostPapa_OpenAI5
+  network: ws
+  port: 443
+  server: 192.0.54.6
+  servername: cf.501508.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
+  ws-opts:
+    headers:
+      Host: cf.501508.xyz
+    path: /
+- name: US_HostPapa_OpenAI6
+  network: ws
+  port: 443
+  server: 104.24.152.190
+  servername: what.zhonghuoxing.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055d270-0e76-4a41-a53f-871bbb51b003
+  ws-opts:
+    headers:
+      Host: what.zhonghuoxing.top
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI7
+  network: ws
+  port: 8443
+  server: 162.159.152.139
+  servername: www.pjw5.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 812d7dde-5f48-47eb-acc8-9c94c04550c2
+  ws-opts:
+    headers:
+      Host: www.pjw5.top
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI8
+  network: ws
+  port: 8443
+  server: 104.24.40.146
+  servername: bitget1.asdasd.click
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI9
+  network: ws
+  port: 2096
+  server: 104.16.116.221
+  servername: robook.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
+  ws-opts:
+    headers:
+      Host: robook.dpdns.org
+    path: /?ed=2560
+- flow: xtls-rprx-vision
+  name: US_MASSIVEGRID_OpenAI1
+  network: tcp
+  port: 53603
+  reality-opts:
+    public-key: WjMw6hL2q80pWIiWo_b3i-Ql7rLHZfwbwvxuvln8fRY
+    short-id: '692819'
+  server: 172.82.67.155
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 2c5e47af-3e6f-40b6-a0d0-ac3c34898afa
 - flow: xtls-rprx-vision
   name: US_MASSIVEGRID_OpenAI2
   network: tcp
@@ -800,32 +605,6 @@ proxies:
   udp: false
   uuid: e1a5059b-8599-4eb2-95f6-57ce34f5495b
 - flow: ''
-  name: US_Massivegrid LTD_OpenAI
-  network: ws
-  port: 443
-  server: 172.67.204.120
-  servername: mas3d1.890614.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: ae8ee2e7-4e62-44ea-8cc3-c584515bacb1
-  ws-opts:
-    headers:
-      Host: mas3d1.890614.xyz
-    path: /
-- flow: ''
-  grpc-opts:
-    grpc-service-name: vless-grpc
-  name: US_Melbikomas UAB_OpenAI
-  network: grpc
-  port: 2052
-  server: 185.140.211.50
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: a040115b-aaef-4851-9ba0-d558bba55359
-- flow: ''
   name: US_OVH US LLC_OpenAI
   network: tcp
   port: 443
@@ -835,11 +614,25 @@ proxies:
   type: vless
   udp: false
   uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-- name: US_Oracle Corporation_OpenAI
+- name: US_Oracle Corporation_OpenAI1
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: redfree8mahsang6.redfree8.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8mahsang6.redfree8.ir
+    path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+- name: US_Oracle Corporation_OpenAI2
   network: ws
   port: 443
   server: 104.18.20.20
-  servername: us6s.globals-download.com
+  servername: us5.globals-download.com
   skip-cert-verify: false
   tls: true
   type: vless
@@ -847,8 +640,8 @@ proxies:
   uuid: 2ee2c33b-cc0f-4ea1-b287-5870f3ee3951
   ws-opts:
     headers:
-      Host: us6s.globals-download.com
-    path: /pq/us6
+      Host: us5.globals-download.com
+    path: /pq/us5
 - name: US_Psychz Networks_OpenAI
   network: ws
   port: 443
@@ -863,35 +656,34 @@ proxies:
     headers:
       Host: us5s.pqvip.top
     path: /pq/us5
-- name: US_Rackspace Hosting_OpenAI
-  network: ws
-  port: 443
-  server: 63.141.128.27
-  servername: vless.drsam.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1131eaed-e009-4b7c-918d-8a3f1cf09280
-  ws-opts:
-    headers:
-      Host: vless.drsam.dpdns.org
-    path: /
 - name: US_Sharktech1
+  password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+  port: 8443
+  server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net
+  sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net
+  type: hysteria2
+- name: US_Sharktech2
   password: fceba144-0aa0-11ee-bf3c-f23c9164ca5d
   port: 8443
   server: 7de3017c-svsps0-sz6btt-1fee.hy2.gotochinatown.net
   skip-cert-verify: true
   sni: 7de3017c-svsps0-sz6btt-1fee.hy2.gotochinatown.net
   type: hysteria2
-- name: US_Sharktech2
+- name: US_Sharktech3
+  password: 262e7386-f8a9-11ef-ba82-f23c913c8d2b
+  port: 8443
+  server: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
+  type: hysteria2
+- name: US_Sharktech4
   password: a6a3c7fc-0de8-11ef-ba67-f23c91cfbbc9
   port: 8443
   server: ea9b4647-supts0-sxw44d-1re2s.hy2.gotochinatown.net
   skip-cert-verify: false
   sni: ea9b4647-supts0-sxw44d-1re2s.hy2.gotochinatown.net
   type: hysteria2
-- name: US_Sharktech3
+- name: US_Sharktech5
   password: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
   port: 8443
   server: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
@@ -926,28 +718,16 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 107.175.212.252_OpenAI
-  - 13|US_speednode_1
-  - 13|US_speednode_2
-  - 13|US_speednode_3
-  - 13|US_speednode_4
-  - 13|US_speednode_5
-  - 13|US_speednode_6
-  - 172.82.67.155_OpenAI
-  - 1|🇺🇸35 |  1.1MB/s
-  - 1|🇺🇸53 |  2.8MB/s
+  - 132.145.82.61_OpenAI1
+  - 132.145.82.61_OpenAI2
+  - 15|US_speednode_
+  - 2603:c022:8019:4bc7:582b:f90a:ce3b:528a_OpenAI
   - CH_Infomaniak Network Management_OpenAI
-  - DE_Hetzner Online GmbH_OpenAI1
-  - DE_Hetzner Online GmbH_OpenAI2
-  - JP_Oracle Corporation_OpenAI
-  - KR_Oracle Corporation_OpenAI1
-  - KR_Oracle Corporation_OpenAI2
-  - KR_Oracle Corporation_OpenAI3
-  - KR_Oracle Corporation_OpenAI4
-  - KR_Oracle Corporation_OpenAI5
+  - DE_Hetzner Online GmbH_OpenAI
+  - KR_Oracle Corporation_OpenAI
+  - NL_Oracle Corporation_OpenAI
   - US_Cloudflare, Inc._OpenAI
   - US_DigitalOcean, LLC_OpenAI
-  - US_Hetzner Online GmbH_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI10
   - US_HostPapa_OpenAI11
@@ -968,8 +748,6 @@ proxy-groups:
   - US_HostPapa_OpenAI25
   - US_HostPapa_OpenAI26
   - US_HostPapa_OpenAI27
-  - US_HostPapa_OpenAI28
-  - US_HostPapa_OpenAI29
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
@@ -979,15 +757,15 @@ proxy-groups:
   - US_HostPapa_OpenAI9
   - US_MASSIVEGRID_OpenAI1
   - US_MASSIVEGRID_OpenAI2
-  - US_Massivegrid LTD_OpenAI
-  - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
-  - US_Oracle Corporation_OpenAI
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
   - US_Psychz Networks_OpenAI
-  - US_Rackspace Hosting_OpenAI
   - US_Sharktech1
   - US_Sharktech2
   - US_Sharktech3
+  - US_Sharktech4
+  - US_Sharktech5
   - US_Spartan Host Ltd_OpenAI
 - name: Fallback
   type: fallback
@@ -1021,7 +799,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - JP_Oracle Corporation_OpenAI
+  - DIRECT
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -1037,15 +815,9 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 13|US_speednode_1
-  - 13|US_speednode_2
-  - 13|US_speednode_3
-  - 13|US_speednode_4
-  - 13|US_speednode_5
-  - 13|US_speednode_6
+  - 15|US_speednode_
   - US_Cloudflare, Inc._OpenAI
   - US_DigitalOcean, LLC_OpenAI
-  - US_Hetzner Online GmbH_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI10
   - US_HostPapa_OpenAI11
@@ -1066,8 +838,6 @@ proxy-groups:
   - US_HostPapa_OpenAI25
   - US_HostPapa_OpenAI26
   - US_HostPapa_OpenAI27
-  - US_HostPapa_OpenAI28
-  - US_HostPapa_OpenAI29
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
@@ -1077,15 +847,15 @@ proxy-groups:
   - US_HostPapa_OpenAI9
   - US_MASSIVEGRID_OpenAI1
   - US_MASSIVEGRID_OpenAI2
-  - US_Massivegrid LTD_OpenAI
-  - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
-  - US_Oracle Corporation_OpenAI
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
   - US_Psychz Networks_OpenAI
-  - US_Rackspace Hosting_OpenAI
   - US_Sharktech1
   - US_Sharktech2
   - US_Sharktech3
+  - US_Sharktech4
+  - US_Sharktech5
   - US_Spartan Host Ltd_OpenAI
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
@@ -1094,20 +864,15 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 107.175.212.252_OpenAI
-  - 172.82.67.155_OpenAI
+  - 132.145.82.61_OpenAI1
+  - 132.145.82.61_OpenAI2
+  - 2603:c022:8019:4bc7:582b:f90a:ce3b:528a_OpenAI
   - CH_Infomaniak Network Management_OpenAI
-  - DE_Hetzner Online GmbH_OpenAI1
-  - DE_Hetzner Online GmbH_OpenAI2
-  - JP_Oracle Corporation_OpenAI
-  - KR_Oracle Corporation_OpenAI1
-  - KR_Oracle Corporation_OpenAI2
-  - KR_Oracle Corporation_OpenAI3
-  - KR_Oracle Corporation_OpenAI4
-  - KR_Oracle Corporation_OpenAI5
+  - DE_Hetzner Online GmbH_OpenAI
+  - KR_Oracle Corporation_OpenAI
+  - NL_Oracle Corporation_OpenAI
   - US_Cloudflare, Inc._OpenAI
   - US_DigitalOcean, LLC_OpenAI
-  - US_Hetzner Online GmbH_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI10
   - US_HostPapa_OpenAI11
@@ -1128,8 +893,6 @@ proxy-groups:
   - US_HostPapa_OpenAI25
   - US_HostPapa_OpenAI26
   - US_HostPapa_OpenAI27
-  - US_HostPapa_OpenAI28
-  - US_HostPapa_OpenAI29
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
@@ -1139,12 +902,10 @@ proxy-groups:
   - US_HostPapa_OpenAI9
   - US_MASSIVEGRID_OpenAI1
   - US_MASSIVEGRID_OpenAI2
-  - US_Massivegrid LTD_OpenAI
-  - US_Melbikomas UAB_OpenAI
   - US_OVH US LLC_OpenAI
-  - US_Oracle Corporation_OpenAI
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
   - US_Psychz Networks_OpenAI
-  - US_Rackspace Hosting_OpenAI
   - US_Spartan Host Ltd_OpenAI
   filter: (?i)OpenAI
 - name: Claude
