@@ -73,18 +73,32 @@ dns:
 proxies:
 - name: 15|US_speednode_
   network: ws
-  port: 443
-  server: 104.24.188.214
-  servername: planetzh.xyz
+  port: 2053
+  server: 104.16.190.87
+  servername: bitget1.asdasd.click
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: af713c0c-a79e-464b-b08e-831ce00fe235
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: planetzh.xyz
-    path: /
+      Host: bitget1.asdasd.click
+    path: /?ed=2560
+- name: AE_Oracle Corporation_OpenAI
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: redfree8mahsang6.redfree8.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8mahsang6.redfree8.ir
+    path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
 - name: BR_Oracle Corporation_OpenAI
   password: 238c7704-944d-40cd-a1cf-fb775d51ac54
   port: 21042
@@ -92,24 +106,10 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: JP_Oracle Corporation_OpenAI
-  network: ws
-  port: 443
-  server: 188.114.96.4
-  servername: MyphOTOgRApicpIcTUre.iR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d91916f-a7fd-419b-8b90-640bb8d4b3f2
-  ws-opts:
-    headers:
-      Host: myphotograpicpicture.ir
-    path: /I4OZ4PupsElhvJ7c
 - name: KR_Oracle Corporation_OpenAI1
   network: ws
-  port: 80
-  server: 104.18.121.106
+  port: 8880
+  server: 135.84.76.75
   servername: 23-lsjfjwiposkfls.hc2021.cfd
   skip-cert-verify: false
   tls: false
@@ -119,11 +119,11 @@ proxies:
   ws-opts:
     headers:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /?ed=2560
 - name: KR_Oracle Corporation_OpenAI2
   network: ws
   port: 80
-  server: 104.18.121.131
+  server: 104.18.121.12
   servername: 23-lsjfjwiposkfls.hc2021.cfd
   skip-cert-verify: false
   tls: false
@@ -137,7 +137,7 @@ proxies:
 - name: KR_Oracle Corporation_OpenAI3
   network: ws
   port: 80
-  server: 104.18.121.12
+  server: 104.18.121.106
   servername: 23-lsjfjwiposkfls.hc2021.cfd
   skip-cert-verify: false
   tls: false
@@ -164,8 +164,8 @@ proxies:
     path: /?ed=2560
 - name: KR_Oracle Corporation_OpenAI5
   network: ws
-  port: 8880
-  server: 135.84.76.75
+  port: 80
+  server: 104.18.121.131
   servername: 23-lsjfjwiposkfls.hc2021.cfd
   skip-cert-verify: false
   tls: false
@@ -175,21 +175,7 @@ proxies:
   ws-opts:
     headers:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /?ed=2560
-- name: TW_Chunghwa Telecom Co., Ltd.
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 27.50.48.126
-  skip-cert-verify: true
-  sni: tyep.esslh.filegear-sg.me
-  type: trojan
-- cipher: aes-256-cfb
-  name: TW_Data Center Network Limited_OpenAI
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - flow: ''
   name: US_Alice Networks LTD_OpenAI
   network: ws
@@ -203,26 +189,20 @@ proxies:
     headers:
       Host: us.cishanjichang.me
     path: /swordnewnewnew
-- name: US_Amazon.com, Inc._OpenAI1
+- name: US_Amazon.com, Inc._OpenAI
   network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: redfree8mahsang6.redfree8.ir
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 188.114.96.4
+  servername: MyphOTOgRApicpIcTUre.iR
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  uuid: 4d91916f-a7fd-419b-8b90-640bb8d4b3f2
   ws-opts:
     headers:
-      Host: redfree8mahsang6.redfree8.ir
-    path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-- cipher: aes-256-cfb
-  name: US_Amazon.com, Inc._OpenAI2
-  password: awsps0501
-  port: 443
-  server: 52.89.141.117
-  type: ss
+      Host: myphotograpicpicture.ir
+    path: /I4OZ4PupsElhvJ7c
 - name: US_Cloudflare, Inc._OpenAI
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
@@ -244,133 +224,13 @@ proxies:
     headers:
       Host: usb.carvic.me
     path: /bing
+- cipher: aes-256-gcm
+  name: US_GTHost_OpenAI
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.114.114.108
+  type: ss
 - name: US_HostPapa_OpenAI1
-  network: ws
-  port: 2096
-  server: 104.16.116.221
-  servername: robook.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: robook.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI10
-  network: ws
-  port: 8443
-  server: 199.34.228.66
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: US_HostPapa_OpenAI11
-  network: ws
-  port: 443
-  server: 104.16.95.143
-  servername: bitget1.asdasd.click
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI12
-  network: ws
-  port: 443
-  server: 104.16.83.224
-  servername: taoj.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c4c856f-6ef1-4d32-a556-068d948a2158
-  ws-opts:
-    headers:
-      Host: taoj.eu.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI13
-  network: ws
-  port: 8443
-  server: 199.34.228.47
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: US_HostPapa_OpenAI2
-  network: ws
-  port: 443
-  server: 104.24.152.190
-  servername: what.zhonghuoxing.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055d270-0e76-4a41-a53f-871bbb51b003
-  ws-opts:
-    headers:
-      Host: what.zhonghuoxing.top
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI3
-  network: ws
-  port: 2053
-  server: 104.24.240.115
-  servername: xpvip168.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39a2588a-2980-4ae6-a32e-63fb3456daef
-  ws-opts:
-    headers:
-      Host: xpvip168.eu.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI4
-  network: ws
-  port: 8443
-  server: 162.159.152.139
-  servername: www.pjw5.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 812d7dde-5f48-47eb-acc8-9c94c04550c2
-  ws-opts:
-    headers:
-      Host: www.pjw5.top
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI5
-  network: ws
-  port: 2087
-  server: 104.16.4.142
-  servername: robook.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: robook.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI6
   network: ws
   port: 8443
   server: 104.24.40.146
@@ -384,10 +244,24 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: US_HostPapa_OpenAI7
+- name: US_HostPapa_OpenAI2
   network: ws
-  port: 2053
-  server: 104.16.190.87
+  port: 8443
+  server: 162.159.152.139
+  servername: www.pjw5.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 812d7dde-5f48-47eb-acc8-9c94c04550c2
+  ws-opts:
+    headers:
+      Host: www.pjw5.top
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI3
+  network: ws
+  port: 443
+  server: 104.16.95.143
   servername: bitget1.asdasd.click
   skip-cert-verify: false
   tls: true
@@ -398,40 +272,35 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: US_HostPapa_OpenAI8
+- name: US_HostPapa_OpenAI4
   network: ws
-  port: 8443
-  server: 162.159.152.81
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI9
-  network: ws
-  port: 2053
-  server: 104.16.12.247
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /?ed=2560
-- cipher: aes-128-cfb
-  name: US_Performive LLC_OpenAI
-  password: shadowsocks
   port: 443
-  server: 184.170.241.194
-  type: ss
+  server: 104.16.83.224
+  servername: taoj.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c4c856f-6ef1-4d32-a556-068d948a2158
+  ws-opts:
+    headers:
+      Host: taoj.eu.org
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: US_Oracle Corporation_OpenAI
+  network: ws
+  port: 80
+  server: www.wn03.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: us.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
 - flow: xtls-rprx-vision
   name: US_Spartan Host Ltd_OpenAI
   port: 7885
@@ -452,6 +321,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- cipher: aes-128-cfb
+  name: 🇺🇸 美国_
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
 proxy-groups:
 - name: PROXY
   type: select
@@ -468,36 +343,26 @@ proxy-groups:
   filter: .*
   proxies:
   - 15|US_speednode_
+  - AE_Oracle Corporation_OpenAI
   - BR_Oracle Corporation_OpenAI
-  - JP_Oracle Corporation_OpenAI
   - KR_Oracle Corporation_OpenAI1
   - KR_Oracle Corporation_OpenAI2
   - KR_Oracle Corporation_OpenAI3
   - KR_Oracle Corporation_OpenAI4
   - KR_Oracle Corporation_OpenAI5
-  - TW_Chunghwa Telecom Co., Ltd.
-  - TW_Data Center Network Limited_OpenAI
   - US_Alice Networks LTD_OpenAI
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI
   - US_Cloudflare, Inc._OpenAI
   - US_DigitalOcean, LLC_OpenAI
+  - US_GTHost_OpenAI
   - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI13
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Performive LLC_OpenAI
+  - US_Oracle Corporation_OpenAI
   - US_Spartan Host Ltd_OpenAI
   - US_Virtual Machine Solutions LLC_OpenAI
+  - 🇺🇸 美国_
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -522,8 +387,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - TW_Chunghwa Telecom Co., Ltd.
-  - TW_Data Center Network Limited_OpenAI
+  - DIRECT
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -531,7 +395,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - JP_Oracle Corporation_OpenAI
+  - DIRECT
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -549,26 +413,18 @@ proxy-groups:
   proxies:
   - 15|US_speednode_
   - US_Alice Networks LTD_OpenAI
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI
   - US_Cloudflare, Inc._OpenAI
   - US_DigitalOcean, LLC_OpenAI
+  - US_GTHost_OpenAI
   - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI13
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Performive LLC_OpenAI
+  - US_Oracle Corporation_OpenAI
   - US_Spartan Host Ltd_OpenAI
   - US_Virtual Machine Solutions LLC_OpenAI
+  - 🇺🇸 美国_
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -576,33 +432,23 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
+  - AE_Oracle Corporation_OpenAI
   - BR_Oracle Corporation_OpenAI
-  - JP_Oracle Corporation_OpenAI
   - KR_Oracle Corporation_OpenAI1
   - KR_Oracle Corporation_OpenAI2
   - KR_Oracle Corporation_OpenAI3
   - KR_Oracle Corporation_OpenAI4
   - KR_Oracle Corporation_OpenAI5
-  - TW_Data Center Network Limited_OpenAI
   - US_Alice Networks LTD_OpenAI
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI
   - US_Cloudflare, Inc._OpenAI
   - US_DigitalOcean, LLC_OpenAI
+  - US_GTHost_OpenAI
   - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI13
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Performive LLC_OpenAI
+  - US_Oracle Corporation_OpenAI
   - US_Spartan Host Ltd_OpenAI
   - US_Virtual Machine Solutions LLC_OpenAI
   filter: (?i)OpenAI
