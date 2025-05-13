@@ -71,36 +71,405 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- alterId: 0
-  cipher: auto
-  name: US_Aiyun (HK) Network Technology Limited_OpenAI
-  network: ws
-  port: 443
-  server: gs03-1.guoshi1520.com
-  servername: gs03-1.guoshi1520.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 82ff6d30-2920-4ebd-b95c-b016ede1a841
-  ws-opts:
-    headers:
-      Host: gs03-1.guoshi1520.com
-    path: /82ff6d30
-- alterId: 0
-  cipher: auto
-  name: US_Oracle Corporation_OpenAI
+- client-fingerprint: chrome
+  name: 1|🇺🇸1 |  4.2MB/s|48%|Openai
+  password: dongtaiwang.com
+  port: 57773
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 1|🇺🇸90 |  4.7MB/s|61%|Openai|Gem...
+  password: nfsn666
+  port: 8888
+  server: sj-arm.nfsn666.gq
+  skip-cert-verify: true
+  sni: sj-arm.nfsn666.gq
+  type: hysteria2
+- name: DE_Hetzner Online GmbH_OpenAI1
   network: ws
   port: 80
-  server: 104.21.16.1
+  server: 135.84.65.11
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: DE_Hetzner Online GmbH_OpenAI2
+  network: ws
+  port: 80
+  server: 23.134.82.2
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: FI_Google LLC_OpenAI1
+  network: ws
+  port: 80
+  server: 147.78.140.85
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: FI_Google LLC_OpenAI2
+  network: ws
+  port: 80
+  server: 154.83.2.62
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: IN_Oracle Corporation_OpenAI
+  network: ws
+  port: 80
+  server: 45.159.217.86
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: NL_Oracle Corporation
+  network: ws
+  port: 80
+  server: 23.134.82.1
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @WangCai2
+- alpn:
+  - h3
+  name: US_AT&T Enterprises, LLC_OpenAI
+  password: ad77e45c-0485-4357-9d64-1593aabc2c19
+  port: 32321
+  server: 108.214.246.79
+  skip-cert-verify: true
+  type: hysteria2
+- name: US_Amazon.com, Inc._OpenAI
+  network: ws
+  port: 80
+  server: 34.160.118.77
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: US_GTHost
+  network: ws
+  port: 443
+  server: xc133.meiziba5566.com
+  servername: xc133.meiziba5566.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 268f7e36-625d-4fba-dc73-fb87cf90a104
+  ws-opts:
+    headers:
+      Host: xc133.meiziba5566.com
+    path: /268f7e36
+- alterId: 0
+  cipher: auto
+  name: US_GTHost_OpenAI
+  network: http
+  port: 47006
+  server: 141.11.122.27
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  uuid: 364a033d-99bf-4610-d552-8516e63aaac5
+- name: US_HostPapa1
+  network: ws
+  port: 2083
+  server: 104.19.60.193
+  servername: edccc.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      Host: us.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
+      Host: edccc.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_HostPapa2
+  network: ws
+  port: 8880
+  server: 104.17.148.22
+  type: vless
+  udp: true
+  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.zula.ir.cfw1.afhudvbhgfnet.ddns-ip.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560
+- name: US_HostPapa3
+  network: ws
+  port: 443
+  server: 185.188.147.79
+  servername: edccz.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_HostPapa4
+  network: ws
+  port: 443
+  server: 91.199.209.33
+  servername: edccz.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_HostPapa5
+  network: ws
+  port: 443
+  server: duke.ns.cloudflare.com
+  servername: edccz.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: US_HostPapa_OpenAI1
+  network: ws
+  port: 2096
+  server: 141.101.120.253
+  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+    path: /
+- name: US_HostPapa_OpenAI2
+  network: ws
+  port: 8443
+  server: 190.93.246.246
+  servername: bitget1.asdasd.click
+  tls: true
+  type: vless
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI3
+  network: ws
+  port: 8443
+  server: 27.50.49.234
+  servername: edccc.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccc.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_HostPapa_OpenAI4
+  network: ws
+  port: 443
+  server: ignacio.ns.cloudflare.com
+  servername: edccc.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccc.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_HostPapa_OpenAI5
+  network: ws
+  port: 443
+  server: sage.ns.cloudflare.com
+  servername: edccc.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccc.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_HostPapa_OpenAI6
+  network: ws
+  port: 443
+  server: pranab.ns.cloudflare.com
+  servername: edccc.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccc.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_HostPapa_OpenAI7
+  network: ws
+  port: 443
+  server: 27.50.49.208
+  servername: edccz.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_Madcityservers LLC_OpenAI1
+  network: ws
+  port: 443
+  server: 5.10.246.231
+  servername: mc2.mianfeicf.lol
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83e4c5c1-f8c8-470c-b02b-63c342a4e98e
+  ws-opts:
+    headers:
+      Host: mc2.mianfeicf.lol
+    path: /?ed=2560
+- name: US_Madcityservers LLC_OpenAI2
+  network: ws
+  port: 58017
+  server: 147.182.246.69
+  servername: madcity2.777999.lol
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0fc8452a-17f9-47de-95dd-65de502d39da
+  ws-opts:
+    headers:
+      Host: madcity2.777999.lol
+    path: /?ed=2560
+- name: US_Oracle Corporation1
+  network: ws
+  port: 443
+  server: 162.159.152.69
+  servername: 0229.patterdeng.pp.ua
+  tls: true
+  type: vless
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  ws-opts:
+    headers:
+      Host: 0229.patterdeng.pp.ua
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- name: US_Oracle Corporation2
+  network: ws
+  port: 443
+  server: 104.18.80.243
+  servername: 0229.patterdeng.pp.ua
+  tls: true
+  type: vless
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  ws-opts:
+    headers:
+      Host: 0229.patterdeng.pp.ua
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- down: ''
+  fingerprint: ''
+  name: US_Psychz Networks_OpenAI1
+  obfs: ''
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 208.87.242.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- name: US_Psychz Networks_OpenAI2
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 108.181.23.241
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Psychz Networks_OpenAI3
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 208.87.242.79
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Psychz Networks_OpenAI4
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 208.87.242.215
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 proxy-groups:
 - name: PROXY
   type: select
@@ -116,8 +485,38 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - US_Aiyun (HK) Network Technology Limited_OpenAI
-  - US_Oracle Corporation_OpenAI
+  - 1|🇺🇸1 |  4.2MB/s|48%|Openai
+  - 1|🇺🇸90 |  4.7MB/s|61%|Openai|Gem...
+  - DE_Hetzner Online GmbH_OpenAI1
+  - DE_Hetzner Online GmbH_OpenAI2
+  - FI_Google LLC_OpenAI1
+  - FI_Google LLC_OpenAI2
+  - IN_Oracle Corporation_OpenAI
+  - NL_Oracle Corporation
+  - US_AT&T Enterprises, LLC_OpenAI
+  - US_Amazon.com, Inc._OpenAI
+  - US_GTHost
+  - US_GTHost_OpenAI
+  - US_HostPapa1
+  - US_HostPapa2
+  - US_HostPapa3
+  - US_HostPapa4
+  - US_HostPapa5
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI3
+  - US_HostPapa_OpenAI4
+  - US_HostPapa_OpenAI5
+  - US_HostPapa_OpenAI6
+  - US_HostPapa_OpenAI7
+  - US_Madcityservers LLC_OpenAI1
+  - US_Madcityservers LLC_OpenAI2
+  - US_Oracle Corporation1
+  - US_Oracle Corporation2
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
+  - US_Psychz Networks_OpenAI3
+  - US_Psychz Networks_OpenAI4
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -134,7 +533,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_Aiyun (HK) Network Technology Limited_OpenAI
+  - DIRECT
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -166,8 +565,30 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_Aiyun (HK) Network Technology Limited_OpenAI
-  - US_Oracle Corporation_OpenAI
+  - US_AT&T Enterprises, LLC_OpenAI
+  - US_Amazon.com, Inc._OpenAI
+  - US_GTHost
+  - US_GTHost_OpenAI
+  - US_HostPapa1
+  - US_HostPapa2
+  - US_HostPapa3
+  - US_HostPapa4
+  - US_HostPapa5
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI3
+  - US_HostPapa_OpenAI4
+  - US_HostPapa_OpenAI5
+  - US_HostPapa_OpenAI6
+  - US_HostPapa_OpenAI7
+  - US_Madcityservers LLC_OpenAI1
+  - US_Madcityservers LLC_OpenAI2
+  - US_Oracle Corporation1
+  - US_Oracle Corporation2
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
+  - US_Psychz Networks_OpenAI3
+  - US_Psychz Networks_OpenAI4
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -175,8 +596,29 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - US_Aiyun (HK) Network Technology Limited_OpenAI
-  - US_Oracle Corporation_OpenAI
+  - 1|🇺🇸1 |  4.2MB/s|48%|Openai
+  - 1|🇺🇸90 |  4.7MB/s|61%|Openai|Gem...
+  - DE_Hetzner Online GmbH_OpenAI1
+  - DE_Hetzner Online GmbH_OpenAI2
+  - FI_Google LLC_OpenAI1
+  - FI_Google LLC_OpenAI2
+  - IN_Oracle Corporation_OpenAI
+  - US_AT&T Enterprises, LLC_OpenAI
+  - US_Amazon.com, Inc._OpenAI
+  - US_GTHost_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI3
+  - US_HostPapa_OpenAI4
+  - US_HostPapa_OpenAI5
+  - US_HostPapa_OpenAI6
+  - US_HostPapa_OpenAI7
+  - US_Madcityservers LLC_OpenAI1
+  - US_Madcityservers LLC_OpenAI2
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
+  - US_Psychz Networks_OpenAI3
+  - US_Psychz Networks_OpenAI4
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
