@@ -71,48 +71,108 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 172.82.67.155_OpenAI
+- name: 14|US_speednode_
   network: ws
-  port: 443
-  server: 172.67.220.93
-  servername: M6dFg.777219.XYZ
+  port: 58017
+  server: 147.182.246.69
+  servername: madcity2.777999.lol
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d889b4c8-dab9-4b0c-932b-e4071c727308
+  uuid: 0fc8452a-17f9-47de-95dd-65de502d39da
   ws-opts:
     headers:
-      Host: m6dfg.777219.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /s9mtnLBjERPwvxRA
-- name: 2|🇺🇸74 |  1.6MB/s|0%|Netflix|Dis...
+      Host: madcity2.777999.lol
+    path: /?ed=2560
+- name: DE_Hetzner Online GmbH_OpenAI
   network: ws
-  port: 443
-  server: 104.21.17.127
-  servername: trre.859885.xyz
-  tls: true
+  port: 80
+  server: 154.83.2.62
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 60af76a9-66c2-461e-8545-6fe0ac2822f8
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: trre.859885.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /6pC5ZWNjJLlDlbpi
+      Host: ipsycho.suex12.ir
+    path: /
+- name: US_Alice Networks LTD_OpenAI
+  network: ws
+  port: 443
+  server: cf.cishanjichang.me
+  servername: us.cishanjichang.me
+  tls: true
+  type: vless
+  uuid: 432e1e8b-18ce-488f-8203-2ba54b2fb61f
+  ws-opts:
+    headers:
+      Host: us.cishanjichang.me
+    path: /swordnewnewnew
+- name: US_Amazon.com, Inc.
+  network: ws
+  port: 80
+  server: 45.159.217.86
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: US_Amazon.com, Inc._OpenAI
+  network: ws
+  port: 80
+  server: 66.81.247.175
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- alterId: 0
+  cipher: auto
+  name: US_GTHost_OpenAI
+  network: http
+  port: 47006
+  server: 141.11.122.27
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 364a033d-99bf-4610-d552-8516e63aaac5
+- flow: xtls-rprx-vision
+  name: US_GWY IT PTY LTD_OpenAI
+  network: tcp
+  port: 23456
+  reality-opts:
+    public-key: 0vnAHSPtUnuCvacl4qFZyB_5pD1XNNWK2EHQKTOkFBM
+  server: 103.79.118.14
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  uuid: db0b4d73-fdc8-483e-942c-90be87589669
 - name: US_HostPapa_OpenAI1
   network: ws
-  port: 443
-  server: 172.67.152.170
-  servername: 8uio0.191288.xyz
-  tls: true
+  port: 8880
+  server: 104.17.148.22
   type: vless
   udp: true
-  uuid: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd
+  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
   ws-opts:
     headers:
-      Host: 8uio0.191288.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /4U4Is3KKzxRV9PS
+      Host: www.speedtest.net.zula.ir.cfw1.afhudvbhgfnet.ddns-ip.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560
 - name: US_HostPapa_OpenAI2
   network: ws
   port: 443
@@ -125,37 +185,35 @@ proxies:
   ws-opts:
     headers:
       Host: 6ercvbnm.131.pp.ua
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /0HKVAwzpuQtCNTI3SlZor0
 - name: US_HostPapa_OpenAI3
   network: ws
-  port: 443
-  server: 172.67.208.155
-  servername: 2werty.2030.pp.ua
+  port: 8443
+  server: 190.93.246.246
+  servername: bitget1.asdasd.click
   tls: true
   type: vless
-  udp: true
-  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: 2werty.2030.pp.ua
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ok1UBnf7txQ8YJFJxz
-- name: US_HostPapa_OpenAI4
+      Host: bitget1.asdasd.click
+    path: /?ed=2560
+- name: US_Madcityservers LLC_OpenAI
   network: ws
   port: 443
-  server: 104.21.82.39
-  servername: 8uyt.191288.xyz
+  server: 5.10.246.231
+  servername: mc2.mianfeicf.lol
   tls: true
   type: vless
   udp: true
-  uuid: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd
+  uuid: 83e4c5c1-f8c8-470c-b02b-63c342a4e98e
   ws-opts:
     headers:
-      Host: 8uyt.191288.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /4U4Is3KKzxRV9PS
-- name: US_Massivegrid LTD_OpenAI1
+      Host: mc2.mianfeicf.lol
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /?ed=2560fp=chrome
+- name: US_Massivegrid LTD_OpenAI
   network: ws
   port: 443
   server: 172.67.133.248
@@ -167,113 +225,64 @@ proxies:
   ws-opts:
     headers:
       Host: ddd.890604.filegear-sg.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /AMpQdWyvpaPkb7QHHkQBzYO
-- name: US_Massivegrid LTD_OpenAI2
-  network: ws
-  port: 443
-  server: 172.67.170.147
-  servername: m5rtghj.999854.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4069c35c-54ea-48ee-9ffa-05d9a0302043
-  ws-opts:
-    headers:
-      Host: m5rtghj.999854.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /GsJV4ORk0e0CScyGqcQZW
-- name: US_Massivegrid LTD_OpenAI3
-  network: ws
-  port: 443
-  server: 104.21.63.226
-  servername: SdERt.457.pp.UA
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
-  ws-opts:
-    headers:
-      Host: sdert.457.pp.ua
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /AMpQdWyvpaPkb7QHHkQBzYO
-- name: US_Massivegrid LTD_OpenAI4
-  network: ws
-  port: 443
-  server: 104.21.82.14
-  servername: M3SDf.777259.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e74d7639-3755-4624-b770-efa6e7ec09a8
-  ws-opts:
-    headers:
-      Host: m3sdf.777259.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /Bt93qlsreYHzV5Ii9WW
-- name: US_Massivegrid LTD_OpenAI5
-  network: ws
-  port: 443
-  server: 104.21.26.17
-  servername: 1.459.PP.uA
-  tls: true
-  type: vless
-  udp: true
-  uuid: 44ed7a37-af89-4cd1-8680-83a7207810d9
-  ws-opts:
-    headers:
-      Host: 1.459.pp.ua
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /en98IVNnhxyMtdfYnjLYhU30U
-- name: US_OVH US LLC_OpenAI1
+- name: US_OVH US LLC_OpenAI
   network: tcp
   port: 443
-  server: 135.148.177.196
+  server: 15.204.145.23
   servername: 147135001178.sec22org.com
   tls: true
   type: vless
   udp: true
   uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-- name: US_OVH US LLC_OpenAI2
-  network: tcp
-  port: 443
-  server: 135.148.142.30
-  servername: 147135010072.sec21org.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
-- name: US_OVH US LLC_OpenAI3
-  network: tcp
-  port: 443
-  server: 47.251.95.178
-  servername: 147135001195.sec22org.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- alterId: 0
-  cipher: auto
-  name: US_Oracle Corporation_OpenAI1
+- name: US_Oracle Corporation_OpenAI1
   network: ws
-  port: 80
-  server: 104.21.16.1
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  port: 443
+  server: 162.159.152.69
+  servername: 0229.patterdeng.pp.ua
+  tls: true
+  type: vless
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
   ws-opts:
     headers:
-      Host: us.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
+      Host: 0229.patterdeng.pp.ua
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
 - name: US_Oracle Corporation_OpenAI2
-  password: nfsn666
-  port: 8888
-  server: sj-arm.nfsn666.gq
+  network: ws
+  port: 443
+  server: 162.159.153.42
+  servername: 0229.patterdeng.pp.ua
+  tls: true
+  type: vless
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  ws-opts:
+    headers:
+      Host: 0229.patterdeng.pp.ua
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- name: US_Oracle Corporation_OpenAI3
+  network: ws
+  port: 443
+  server: 104.18.83.92
+  servername: 0229.patterdeng.pp.ua
+  tls: true
+  type: vless
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  ws-opts:
+    headers:
+      Host: 0229.patterdeng.pp.ua
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- down: ''
+  fingerprint: ''
+  name: US_Psychz Networks_OpenAI
+  obfs: ''
+  password: dongtaiwang.com
+  port: 57773
+  server: 108.181.5.130
   skip-cert-verify: true
-  sni: sj-arm.nfsn666.gq
+  sni: apple.com
   type: hysteria2
+  up: ''
 proxy-groups:
 - name: PROXY
   type: select
@@ -289,22 +298,23 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 172.82.67.155_OpenAI
-  - 2|🇺🇸74 |  1.6MB/s|0%|Netflix|Dis...
+  - 14|US_speednode_
+  - DE_Hetzner Online GmbH_OpenAI
+  - US_Alice Networks LTD_OpenAI
+  - US_Amazon.com, Inc.
+  - US_Amazon.com, Inc._OpenAI
+  - US_GTHost_OpenAI
+  - US_GWY IT PTY LTD_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_Massivegrid LTD_OpenAI1
-  - US_Massivegrid LTD_OpenAI2
-  - US_Massivegrid LTD_OpenAI3
-  - US_Massivegrid LTD_OpenAI4
-  - US_Massivegrid LTD_OpenAI5
-  - US_OVH US LLC_OpenAI1
-  - US_OVH US LLC_OpenAI2
-  - US_OVH US LLC_OpenAI3
+  - US_Madcityservers LLC_OpenAI
+  - US_Massivegrid LTD_OpenAI
+  - US_OVH US LLC_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
+  - US_Oracle Corporation_OpenAI3
+  - US_Psychz Networks_OpenAI
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -353,20 +363,22 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
+  - 14|US_speednode_
+  - US_Alice Networks LTD_OpenAI
+  - US_Amazon.com, Inc.
+  - US_Amazon.com, Inc._OpenAI
+  - US_GTHost_OpenAI
+  - US_GWY IT PTY LTD_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_Massivegrid LTD_OpenAI1
-  - US_Massivegrid LTD_OpenAI2
-  - US_Massivegrid LTD_OpenAI3
-  - US_Massivegrid LTD_OpenAI4
-  - US_Massivegrid LTD_OpenAI5
-  - US_OVH US LLC_OpenAI1
-  - US_OVH US LLC_OpenAI2
-  - US_OVH US LLC_OpenAI3
+  - US_Madcityservers LLC_OpenAI
+  - US_Massivegrid LTD_OpenAI
+  - US_OVH US LLC_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
+  - US_Oracle Corporation_OpenAI3
+  - US_Psychz Networks_OpenAI
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -374,21 +386,21 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 172.82.67.155_OpenAI
+  - DE_Hetzner Online GmbH_OpenAI
+  - US_Alice Networks LTD_OpenAI
+  - US_Amazon.com, Inc._OpenAI
+  - US_GTHost_OpenAI
+  - US_GWY IT PTY LTD_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_Massivegrid LTD_OpenAI1
-  - US_Massivegrid LTD_OpenAI2
-  - US_Massivegrid LTD_OpenAI3
-  - US_Massivegrid LTD_OpenAI4
-  - US_Massivegrid LTD_OpenAI5
-  - US_OVH US LLC_OpenAI1
-  - US_OVH US LLC_OpenAI2
-  - US_OVH US LLC_OpenAI3
+  - US_Madcityservers LLC_OpenAI
+  - US_Massivegrid LTD_OpenAI
+  - US_OVH US LLC_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
+  - US_Oracle Corporation_OpenAI3
+  - US_Psychz Networks_OpenAI
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
