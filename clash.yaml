@@ -71,96 +71,10 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 172.82.67.155_OpenAI
-  network: ws
-  port: 443
-  server: 172.67.220.93
-  servername: M6dFg.777219.XYZ
-  tls: true
-  type: vless
-  udp: true
-  uuid: d889b4c8-dab9-4b0c-932b-e4071c727308
-  ws-opts:
-    headers:
-      Host: m6dfg.777219.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /s9mtnLBjERPwvxRA
-- name: 3|🇺🇸66 |  5.3MB/s|55%|Openai
-  network: tcp
-  port: 443
-  server: 135.148.142.30
-  servername: 147135010072.sec21org.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
-- name: 3|🇺🇸71 |  1.4MB/s|0%|Netflix|Dis...
+- name: 3|🇺🇸96 |  1.8MB/s|0%|Netflix|Ope...
   network: ws
   port: 2083
-  server: 104.18.3.26
-  servername: ex.sue.x10.mx
-  tls: true
-  type: vless
-  udp: true
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: US_Aiyun (HK) Network_OpenAI
-  network: ws
-  port: 443
-  server: ljm005-2.facai202408.com
-  servername: ljm005-2.facai202408.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: b95bf0d8-c748-40b8-e243-6479d879c3d5
-  ws-opts:
-    headers:
-      Host: ljm005-2.facai202408.com
-    path: /b95bf0d8-
-- name: US_DigitalOcean, LLC_OpenAI
-  password: xxoo
-  port: 443
-  server: us.blazeppn.info
-  skip-cert-verify: false
-  sni: us.blazeppn.info
-  type: trojan
-- name: US_HostPapa
-  network: ws
-  port: 443
-  server: 104.21.42.250
-  servername: 5c.191268.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: fefba36d-5142-42f1-b14d-db5249511d93
-  ws-opts:
-    headers:
-      Host: 5c.191268.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /dRTvoZIiPpwkqKrjE
-- name: US_HostPapa_OpenAI1
-  network: ws
-  port: 443
-  server: 9e.iran.pp.ua
-  servername: 9e.iran.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
-  ws-opts:
-    headers:
-      Host: 9e.iran.pp.ua
-    path: /K8X1ocJD1r0dTd5pVam9w
-- name: US_HostPapa_OpenAI2
-  network: ws
-  port: 8443
-  server: myanmar.visa.com
+  server: www.visaeurope.ch
   servername: ex.sue.x10.mx
   skip-cert-verify: true
   tls: true
@@ -171,107 +85,9 @@ proxies:
     headers:
       Host: ex.sue.x10.mx
     path: /?ed=2560
-- name: US_HostPapa_OpenAI3
-  network: ws
-  port: 443
-  server: 172.64.80.228
-  servername: bantony199.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 422f7f8a-2f97-444f-8ec1-2505c9b8482b
-  ws-opts:
-    headers:
-      Host: bantony199.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: ''
-- name: US_HostPapa_OpenAI4
-  network: ws
-  port: 443
-  server: 172.67.163.14
-  servername: 1QQsSS.2031.PP.UA
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    headers:
-      Host: 1qqsss.2031.pp.ua
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /XcQF058rNJ3gc4aj
-- name: US_HostPapa_OpenAI5
-  network: ws
-  port: 443
-  server: 104.21.25.95
-  servername: CcP.890604.FIleGear-sg.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43324bdf-a0e8-4f6f-8bdc-5482db82fd0f
-  ws-opts:
-    headers:
-      Host: ccp.890604.filegear-sg.me
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
-    path: /h1iXYtqUZkDQMvgKagyIefJfM0OQ
-- name: US_HostPapa_OpenAI6
-  network: ws
-  port: 443
-  server: 172.67.205.22
-  servername: 1SsdDdfFffHhHJjJJ.20220420.PP.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    headers:
-      Host: 1ssdddffffhhhjjjj.20220420.pp.ua
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /XcQF058rNJ3gc4aj
-- name: US_HostPapa_OpenAI7
-  network: ws
-  port: 443
-  server: 172.67.212.59
-  servername: bBA.890601.pP.UA
-  tls: true
-  type: vless
-  udp: true
-  uuid: 585acd30-52bf-4b70-a537-e13649fafefc
-  ws-opts:
-    headers:
-      Host: bba.890601.pp.ua
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /rU9rSjDSOd4yY2fOe
-- name: US_HostPapa_OpenAI8
-  network: ws
-  port: 443
-  server: 172.67.149.43
-  servername: 7d33510a-5dA0-4F85-b1d5-5321a9eaA72a.890603.pP.uA
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    headers:
-      Host: 7d33510a-5da0-4f85-b1d5-5321a9eaa72a.890603.pp.ua
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /XcQF058rNJ3gc4aj
-- name: US_HostPapa_OpenAI9
-  network: ws
-  port: 443
-  server: 104.21.38.48
-  servername: 4rRrRRRrRrRRrrTTtTtttTyyYYyYyyyiIIiIIIiooOOOoooooOoo.HUAngdi2031.dPDns.ORG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a23af3f-3f9b-4333-ae89-796f7fe2f9ce
-  ws-opts:
-    headers:
-      Host: 4rrrrrrrrrrrrrttttttttyyyyyyyyyiiiiiiiiooooooooooooo.huangdi2031.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /25Rajr8UdFGa29fCwxS
 - alterId: 0
   cipher: auto
-  name: US_Oracle Corporation
+  name: US_Oracle Corporation_OpenAI1
   network: ws
   port: 80
   server: 104.21.16.1
@@ -284,12 +100,40 @@ proxies:
     headers:
       Host: us.freeyyds.dpdns.org
     path: /rongseven?ed=2048
-- name: US_Oracle Corporation_OpenAI
+- name: US_Oracle Corporation_OpenAI2
   password: nfsn666
   port: 8888
   server: sj-arm.nfsn666.gq
   skip-cert-verify: true
   sni: sj-arm.nfsn666.gq
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech1
+  password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  port: 8443
+  server: 9b5ecf0b-svwf40-sx4b2t-tng5.hy2.gotochinatown.net
+  sni: 9b5ecf0b-svwf40-sx4b2t-tng5.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech2
+  password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d
+  port: 8443
+  server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net
+  sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech3
+  password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  port: 8443
+  server: a37cd1ef-sw5og0-sx4b2t-tng5.hy2.gotochinatown.net
+  sni: a37cd1ef-sw5og0-sx4b2t-tng5.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech4
+  password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+  port: 8443
+  server: fe934234-sw7j40-syfwbx-1k0yf.hy2.gotochinatown.net
+  sni: fe934234-sw7j40-syfwbx-1k0yf.hy2.gotochinatown.net
   type: hysteria2
 proxy-groups:
 - name: PROXY
@@ -306,23 +150,13 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 172.82.67.155_OpenAI
-  - 3|🇺🇸66 |  5.3MB/s|55%|Openai
-  - 3|🇺🇸71 |  1.4MB/s|0%|Netflix|Dis...
-  - US_Aiyun (HK) Network_OpenAI
-  - US_DigitalOcean, LLC_OpenAI
-  - US_HostPapa
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
-  - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Oracle Corporation
-  - US_Oracle Corporation_OpenAI
+  - 3|🇺🇸96 |  1.8MB/s|0%|Netflix|Ope...
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
+  - US_Sharktech1
+  - US_Sharktech2
+  - US_Sharktech3
+  - US_Sharktech4
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -339,7 +173,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_Aiyun (HK) Network_OpenAI
+  - DIRECT
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -371,20 +205,12 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_Aiyun (HK) Network_OpenAI
-  - US_DigitalOcean, LLC_OpenAI
-  - US_HostPapa
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
-  - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Oracle Corporation
-  - US_Oracle Corporation_OpenAI
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
+  - US_Sharktech1
+  - US_Sharktech2
+  - US_Sharktech3
+  - US_Sharktech4
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -392,20 +218,8 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 172.82.67.155_OpenAI
-  - 3|🇺🇸66 |  5.3MB/s|55%|Openai
-  - US_Aiyun (HK) Network_OpenAI
-  - US_DigitalOcean, LLC_OpenAI
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
-  - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Oracle Corporation_OpenAI
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
