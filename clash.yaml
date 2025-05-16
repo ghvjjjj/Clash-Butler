@@ -71,22 +71,8 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 15|US_speednode_1
-  network: ws
-  port: 443
-  server: 216.24.57.202
-  servername: 0229.patterdeng.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  ws-opts:
-    headers:
-      Host: 0229.patterdeng.pp.ua
-    path: /?ed=2560
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_2
+  name: 15|US_speednode_1
   port: 443
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
@@ -98,378 +84,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- name: 15|US_speednode_3
-  network: ws
-  port: 2087
-  server: 104.16.117.93
-  servername: 1.659118019.uk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3c62dea-ac54-4163-ab3f-20d6ef9f8420
-  ws-opts:
-    headers:
-      Host: 1.659118019.uk
-    path: /?ed=2560
-- name: 15|US_speednode_4
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 160.79.105.81
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-- name: 15|US_speednode_5
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 192.0.54.184
-  skip-cert-verify: false
-  sni: icecream.955850.xyz
-  type: trojan
-- name: 15|US_speednode_6
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 162.159.153.217
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-- flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.91.101.219
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI2
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.85.48.110
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI3
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.85.88.16
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.80.244.42
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- cipher: aes-256-cfb
-  name: US_Amazon.com, Inc._OpenAI1
-  password: awsps0501
-  port: 443
-  server: 35.90.251.87
-  type: ss
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI10
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 34.228.235.1
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI11
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.82.63.134
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI12
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.84.94.99
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI13
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 98.83.151.140
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI14
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.224.39.46
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI15
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.172.125.22
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI16
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 34.235.168.93
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI17
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.80.121.136
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 18.212.150.211
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 34.207.200.181
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI4
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.93.7.145
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI5
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.196.91.196
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI6
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.89.181.48
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI7
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 52.90.208.244
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI8
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.167.227.42
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI9
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 18.232.100.196
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com_OpenAI
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 100.24.49.8
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- client-fingerprint: chrome
-  name: US_Cloudflare, Inc._OpenAI
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.207.162
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: US_HostPapa_OpenAI1
-  network: ws
-  port: 443
-  server: 190.93.247.172
-  servername: what.zhonghuoxing.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055d270-0e76-4a41-a53f-871bbb51b003
-  ws-opts:
-    headers:
-      Host: what.zhonghuoxing.top
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI2
-  network: ws
-  port: 2083
-  server: 104.18.2.26
-  servername: ex.sue.x10.mx
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI3
-  network: ws
-  port: 2083
-  server: 104.16.138.167
-  servername: 1.659118019.uk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3c62dea-ac54-4163-ab3f-20d6ef9f8420
-  ws-opts:
-    headers:
-      Host: 1.659118019.uk
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI4
+- name: 15|US_speednode_2
   network: ws
   port: 2096
   server: 104.24.137.227
@@ -483,7 +98,295 @@ proxies:
     headers:
       Host: 4534295.dpdns.org
     path: /?ed=2560
-- name: US_HostPapa_OpenAI5
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_3
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 54.167.227.42
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- name: 15|US_speednode_4
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 162.159.152.205
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+- name: 15|US_speednode_5
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 160.79.105.81
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+- name: 15|US_speednode_6
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 192.0.54.194
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+- name: 3,15|FR_speednode_
+  network: ws
+  port: 443
+  server: 185.16.110.70
+  servername: 0229.patterdeng.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  ws-opts:
+    headers:
+      Host: 0229.patterdeng.pp.ua
+    path: /?ed=2560
+- flow: xtls-rprx-vision
+  name: US_Amazon Technologies Inc._OpenAI1
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 3.85.88.16
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon Technologies Inc._OpenAI2
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 3.89.181.48
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon Technologies Inc._OpenAI3
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 3.93.7.145
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon Technologies Inc._OpenAI4
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 3.91.101.219
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon Technologies Inc._OpenAI5
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 3.85.48.110
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI1
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 54.196.91.196
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI2
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 18.212.150.211
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI3
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 54.84.94.99
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI4
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 52.90.208.244
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI5
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 34.228.235.1
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI6
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 3.82.63.134
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI7
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 34.207.200.181
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI8
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 18.232.100.196
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com_OpenAI
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 100.24.49.8
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_BellSouth.net Inc._OpenAI
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 98.83.151.140
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- name: US_HostPapa
+  network: ws
+  port: 2087
+  server: 27.50.48.18
+  servername: edccx.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccx.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI1
+  network: ws
+  port: 2083
+  server: 104.18.2.26
+  servername: ex.sue.x10.mx
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI2
+  network: ws
+  port: 2083
+  server: 104.16.138.167
+  servername: 1.659118019.uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3c62dea-ac54-4163-ab3f-20d6ef9f8420
+  ws-opts:
+    headers:
+      Host: 1.659118019.uk
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI3
   network: ws
   port: 443
   server: 104.16.239.207
@@ -497,47 +400,21 @@ proxies:
     headers:
       Host: cf.zhaoyin.wang
     path: /?ed=2560
-- name: US_Netjett LTD_OpenAI
+- name: US_Oracle Corporation1
   network: ws
   port: 443
-  server: wow.quicky.dpdns.org
-  servername: us.quicky.dpdns.org
+  server: 160.79.104.113
+  servername: 0229.patterdeng.pp.ua
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 64aced52-7611-42e5-8725-c6bb47f38555
-  ws-opts:
-    headers:
-      Host: us.quicky.dpdns.org
-    path: /fastus
-- name: US_Oracle Corporation
-  network: ws
-  port: 8880
-  server: 156.238.18.45
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
   ws-opts:
     headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI1
-  network: ws
-  port: 8880
-  server: 104.129.166.20
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI2
+      Host: 0229.patterdeng.pp.ua
+    path: /?ed=2560
+- name: US_Oracle Corporation2
   network: ws
   port: 80
   server: 141.193.213.135
@@ -551,28 +428,34 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare+@WangCai2+/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: US_Oracle Corporation_OpenAI3
+- name: US_Oracle Corporation3
   network: ws
-  port: 80
-  server: 104.21.16.1
-  skip-cert-verify: true
+  port: 8880
+  server: 91.193.58.58
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: us.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
-- name: US_Oracle Corporation_OpenAI4
-  password: nfsn666
-  port: 8888
-  server: sj-arm.nfsn666.gq
-  skip-cert-verify: true
-  sni: sj-arm.nfsn666.gq
-  type: hysteria2
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: US_Oracle Corporation_OpenAI
+  network: ws
+  port: 8880
+  server: 156.238.18.45
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 proxy-groups:
 - name: PROXY
   type: select
@@ -594,19 +477,13 @@ proxy-groups:
   - 15|US_speednode_4
   - 15|US_speednode_5
   - 15|US_speednode_6
+  - 3,15|FR_speednode_
   - US_Amazon Technologies Inc._OpenAI1
   - US_Amazon Technologies Inc._OpenAI2
   - US_Amazon Technologies Inc._OpenAI3
   - US_Amazon Technologies Inc._OpenAI4
+  - US_Amazon Technologies Inc._OpenAI5
   - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI10
-  - US_Amazon.com, Inc._OpenAI11
-  - US_Amazon.com, Inc._OpenAI12
-  - US_Amazon.com, Inc._OpenAI13
-  - US_Amazon.com, Inc._OpenAI14
-  - US_Amazon.com, Inc._OpenAI15
-  - US_Amazon.com, Inc._OpenAI16
-  - US_Amazon.com, Inc._OpenAI17
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
   - US_Amazon.com, Inc._OpenAI4
@@ -614,20 +491,16 @@ proxy-groups:
   - US_Amazon.com, Inc._OpenAI6
   - US_Amazon.com, Inc._OpenAI7
   - US_Amazon.com, Inc._OpenAI8
-  - US_Amazon.com, Inc._OpenAI9
   - US_Amazon.com_OpenAI
-  - US_Cloudflare, Inc._OpenAI
+  - US_BellSouth.net Inc._OpenAI
+  - US_HostPapa
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_Netjett LTD_OpenAI
-  - US_Oracle Corporation
-  - US_Oracle Corporation_OpenAI1
-  - US_Oracle Corporation_OpenAI2
-  - US_Oracle Corporation_OpenAI3
-  - US_Oracle Corporation_OpenAI4
+  - US_Oracle Corporation1
+  - US_Oracle Corporation2
+  - US_Oracle Corporation3
+  - US_Oracle Corporation_OpenAI
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -686,15 +559,8 @@ proxy-groups:
   - US_Amazon Technologies Inc._OpenAI2
   - US_Amazon Technologies Inc._OpenAI3
   - US_Amazon Technologies Inc._OpenAI4
+  - US_Amazon Technologies Inc._OpenAI5
   - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI10
-  - US_Amazon.com, Inc._OpenAI11
-  - US_Amazon.com, Inc._OpenAI12
-  - US_Amazon.com, Inc._OpenAI13
-  - US_Amazon.com, Inc._OpenAI14
-  - US_Amazon.com, Inc._OpenAI15
-  - US_Amazon.com, Inc._OpenAI16
-  - US_Amazon.com, Inc._OpenAI17
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
   - US_Amazon.com, Inc._OpenAI4
@@ -702,20 +568,16 @@ proxy-groups:
   - US_Amazon.com, Inc._OpenAI6
   - US_Amazon.com, Inc._OpenAI7
   - US_Amazon.com, Inc._OpenAI8
-  - US_Amazon.com, Inc._OpenAI9
   - US_Amazon.com_OpenAI
-  - US_Cloudflare, Inc._OpenAI
+  - US_BellSouth.net Inc._OpenAI
+  - US_HostPapa
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_Netjett LTD_OpenAI
-  - US_Oracle Corporation
-  - US_Oracle Corporation_OpenAI1
-  - US_Oracle Corporation_OpenAI2
-  - US_Oracle Corporation_OpenAI3
-  - US_Oracle Corporation_OpenAI4
+  - US_Oracle Corporation1
+  - US_Oracle Corporation2
+  - US_Oracle Corporation3
+  - US_Oracle Corporation_OpenAI
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -727,15 +589,8 @@ proxy-groups:
   - US_Amazon Technologies Inc._OpenAI2
   - US_Amazon Technologies Inc._OpenAI3
   - US_Amazon Technologies Inc._OpenAI4
+  - US_Amazon Technologies Inc._OpenAI5
   - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI10
-  - US_Amazon.com, Inc._OpenAI11
-  - US_Amazon.com, Inc._OpenAI12
-  - US_Amazon.com, Inc._OpenAI13
-  - US_Amazon.com, Inc._OpenAI14
-  - US_Amazon.com, Inc._OpenAI15
-  - US_Amazon.com, Inc._OpenAI16
-  - US_Amazon.com, Inc._OpenAI17
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
   - US_Amazon.com, Inc._OpenAI4
@@ -743,19 +598,12 @@ proxy-groups:
   - US_Amazon.com, Inc._OpenAI6
   - US_Amazon.com, Inc._OpenAI7
   - US_Amazon.com, Inc._OpenAI8
-  - US_Amazon.com, Inc._OpenAI9
   - US_Amazon.com_OpenAI
-  - US_Cloudflare, Inc._OpenAI
+  - US_BellSouth.net Inc._OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_Netjett LTD_OpenAI
-  - US_Oracle Corporation_OpenAI1
-  - US_Oracle Corporation_OpenAI2
-  - US_Oracle Corporation_OpenAI3
-  - US_Oracle Corporation_OpenAI4
+  - US_Oracle Corporation_OpenAI
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
