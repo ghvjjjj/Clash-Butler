@@ -75,137 +75,19 @@ proxies:
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 192.0.54.184
-  skip-cert-verify: false
+  server: 162.159.153.216
+  skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
 - name: 15|US_speednode_2
   network: ws
-  port: 2083
-  server: 172.66.40.87
-  servername: e.exedu.ip-ddns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f320d6a-9953-4065-b61c-d62f89a6767f
-  ws-opts:
-    headers:
-      Host: e.exedu.ip-ddns.com
-    path: /?ed=2048
-- name: 15|US_speednode_3
-  network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 160.79.105.81
-  skip-cert-verify: true
+  server: 192.0.54.184
+  skip-cert-verify: false
   sni: icecream.955850.xyz
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: '2,11|عضو+کانال+بشید+👈+VPNTV20@ #'
-  obfs: ''
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 108.181.23.255
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.87.33.126
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 34.204.99.136
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.84.217.14
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.198.216.168
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.80.218.124
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- client-fingerprint: chrome
-  name: US_Cloudflare, Inc._OpenAI
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.207.162
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: US_Cogent Communications_OpenAI1
-  password: QJbkBM3YrD
-  port: 54535
-  server: 38.244.10.137
-  type: ss
-- name: US_Cogent Communications_OpenAI2
-  network: ws
-  port: 443
-  server: 104.18.20.69
-  servername: bp.singbox.ggff.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 222a1c34-96f5-45fd-bedd-b9ac4b477b98
-  ws-opts:
-    headers:
-      Host: bp.singbox.ggff.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
-    path: /r6PSatuYdS9gZH6L/c2pjLm8wMG8ub29v
-- name: US_HostPapa_OpenAI1
+- name: 15|US_speednode_3
   network: ws
   port: 443
   server: 104.16.65.128
@@ -218,6 +100,117 @@ proxies:
   ws-opts:
     headers:
       Host: cf.zhaoyin.wang
+    path: /?ed=2560
+- name: 15|US_speednode_4
+  password: '!!str 74260665780162200'
+  port: 443
+  server: possible-tiger.shiner427.skin
+  skip-cert-verify: false
+  sni: possible-tiger.shiner427.skin
+  type: trojan
+- down: ''
+  fingerprint: ''
+  name: '2,11|عضو+کانال+بشید+👈+VPNTV20@ #'
+  obfs: ''
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.207.162
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 54.80.218.124
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 18.212.150.211
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com, Inc._OpenAI3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 34.235.168.93
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- flow: xtls-rprx-vision
+  name: US_Amazon.com_OpenAI
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 50.19.181.59
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- cipher: aes-256-gcm
+  name: US_Cogent Communications_OpenAI
+  password: QJbkBM3YrD
+  port: 54535
+  server: 38.244.10.137
+  type: ss
+- name: US_ColoCrossing_OpenAI
+  network: ws
+  port: 443
+  server: 172.67.133.248
+  servername: CCAv.890604.FILEgEaR-sG.Me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43324bdf-a0e8-4f6f-8bdc-5482db82fd0f
+  ws-opts:
+    headers:
+      Host: ccav.890604.filegear-sg.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /h1iXYtqUZkDQMvgKagyIefJfM0OQ
+- name: US_DigitalOcean, LLC_OpenAI
+  password: xxoo
+  port: 443
+  server: us.blazeppn.info
+  skip-cert-verify: false
+  sni: us.blazeppn.info
+  type: trojan
+- name: US_HostPapa_OpenAI1
+  network: ws
+  port: 2083
+  server: 104.18.2.26
+  servername: ex.sue.x10.mx
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
     path: /?ed=2560
 - name: US_HostPapa_OpenAI2
   network: ws
@@ -233,43 +226,116 @@ proxies:
     headers:
       Host: ex.sue.x10.mx
     path: /
-- name: US_HostPapa_OpenAI3
-  network: ws
-  port: 2083
-  server: 104.18.2.26
-  servername: ex.sue.x10.mx
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI4
+- alterId: 0
+  cipher: auto
+  name: US_HostPapa_OpenAI3
   network: ws
   port: 2096
-  server: 104.24.21.212
-  servername: vless.vvzxyvv.sbs
+  server: 141.101.120.253
+  skip-cert-verify: false
   tls: true
-  type: vless
-  udp: true
-  uuid: 9c7e9c02-d37a-4f3c-b860-6460a6ff473b
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
   ws-opts:
     headers:
-      Host: vless.vvzxyvv.sbs
-    path: /?ed=2560
-- name: US_OVH US LLC_OpenAI1
-  network: tcp
-  port: 443
-  server: 135.148.142.30
-  servername: 147135010072.sec21org.com
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+    path: /
+- name: US_HostPapa_OpenAI4
+  network: ws
+  port: 2087
+  server: 104.16.117.93
+  servername: 1.659118019.uk
   tls: true
   type: vless
   udp: true
-  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
-- name: US_OVH US LLC_OpenAI2
+  uuid: d3c62dea-ac54-4163-ab3f-20d6ef9f8420
+  ws-opts:
+    headers:
+      Host: 1.659118019.uk
+    path: /?ed=2560
+- name: US_HostPapa_OpenAI5
+  network: ws
+  port: 443
+  server: 172.67.175.139
+  servername: S859886xYZXs.859886.xYz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a23af3f-3f9b-4333-ae89-796f7fe2f9ce
+  ws-opts:
+    headers:
+      Host: s859886xyzxs.859886.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /25Rajr8UdFGa29fCwxS
+- name: US_HostPapa_OpenAI6
+  network: ws
+  port: 443
+  server: 104.21.25.95
+  servername: ws345.890604.fIlEGeAR-Sg.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43324bdf-a0e8-4f6f-8bdc-5482db82fd0f
+  ws-opts:
+    headers:
+      Host: ws345.890604.filegear-sg.me
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /h1iXYtqUZkDQMvgKagyIefJfM0OQ
+- name: US_Massivegrid LTD_OpenAI1
+  network: ws
+  port: 443
+  server: 104.21.25.95
+  servername: ddD.890604.FiLegeAr-sg.Me
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
+  ws-opts:
+    headers:
+      Host: ddd.890604.filegear-sg.me
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /AMpQdWyvpaPkb7QHHkQBzYO
+- name: US_Massivegrid LTD_OpenAI2
+  network: ws
+  port: 443
+  server: 172.67.153.179
+  servername: 5eR.WWW890604.dPDNS.OrG
+  tls: true
+  type: vless
+  udp: true
+  uuid: 895552fa-6284-4c1d-ba00-3944e0c7c626
+  ws-opts:
+    headers:
+      Host: 5er.www890604.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /C1SukvGdr58yeduy9AOG
+- name: US_Massivegrid LTD_OpenAI3
+  network: ws
+  port: 443
+  server: 104.21.88.226
+  servername: 5eR.WWW890604.dPDNS.OrG
+  tls: true
+  type: vless
+  udp: true
+  uuid: 895552fa-6284-4c1d-ba00-3944e0c7c626
+  ws-opts:
+    headers:
+      Host: 5er.www890604.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /C1SukvGdr58yeduy9AOG
+- name: US_Netjett LTD_OpenAI
+  network: ws
+  port: 443
+  server: wow.quicky.dpdns.org
+  servername: us.quicky.dpdns.org
+  tls: true
+  type: vless
+  uuid: 64aced52-7611-42e5-8725-c6bb47f38555
+  ws-opts:
+    headers:
+      Host: us.quicky.dpdns.org
+    path: /fastus
+- name: US_OVH SAS_OpenAI
   network: tcp
   port: 443
   server: 51.81.18.62
@@ -279,48 +345,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-- name: US_Oracle Corporation1
-  network: ws
-  port: 443
-  server: 160.79.104.113
-  servername: 0229.patterdeng.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  ws-opts:
-    headers:
-      Host: 0229.patterdeng.pp.ua
-    path: /?ed=2560
-- name: US_Oracle Corporation2
-  network: ws
-  port: 443
-  server: 212.183.88.51
-  servername: 0229.patterdeng.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  ws-opts:
-    headers:
-      Host: 0229.patterdeng.pp.ua
-    path: /?ed=2560security=tls
-- name: US_Oracle Corporation3
-  network: ws
-  port: 443
-  server: 185.16.110.70
-  servername: 0229.patterdeng.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  ws-opts:
-    headers:
-      Host: 0229.patterdeng.pp.ua
-    path: /?ed=2560security=tls
 - name: US_Oracle Corporation_OpenAI1
   network: ws
   port: 443
@@ -336,47 +360,57 @@ proxies:
       Host: 0229.patterdeng.pp.ua
     path: /proxyip=ProxyIP.Oracle.cmliussss.net
 - name: US_Oracle Corporation_OpenAI2
+  network: ws
+  port: 443
+  server: 104.18.80.243
+  servername: 0229.patterdeng.pp.ua
+  tls: true
+  type: vless
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  ws-opts:
+    headers:
+      Host: 0229.patterdeng.pp.ua
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- alterId: 0
+  cipher: auto
+  name: US_Oracle Corporation_OpenAI3
+  network: ws
+  port: 80
+  server: 104.21.16.1
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: us.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
+- name: US_Oracle Corporation_OpenAI4
   password: nfsn666
   port: 8888
   server: sj-arm.nfsn666.gq
   skip-cert-verify: true
   sni: sj-arm.nfsn666.gq
   type: hysteria2
-- client-fingerprint: chrome
-  name: US_Psychz Networks_OpenAI1
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 108.181.23.241
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: US_Psychz Networks_OpenAI2
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 208.87.242.79
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: US_Psychz Networks_OpenAI3
-  obfs: ''
-  password: dongtaiwang.com
-  port: 57773
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: US_Sharktech
-  password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9
+- name: US_Sharktech
+  password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
   port: 8443
-  server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net
+  server: 7c8eb5c8-sw3ts0-sxlsd4-3z3v.hy2.gotochinatown.net
+  sni: 7c8eb5c8-sw3ts0-sxlsd4-3z3v.hy2.gotochinatown.net
   type: hysteria2
+- name: US_Total Uptime Technologies_OpenAI
+  network: ws
+  port: 80
+  server: 104.24.229.98
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: REEdfREe8MahSaNg2.rEDOrG.IR
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /TM@AZAFBAYJAB1
 proxy-groups:
 - name: PROXY
   type: select
@@ -395,30 +429,32 @@ proxy-groups:
   - 15|US_speednode_1
   - 15|US_speednode_2
   - 15|US_speednode_3
+  - 15|US_speednode_4
   - '2,11|عضو+کانال+بشید+👈+VPNTV20@ #'
-  - US_Amazon Technologies Inc._OpenAI
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
-  - US_Amazon.com, Inc._OpenAI4
-  - US_Cloudflare, Inc._OpenAI
-  - US_Cogent Communications_OpenAI1
-  - US_Cogent Communications_OpenAI2
+  - US_Amazon.com_OpenAI
+  - US_Cogent Communications_OpenAI
+  - US_ColoCrossing_OpenAI
+  - US_DigitalOcean, LLC_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_OVH US LLC_OpenAI1
-  - US_OVH US LLC_OpenAI2
-  - US_Oracle Corporation1
-  - US_Oracle Corporation2
-  - US_Oracle Corporation3
+  - US_HostPapa_OpenAI5
+  - US_HostPapa_OpenAI6
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
+  - US_Massivegrid LTD_OpenAI3
+  - US_Netjett LTD_OpenAI
+  - US_OVH SAS_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
-  - US_Psychz Networks_OpenAI3
+  - US_Oracle Corporation_OpenAI3
+  - US_Oracle Corporation_OpenAI4
   - US_Sharktech
+  - US_Total Uptime Technologies_OpenAI
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -470,29 +506,31 @@ proxy-groups:
   - 15|US_speednode_1
   - 15|US_speednode_2
   - 15|US_speednode_3
-  - US_Amazon Technologies Inc._OpenAI
+  - 15|US_speednode_4
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
-  - US_Amazon.com, Inc._OpenAI4
-  - US_Cloudflare, Inc._OpenAI
-  - US_Cogent Communications_OpenAI1
-  - US_Cogent Communications_OpenAI2
+  - US_Amazon.com_OpenAI
+  - US_Cogent Communications_OpenAI
+  - US_ColoCrossing_OpenAI
+  - US_DigitalOcean, LLC_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_OVH US LLC_OpenAI1
-  - US_OVH US LLC_OpenAI2
-  - US_Oracle Corporation1
-  - US_Oracle Corporation2
-  - US_Oracle Corporation3
+  - US_HostPapa_OpenAI5
+  - US_HostPapa_OpenAI6
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
+  - US_Massivegrid LTD_OpenAI3
+  - US_Netjett LTD_OpenAI
+  - US_OVH SAS_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
-  - US_Psychz Networks_OpenAI3
+  - US_Oracle Corporation_OpenAI3
+  - US_Oracle Corporation_OpenAI4
   - US_Sharktech
+  - US_Total Uptime Technologies_OpenAI
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -500,25 +538,29 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - US_Amazon Technologies Inc._OpenAI
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
-  - US_Amazon.com, Inc._OpenAI4
-  - US_Cloudflare, Inc._OpenAI
-  - US_Cogent Communications_OpenAI1
-  - US_Cogent Communications_OpenAI2
+  - US_Amazon.com_OpenAI
+  - US_Cogent Communications_OpenAI
+  - US_ColoCrossing_OpenAI
+  - US_DigitalOcean, LLC_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
-  - US_OVH US LLC_OpenAI1
-  - US_OVH US LLC_OpenAI2
+  - US_HostPapa_OpenAI5
+  - US_HostPapa_OpenAI6
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
+  - US_Massivegrid LTD_OpenAI3
+  - US_Netjett LTD_OpenAI
+  - US_OVH SAS_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
-  - US_Psychz Networks_OpenAI3
+  - US_Oracle Corporation_OpenAI3
+  - US_Oracle Corporation_OpenAI4
+  - US_Total Uptime Technologies_OpenAI
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
