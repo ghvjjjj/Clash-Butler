@@ -77,7 +77,7 @@ proxies:
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
     short-id: 7a2b
-  server: 3.91.101.219
+  server: 3.89.181.48
   servername: zula.ir
   skip-cert-verify: false
   tls: true
@@ -88,7 +88,7 @@ proxies:
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 192.0.54.184
+  server: 162.159.153.217
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -96,7 +96,7 @@ proxies:
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 162.159.152.205
+  server: 160.79.105.81
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -104,27 +104,14 @@ proxies:
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 162.159.153.209
+  server: 162.159.152.205
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
-- flow: xtls-rprx-vision
-  name: 15|US_speednode_5
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.196.91.196
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- name: 2,15|RU_speednode_
+- name: 3,15|BR_speednode_
   network: ws
   port: 443
-  server: 45.67.215.168
+  server: 185.133.35.244
   servername: 0229.patterdeng.pp.ua
   skip-cert-verify: false
   tls: true
@@ -135,55 +122,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- name: 2603:c022:c007:3188::7290_OpenAI
-  network: ws
-  port: 80
-  server: 45.131.211.196
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: 'Telegram: @vpnAndroid2/?ed=2560'
-- name: DE_Amazon Technologies Inc._OpenAI
-  network: ws
-  port: 80
-  server: 185.148.107.152
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
-    path: 'Telegram: @vpnAndroid2/?ed=2560'
-- name: DE_Hetzner Online GmbH_OpenAI
-  network: ws
-  port: 80
-  server: 185.148.106.56
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: 'Telegram: @vpnAndroid2/?ed=2560'
-- name: HK_Alibaba Cloud LLC_OpenAI
-  network: ws
-  port: 80
-  server: 45.80.111.177
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: 'Telegram: @vpnAndroid2/?ed=2560'
-- name: KR_Oracle Corporation
+- name: NL_Oracle Corporation_OpenAI
   network: ws
   port: 2083
   server: 172.66.40.87
@@ -198,51 +137,12 @@ proxies:
       Host: e.exedu.ip-ddns.com
     path: /?ed=2048
 - flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI1
+  name: US_Amazon Technologies Inc._OpenAI
   port: 443
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
     short-id: 7a2b
-  server: 3.82.63.134
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI2
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.93.7.145
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI3
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.85.48.110
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon Technologies Inc._OpenAI4
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.89.181.48
+  server: 3.91.101.219
   servername: zula.ir
   skip-cert-verify: false
   tls: true
@@ -255,7 +155,7 @@ proxies:
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
     short-id: 7a2b
-  server: 18.232.100.196
+  server: 54.198.216.168
   servername: zula.ir
   skip-cert-verify: false
   tls: true
@@ -268,7 +168,7 @@ proxies:
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
     short-id: 7a2b
-  server: 18.212.150.211
+  server: 34.228.235.1
   servername: zula.ir
   skip-cert-verify: false
   tls: true
@@ -288,265 +188,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI4
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 52.90.208.244
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI5
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.85.88.16
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI6
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 34.207.200.181
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI7
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 54.198.216.168
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- flow: xtls-rprx-vision
-  name: US_Amazon.com, Inc._OpenAI8
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 34.228.235.1
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- name: US_Amazon.com, Inc._OpenAI9
-  network: ws
-  port: 80
-  server: 45.131.210.236
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: 'Telegram: @vpnAndroid2/?ed=2560'
-- flow: xtls-rprx-vision
-  name: US_Amazon.com_OpenAI
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 100.24.49.8
-  servername: zula.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
 - name: US_HostPapa_OpenAI1
-  network: ws
-  port: 443
-  server: 104.16.239.207
-  servername: cf.zhaoyin.wang
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1b29ae3-cea2-496f-b2a5-28753d4cdec2
-  ws-opts:
-    headers:
-      Host: cf.zhaoyin.wang
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI10
-  network: ws
-  port: 443
-  server: 160.79.105.121
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI11
-  network: ws
-  port: 443
-  server: 185.133.35.183
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI12
-  network: ws
-  port: 443
-  server: 160.79.104.79
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI13
-  network: ws
-  port: 443
-  server: 185.133.35.213
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI14
-  network: ws
-  port: 443
-  server: 135.84.76.110
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI15
-  network: ws
-  port: 443
-  server: 160.79.105.45
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI16
-  network: ws
-  port: 443
-  server: 185.133.35.242
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI17
-  network: ws
-  port: 443
-  server: 160.123.255.30
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI18
-  network: ws
-  port: 443
-  server: 160.123.255.156
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI19
-  network: ws
-  port: 443
-  server: 129.213.136.180
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI2
-  network: ws
-  port: 2096
-  server: 104.24.137.227
-  servername: 4534295.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 708b4ccb-96cc-4726-b9ae-f43d243c82b2
-  ws-opts:
-    headers:
-      Host: 4534295.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI3
   network: ws
   port: 2083
   server: 104.16.138.167
@@ -560,7 +202,7 @@ proxies:
     headers:
       Host: 1.659118019.uk
     path: /?ed=2560
-- name: US_HostPapa_OpenAI4
+- name: US_HostPapa_OpenAI2
   network: ws
   port: 2083
   server: 104.18.2.26
@@ -574,113 +216,24 @@ proxies:
     headers:
       Host: ex.sue.x10.mx
     path: /?ed=2560
-- name: US_HostPapa_OpenAI5
+- name: US_HostPapa_OpenAI3
   network: ws
-  port: 443
-  server: 212.183.88.136
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
+  port: 2096
+  server: 104.24.137.227
+  servername: 4534295.dpdns.org
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 708b4ccb-96cc-4726-b9ae-f43d243c82b2
   ws-opts:
     headers:
-      Host: cl.bgm2024.dpdns.org
+      Host: 4534295.dpdns.org
     path: /?ed=2560
-- name: US_HostPapa_OpenAI6
-  network: ws
-  port: 443
-  server: 185.133.35.167
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI7
-  network: ws
-  port: 443
-  server: 160.79.105.81
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: cl.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_HostPapa_OpenAI8
-  network: ws
-  port: 443
-  server: 212.183.88.193
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: cl.bgm2024.dpdns.org
-    path: /ss.vs2024.us.kg
-- name: US_HostPapa_OpenAI9
-  network: ws
-  port: 443
-  server: 63.141.128.193
-  servername: cl.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: cl.bgm2024.dpdns.org
-    path: /ss.vs2024.us.kg
-- name: US_Netjett LTD_OpenAI
-  network: ws
-  port: 443
-  server: wow.quicky.dpdns.org
-  servername: us.quicky.dpdns.org
-  tls: true
-  type: vless
-  uuid: 64aced52-7611-42e5-8725-c6bb47f38555
-  ws-opts:
-    headers:
-      Host: us.quicky.dpdns.org
-    path: /fastus
-- name: US_OVH SAS_OpenAI
-  network: tcp
-  port: 443
-  server: 15.204.195.77
-  servername: 147135001178.sec22org.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-- name: US_Oracle Corporation
-  network: ws
-  port: 443
-  server: 162.159.152.205
-  servername: 0229.patterdeng.pp.ua
-  tls: true
-  type: vless
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  ws-opts:
-    headers:
-      Host: 0229.patterdeng.pp.ua
-    path: /proxyip=ProxyIP.Oracle.cmliussss.net
 - name: US_Oracle Corporation_OpenAI1
   network: ws
   port: 8880
-  server: 156.238.18.45
+  server: 104.129.166.20
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -708,7 +261,7 @@ proxies:
 - name: US_Oracle Corporation_OpenAI3
   network: ws
   port: 8880
-  server: 104.129.166.20
+  server: 185.148.106.20
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -722,7 +275,7 @@ proxies:
 - name: US_Oracle Corporation_OpenAI4
   network: ws
   port: 8880
-  server: 185.148.106.20
+  server: 156.238.18.45
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -733,13 +286,6 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI5
-  password: nfsn666
-  port: 8888
-  server: sj-arm.nfsn666.gq
-  skip-cert-verify: true
-  sni: sj-arm.nfsn666.gq
-  type: hysteria2
 proxy-groups:
 - name: PROXY
   type: select
@@ -759,54 +305,19 @@ proxy-groups:
   - 15|US_speednode_2
   - 15|US_speednode_3
   - 15|US_speednode_4
-  - 15|US_speednode_5
-  - 2,15|RU_speednode_
-  - 2603:c022:c007:3188::7290_OpenAI
-  - DE_Amazon Technologies Inc._OpenAI
-  - DE_Hetzner Online GmbH_OpenAI
-  - HK_Alibaba Cloud LLC_OpenAI
-  - KR_Oracle Corporation
-  - US_Amazon Technologies Inc._OpenAI1
-  - US_Amazon Technologies Inc._OpenAI2
-  - US_Amazon Technologies Inc._OpenAI3
-  - US_Amazon Technologies Inc._OpenAI4
+  - 3,15|BR_speednode_
+  - NL_Oracle Corporation_OpenAI
+  - US_Amazon Technologies Inc._OpenAI
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
-  - US_Amazon.com, Inc._OpenAI4
-  - US_Amazon.com, Inc._OpenAI5
-  - US_Amazon.com, Inc._OpenAI6
-  - US_Amazon.com, Inc._OpenAI7
-  - US_Amazon.com, Inc._OpenAI8
-  - US_Amazon.com, Inc._OpenAI9
-  - US_Amazon.com_OpenAI
   - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI13
-  - US_HostPapa_OpenAI14
-  - US_HostPapa_OpenAI15
-  - US_HostPapa_OpenAI16
-  - US_HostPapa_OpenAI17
-  - US_HostPapa_OpenAI18
-  - US_HostPapa_OpenAI19
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Netjett LTD_OpenAI
-  - US_OVH SAS_OpenAI
-  - US_Oracle Corporation
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -823,7 +334,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - HK_Alibaba Cloud LLC_OpenAI
+  - DIRECT
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -859,48 +370,17 @@ proxy-groups:
   - 15|US_speednode_2
   - 15|US_speednode_3
   - 15|US_speednode_4
-  - 15|US_speednode_5
-  - US_Amazon Technologies Inc._OpenAI1
-  - US_Amazon Technologies Inc._OpenAI2
-  - US_Amazon Technologies Inc._OpenAI3
-  - US_Amazon Technologies Inc._OpenAI4
+  - US_Amazon Technologies Inc._OpenAI
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
-  - US_Amazon.com, Inc._OpenAI4
-  - US_Amazon.com, Inc._OpenAI5
-  - US_Amazon.com, Inc._OpenAI6
-  - US_Amazon.com, Inc._OpenAI7
-  - US_Amazon.com, Inc._OpenAI8
-  - US_Amazon.com, Inc._OpenAI9
-  - US_Amazon.com_OpenAI
   - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI13
-  - US_HostPapa_OpenAI14
-  - US_HostPapa_OpenAI15
-  - US_HostPapa_OpenAI16
-  - US_HostPapa_OpenAI17
-  - US_HostPapa_OpenAI18
-  - US_HostPapa_OpenAI19
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Netjett LTD_OpenAI
-  - US_OVH SAS_OpenAI
-  - US_Oracle Corporation
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -908,50 +388,18 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 2603:c022:c007:3188::7290_OpenAI
-  - DE_Amazon Technologies Inc._OpenAI
-  - DE_Hetzner Online GmbH_OpenAI
-  - HK_Alibaba Cloud LLC_OpenAI
-  - US_Amazon Technologies Inc._OpenAI1
-  - US_Amazon Technologies Inc._OpenAI2
-  - US_Amazon Technologies Inc._OpenAI3
-  - US_Amazon Technologies Inc._OpenAI4
+  - NL_Oracle Corporation_OpenAI
+  - US_Amazon Technologies Inc._OpenAI
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
   - US_Amazon.com, Inc._OpenAI3
-  - US_Amazon.com, Inc._OpenAI4
-  - US_Amazon.com, Inc._OpenAI5
-  - US_Amazon.com, Inc._OpenAI6
-  - US_Amazon.com, Inc._OpenAI7
-  - US_Amazon.com, Inc._OpenAI8
-  - US_Amazon.com, Inc._OpenAI9
-  - US_Amazon.com_OpenAI
   - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI10
-  - US_HostPapa_OpenAI11
-  - US_HostPapa_OpenAI12
-  - US_HostPapa_OpenAI13
-  - US_HostPapa_OpenAI14
-  - US_HostPapa_OpenAI15
-  - US_HostPapa_OpenAI16
-  - US_HostPapa_OpenAI17
-  - US_HostPapa_OpenAI18
-  - US_HostPapa_OpenAI19
   - US_HostPapa_OpenAI2
   - US_HostPapa_OpenAI3
-  - US_HostPapa_OpenAI4
-  - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_HostPapa_OpenAI7
-  - US_HostPapa_OpenAI8
-  - US_HostPapa_OpenAI9
-  - US_Netjett LTD_OpenAI
-  - US_OVH SAS_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
