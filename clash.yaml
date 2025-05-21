@@ -74,7 +74,77 @@ proxies:
 - name: 15|US_speednode_
   network: ws
   port: 8880
+  server: 167.68.11.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 199.38.148.95_OpenAI
+  network: ws
+  port: 8880
+  server: 104.129.165.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 3,15|US_speednode_
+  network: ws
+  port: 8880
+  server: 108.162.198.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: DE_Hetzner Online AG_OpenAI
+  network: ws
+  port: 8880
   server: 198.41.199.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: DE_Hetzner Online GmbH1
+  network: ws
+  port: 8880
+  server: 162.159.7.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: DE_Hetzner Online GmbH2
+  network: ws
+  port: 8880
+  server: 198.41.214.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -102,7 +172,7 @@ proxies:
 - name: DE_Hetzner Online GmbH_OpenAI2
   network: ws
   port: 8880
-  server: 162.159.61.20
+  server: 198.41.223.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -116,7 +186,7 @@ proxies:
 - name: DE_Hetzner Online GmbH_OpenAI3
   network: ws
   port: 8880
-  server: 104.129.165.20
+  server: 172.66.44.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -127,38 +197,24 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: DE_OVH SAS_OpenAI
+- name: DE_Hetzner Online GmbH_OpenAI4
   network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v02.networkpro.net
+  port: 8880
+  server: 14.102.228.20
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v02.networkpro.net
-    path: /?ed=2048
-- name: FI_Google LLC_OpenAI
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: paS-kaLE-AGhA.pageS.deV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2e486f9-1697-4be6-be59-6c4fb42c7a24
-  ws-opts:
-    headers:
-      Host: paS-kaLE-AGhA.pageS.deV
-    path: /Telegram@V2ray_Alpha/?ed=2560
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
 - name: FI_Hetzner Online GmbH_OpenAI1
   network: ws
   port: 8880
-  server: 162.159.7.20
+  server: 162.159.136.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -172,49 +228,7 @@ proxies:
 - name: FI_Hetzner Online GmbH_OpenAI2
   network: ws
   port: 8880
-  server: 198.41.219.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: FI_Hetzner Online GmbH_OpenAI3
-  network: ws
-  port: 8880
-  server: 167.68.11.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: NL_Oracle Corporation_OpenAI
-  network: ws
-  port: 8880
-  server: 198.41.214.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: NL_Servers Tech Fzco_OpenAI
-  network: ws
-  port: 8880
-  server: 172.66.2.20
+  server: 162.159.61.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -228,7 +242,7 @@ proxies:
 - name: US_Amazon.com, Inc._OpenAI1
   network: ws
   port: 8880
-  server: 198.41.192.20
+  server: 14.102.229.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -242,7 +256,49 @@ proxies:
 - name: US_Amazon.com, Inc._OpenAI2
   network: ws
   port: 8880
-  server: 172.66.44.20
+  server: 172.66.2.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: US_Amazon.com, Inc._OpenAI3
+  network: ws
+  port: 8880
+  server: 198.41.217.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: US_Amazon.com, Inc._OpenAI4
+  network: ws
+  port: 8880
+  server: 198.41.192.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: US_Amazon.com, Inc._OpenAI5
+  network: ws
+  port: 8880
+  server: 198.41.219.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -280,27 +336,13 @@ proxies:
   server: 209.141.47.127
   skip-cert-verify: true
   type: hysteria2
-- name: US_HostPapa_OpenAI1
+- name: US_HostPapa_OpenAI
   password: 93c16258-48e0-4c72-928c-06434e394540
   port: 40266
   server: 107.175.32.131
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: US_HostPapa_OpenAI2
-  network: ws
-  port: 443
-  server: 104.18.26.39
-  servername: 25707.lanpinguo.cloud-ip.biz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19bf0ff0-0dc5-4e24-80fc-450afa43d9fb
-  ws-opts:
-    headers:
-      Host: 25707.lanpinguo.cloud-ip.biz
-    path: /?ed=2560
 - name: US_Massivegrid LTD_OpenAI
   network: ws
   port: 443
@@ -318,34 +360,6 @@ proxies:
 - name: US_Oracle Corporation_OpenAI1
   network: ws
   port: 8880
-  server: 14.102.228.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: US_Oracle Corporation_OpenAI2
-  network: ws
-  port: 8880
-  server: 108.162.198.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: US_Oracle Corporation_OpenAI3
-  network: ws
-  port: 8880
   server: 156.238.18.76
   tls: false
   type: vless
@@ -354,7 +368,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI4
+- name: US_Oracle Corporation_OpenAI2
   network: ws
   port: 8880
   server: 156.238.18.106
@@ -365,7 +379,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI5
+- name: US_Oracle Corporation_OpenAI3
   network: ws
   port: 8880
   server: 156.238.18.197
@@ -379,7 +393,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI6
+- name: US_Oracle Corporation_OpenAI4
   network: ws
   port: 8880
   server: 156.238.18.239
@@ -393,118 +407,35 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Psychz Networks_OpenAI
+- name: US_Psychz Networks_OpenAI1
   password: dongtaiwang.com
   port: 57773
   server: 108.181.5.130
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: US_Sharktech1
-  password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
-  port: 8443
-  server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
-  sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
+- down: ''
+  fingerprint: ''
+  name: US_Psychz Networks_OpenAI2
+  obfs: ''
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 208.87.242.215
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: US_Sharktech2
-  password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d
-  port: 8443
-  server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net
-  sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: US_Psychz Networks_OpenAI3
+  obfs: ''
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 108.181.23.255
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: US_Sharktech3
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 8443
-  server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
-  sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: chrome
-  name: US_Sharktech4
-  password: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9
-  port: 8443
-  server: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net
-  sni: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: chrome
-  name: US_Sharktech5
-  password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b
-  port: 8443
-  server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net
-  sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: chrome
-  name: US_Sharktech6
-  password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b
-  port: 8443
-  server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net
-  sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: chrome
-  name: US_Sharktech7
-  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  port: 8443
-  server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
-  sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_Total Uptime Technologies_OpenAI1
-  network: ws
-  port: 8880
-  server: 162.159.136.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: US_Total Uptime Technologies_OpenAI2
-  network: ws
-  port: 8880
-  server: 14.102.229.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: US_Total Uptime Technologies_OpenAI3
-  network: ws
-  port: 8880
-  server: 198.41.217.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: US_Total Uptime Technologies_OpenAI4
-  network: ws
-  port: 8880
-  server: 198.41.223.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
+  up: ''
 proxy-groups:
 - name: PROXY
   type: select
@@ -521,42 +452,34 @@ proxy-groups:
   filter: .*
   proxies:
   - 15|US_speednode_
+  - 199.38.148.95_OpenAI
+  - 3,15|US_speednode_
+  - DE_Hetzner Online AG_OpenAI
+  - DE_Hetzner Online GmbH1
+  - DE_Hetzner Online GmbH2
   - DE_Hetzner Online GmbH_OpenAI1
   - DE_Hetzner Online GmbH_OpenAI2
   - DE_Hetzner Online GmbH_OpenAI3
-  - DE_OVH SAS_OpenAI
-  - FI_Google LLC_OpenAI
+  - DE_Hetzner Online GmbH_OpenAI4
   - FI_Hetzner Online GmbH_OpenAI1
   - FI_Hetzner Online GmbH_OpenAI2
-  - FI_Hetzner Online GmbH_OpenAI3
-  - NL_Oracle Corporation_OpenAI
-  - NL_Servers Tech Fzco_OpenAI
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_Amazon.com, Inc._OpenAI4
+  - US_Amazon.com, Inc._OpenAI5
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_FranTech Solutions_OpenAI
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI
   - US_Massivegrid LTD_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
-  - US_Oracle Corporation_OpenAI6
-  - US_Psychz Networks_OpenAI
-  - US_Sharktech1
-  - US_Sharktech2
-  - US_Sharktech3
-  - US_Sharktech4
-  - US_Sharktech5
-  - US_Sharktech6
-  - US_Sharktech7
-  - US_Total Uptime Technologies_OpenAI1
-  - US_Total Uptime Technologies_OpenAI2
-  - US_Total Uptime Technologies_OpenAI3
-  - US_Total Uptime Technologies_OpenAI4
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
+  - US_Psychz Networks_OpenAI3
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -606,32 +529,24 @@ proxy-groups:
   tolerance: 2000
   proxies:
   - 15|US_speednode_
+  - 3,15|US_speednode_
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_Amazon.com, Inc._OpenAI4
+  - US_Amazon.com, Inc._OpenAI5
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_FranTech Solutions_OpenAI
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI
   - US_Massivegrid LTD_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
-  - US_Oracle Corporation_OpenAI6
-  - US_Psychz Networks_OpenAI
-  - US_Sharktech1
-  - US_Sharktech2
-  - US_Sharktech3
-  - US_Sharktech4
-  - US_Sharktech5
-  - US_Sharktech6
-  - US_Sharktech7
-  - US_Total Uptime Technologies_OpenAI1
-  - US_Total Uptime Technologies_OpenAI2
-  - US_Total Uptime Technologies_OpenAI3
-  - US_Total Uptime Technologies_OpenAI4
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
+  - US_Psychz Networks_OpenAI3
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -639,35 +554,31 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
+  - 199.38.148.95_OpenAI
+  - DE_Hetzner Online AG_OpenAI
   - DE_Hetzner Online GmbH_OpenAI1
   - DE_Hetzner Online GmbH_OpenAI2
   - DE_Hetzner Online GmbH_OpenAI3
-  - DE_OVH SAS_OpenAI
-  - FI_Google LLC_OpenAI
+  - DE_Hetzner Online GmbH_OpenAI4
   - FI_Hetzner Online GmbH_OpenAI1
   - FI_Hetzner Online GmbH_OpenAI2
-  - FI_Hetzner Online GmbH_OpenAI3
-  - NL_Oracle Corporation_OpenAI
-  - NL_Servers Tech Fzco_OpenAI
   - US_Amazon.com, Inc._OpenAI1
   - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_Amazon.com, Inc._OpenAI4
+  - US_Amazon.com, Inc._OpenAI5
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_FranTech Solutions_OpenAI
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI
   - US_Massivegrid LTD_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
-  - US_Oracle Corporation_OpenAI6
-  - US_Psychz Networks_OpenAI
-  - US_Total Uptime Technologies_OpenAI1
-  - US_Total Uptime Technologies_OpenAI2
-  - US_Total Uptime Technologies_OpenAI3
-  - US_Total Uptime Technologies_OpenAI4
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
+  - US_Psychz Networks_OpenAI3
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
