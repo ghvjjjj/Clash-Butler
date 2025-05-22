@@ -71,208 +71,15 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 15|US_speednode_1
-  network: ws
-  port: 80
-  server: 141.193.213.29
-  servername: cs.laoyoutiao.link
+- client-fingerprint: chrome
+  name: 107.175.34.118_OpenAI
+  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+  port: 3002
+  server: us.10101251.xyz
   skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: cs.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
-- name: 15|US_speednode_10
-  network: ws
-  port: 8880
-  server: 141.101.114.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 15|US_speednode_11
-  network: ws
-  port: 8880
-  server: 104.129.165.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_12
-  network: ws
-  port: 443
-  server: www.pcmag.com
-  servername: dk.youlingkais.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ffe171e8-cb29-4d8e-b2b2-c57ebcb1d3cb
-  ws-opts:
-    headers:
-      Host: dk.youlingkais.filegear-sg.me
-    path: /?ed=2560
-- name: 15|US_speednode_13
-  network: ws
-  port: 8880
-  server: 198.62.62.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_14
-  port: 10001
-  reality-opts:
-    public-key: A8YlN1VE64tBOBhnaHy5lwBXRU79kELWmtNqlRsjvkE
-    short-id: 1a24af87
-  server: 172.235.48.81
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 748292a0-ac0f-4d55-a460-40bea786f17f
-- name: 15|US_speednode_15
-  network: ws
-  port: 8880
-  server: 45.194.53.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_16
-  network: ws
-  port: 8880
-  server: 108.165.216.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 15|US_speednode_17
-  network: ws
-  port: 8880
-  server: 195.13.44.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_18
-  network: ws
-  port: 8880
-  server: 135.84.73.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_19
-  network: ws
-  port: 8880
-  server: 69.84.182.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_2
-  network: ws
-  port: 80
-  server: 23.134.82.1
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 15|US_speednode_20
-  password: czaOZA3OxRYDl4u0RxT7D62FyNI3aC98ZCDDRnDax6zECS5I35wSqSKTXYAy3Nw3eXYaO
-  port: 28331
-  server: 154.17.11.217
-  skip-cert-verify: true
-  sni: cutting.homeofbrave.net
-  type: trojan
-- name: 15|US_speednode_3
-  network: ws
-  port: 8880
-  server: 168.100.6.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_4
-  network: ws
-  port: 8880
-  server: 108.165.152.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_5
+  sni: us.10101251.xyz
+  type: hysteria2
+- name: 127.0.0.1_OpenAI
   network: ws
   port: 8880
   server: 185.148.105.20
@@ -286,427 +93,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 15|US_speednode_6
-  network: ws
-  port: 443
-  server: 104.17.142.12
-  servername: vle.amclubsapp.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-  ws-opts:
-    headers:
-      Host: vle.amclubsapp.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_7
-  network: ws
-  port: 8880
-  server: 167.68.42.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 15|US_speednode_8
-  network: ws
-  port: 8880
-  server: 104.129.166.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|US_speednode_9
-  network: ws
-  port: 8880
-  server: 195.13.54.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 3,15|US_speednode_
-  network: ws
-  port: 8880
-  server: 108.162.198.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: CA_Oracle Corporation
-  network: ws
-  port: 443
-  server: tasteatlas.com
-  servername: dk.youlingkais.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ffe171e8-cb29-4d8e-b2b2-c57ebcb1d3cb
-  ws-opts:
-    headers:
-      Host: dk.youlingkais.filegear-sg.me
-    path: /?ed=2560
-- name: DE_Amazon Technologies Inc._OpenAI
-  network: ws
-  port: 8880
-  server: 162.159.249.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: DE_Hetzner Online GmbH
-  network: ws
-  port: 80
-  server: 135.84.65.11
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: FI_Hetzner Online GmbH
-  network: ws
-  port: 8880
-  server: 162.159.45.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: FI_Hetzner Online GmbH_OpenAI
-  network: ws
-  port: 8880
-  server: 198.41.219.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.1
-  network: ws
-  port: 8880
-  server: 139.64.235.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.10
-  network: ws
-  port: 8880
-  server: 159.112.235.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.11
-  network: ws
-  port: 8880
-  server: 45.159.219.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.12
-  network: ws
-  port: 8880
-  server: 155.46.213.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.13
-  network: ws
-  port: 8880
-  server: 205.233.181.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.14
-  network: ws
-  port: 8880
-  server: 130.250.137.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.15
-  network: ws
-  port: 8880
-  server: 184.174.80.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.16
-  network: ws
-  port: 8880
-  server: 167.68.42.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.17
-  network: ws
-  port: 8880
-  server: 199.34.229.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.18
-  network: ws
-  port: 8880
-  server: 195.13.45.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.19
-  network: ws
-  port: 8880
-  server: 135.84.74.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.2
-  network: ws
-  port: 8880
-  server: 185.148.105.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.20
-  network: ws
-  port: 8880
-  server: 198.202.211.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.21
-  network: ws
-  port: 8880
-  server: 199.181.197.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.22
-  network: ws
-  port: 8880
-  server: 63.141.128.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.3
-  network: ws
-  port: 8880
-  server: 167.68.5.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.4
-  network: ws
-  port: 8880
-  server: 147.185.161.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.5
-  network: ws
-  port: 8880
-  server: 135.84.72.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.6
-  network: ws
-  port: 8880
-  server: 45.159.216.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.7
-  network: ws
-  port: 8880
-  server: 161.145.150.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.8
+- name: 14|US_speednode_1
   network: ws
   port: 8880
   server: 104.129.167.29
@@ -720,10 +107,23 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: HK_Alibaba (US) Technology Co., Ltd.9
+- flow: xtls-rprx-vision
+  name: 14|US_speednode_10
+  port: 7885
+  reality-opts:
+    public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
+    short-id: 40cb281a
+  server: 45.150.165.121
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
+- name: 14|US_speednode_11
   network: ws
   port: 8880
-  server: 195.13.55.29
+  server: 185.148.105.29
   servername: hk.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -734,14 +134,21 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: JP_Amazon Technologies Inc_OpenAI
-  password: AACY9aXaD0ZDyuyOBzD3Onl2ICw6anBE8l3SRl38RCSDpw7FpYzcRj7NeaFSpR5qx85Su
-  port: 443
-  server: 13.114.65.253
-  skip-cert-verify: true
-  sni: forward.meijireform.com
-  type: trojan
-- name: KR_Oracle Corporation_OpenAI
+- name: 14|US_speednode_12
+  network: ws
+  port: 8880
+  server: 205.233.181.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_13
   network: ws
   port: 443
   server: 198.62.62.4
@@ -755,16 +162,77 @@ proxies:
     headers:
       Host: dk.youlingkais.filegear-sg.me
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: TW_Data Center Network Limited_OpenAI
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- name: US_Amazon.com, Inc._OpenAI1
+- name: 14|US_speednode_14
+  port: 10001
+  reality-opts:
+    public-key: A8YlN1VE64tBOBhnaHy5lwBXRU79kELWmtNqlRsjvkE
+    short-id: 1a24af87
+  server: 172.235.48.81
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 748292a0-ac0f-4d55-a460-40bea786f17f
+- name: 14|US_speednode_15
   network: ws
   port: 8880
-  server: 209.46.30.20
+  server: 195.13.55.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- flow: xtls-rprx-vision
+  name: 14|US_speednode_16
+  port: 8443
+  reality-opts:
+    public-key: 4Qekb9y1dqO8hvRzVSGeSRNyhko_gqpeWD94zrLCvjs
+    short-id: 5488b0e7
+  server: sj-arm.nfsn666.gq
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06121b89-607b-44c9-9c01-cc2fc6a7321d
+- name: 14|US_speednode_17
+  network: ws
+  port: 8880
+  server: 167.68.5.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_18
+  network: ws
+  port: 8880
+  server: 167.68.42.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_19
+  network: ws
+  port: 80
+  server: 135.84.65.11
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -774,8 +242,36 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: US_Amazon.com, Inc._OpenAI2
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 14|US_speednode_2
+  network: ws
+  port: 8880
+  server: 195.13.44.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_20
+  network: ws
+  port: 8880
+  server: 199.181.197.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_21
   network: ws
   port: 8880
   server: 167.68.11.20
@@ -789,12 +285,138 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: US_Amazon.com, Inc._OpenAI3
+- name: 14|US_speednode_22
+  network: ws
+  port: 443
+  server: tasteatlas.com
+  servername: dk.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ffe171e8-cb29-4d8e-b2b2-c57ebcb1d3cb
+  ws-opts:
+    headers:
+      Host: dk.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 14|US_speednode_3
   network: ws
   port: 8880
-  server: 162.159.35.20
-  servername: reedfree8mahsang2.redorg.ir
+  server: 184.174.80.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_4
+  network: ws
+  port: 8880
+  server: 66.225.252.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_5
+  network: ws
+  port: 443
+  server: 104.17.142.12
+  servername: vle.amclubsapp.dpdns.org
   skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
+  ws-opts:
+    headers:
+      Host: vle.amclubsapp.dpdns.org
+    path: /?ed=2560
+- name: 14|US_speednode_6
+  network: ws
+  port: 8880
+  server: 195.13.54.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_7
+  network: ws
+  port: 8880
+  server: 45.194.53.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_8
+  network: ws
+  port: 8880
+  server: 155.46.167.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|US_speednode_9
+  network: ws
+  port: 8880
+  server: 147.185.161.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 185.184.68.94_OpenAI
+  network: ws
+  port: 443
+  server: 104.21.71.112
+  servername: CccVF34ER4.288288.sHop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 895552fa-6284-4c1d-ba00-3944e0c7c626
+  ws-opts:
+    headers:
+      Host: cccvf34er4.288288.shop
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /C1SukvGdr58yeduy9AOG
+- name: DE_Hetzner Online GmbH_OpenAI
+  network: ws
+  port: 8880
+  server: 108.162.198.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -803,6 +425,272 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- name: FI_Hetzner Online GmbH_OpenAI
+  network: ws
+  port: 8880
+  server: 209.46.30.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: GB_OVH SAS_OpenAI
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.networkpro.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.networkpro.net
+    path: /?ed=2048
+- name: HK_Alibaba (US) Technology Co., Ltd.1
+  network: ws
+  port: 8880
+  server: 161.145.150.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.10
+  network: ws
+  port: 8880
+  server: 45.159.216.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.11
+  network: ws
+  port: 8880
+  server: 168.100.6.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.12
+  network: ws
+  port: 8880
+  server: 192.200.160.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.13
+  network: ws
+  port: 8880
+  server: 104.129.166.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.14
+  network: ws
+  port: 8880
+  server: 66.45.118.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.2
+  network: ws
+  port: 8880
+  server: 135.84.67.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.3
+  network: ws
+  port: 8880
+  server: 139.64.235.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.4
+  network: ws
+  port: 8880
+  server: 69.84.182.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.5
+  network: ws
+  port: 8880
+  server: 199.34.230.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.6
+  network: ws
+  port: 8880
+  server: 198.62.62.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.7
+  network: ws
+  port: 8880
+  server: 130.250.137.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.8
+  network: ws
+  port: 8880
+  server: 159.112.235.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: HK_Alibaba (US) Technology Co., Ltd.9
+  network: ws
+  port: 8880
+  server: 63.141.128.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: KR_Oracle Corporation_OpenAI1
+  network: ws
+  port: 8880
+  server: 167.68.42.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: KR_Oracle Corporation_OpenAI2
+  network: ws
+  port: 443
+  server: www.pcmag.com
+  servername: dk.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ffe171e8-cb29-4d8e-b2b2-c57ebcb1d3cb
+  ws-opts:
+    headers:
+      Host: dk.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: NL_Servers Tech Fzco_OpenAI
+  network: ws
+  port: 80
+  server: 23.134.82.1
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
 - name: US_Cloudflare, Inc._OpenAI1
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
@@ -832,14 +720,6 @@ proxies:
   type: hysteria2
 - name: US_HostPapa
   network: ws
-  password: Aimer
-  port: 2083
-  server: 188.164.159.220
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: US_HostPapa_OpenAI1
-  network: ws
   port: 2087
   server: 135.84.76.152
   servername: edccn.ambercc.filegear-sg.me
@@ -852,6 +732,20 @@ proxies:
     headers:
       Host: edccn.ambercc.filegear-sg.me
     path: /?ed=2560
+- name: US_HostPapa_OpenAI1
+  network: ws
+  port: 80
+  server: 141.193.213.29
+  servername: cs.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
 - name: US_HostPapa_OpenAI2
   network: ws
   port: 80
@@ -874,15 +768,7 @@ proxies:
   skip-cert-verify: true
   sni: 192-227-152-86.nip.io
   type: hysteria2
-- client-fingerprint: chrome
-  name: US_HostPapa_OpenAI4
-  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
-  port: 3002
-  server: us.10101251.xyz
-  skip-cert-verify: false
-  sni: us.10101251.xyz
-  type: hysteria2
-- name: US_HostPapa_OpenAI5
+- name: US_HostPapa_OpenAI4
   network: ws
   port: 443
   server: 104.21.53.113
@@ -896,7 +782,7 @@ proxies:
       Host: bba.890601.pp.ua
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /rU9rSjDSOd4yY2fOe
-- name: US_HostPapa_OpenAI6
+- name: US_HostPapa_OpenAI5
   network: ws
   port: 8443
   server: 190.93.246.246
@@ -910,34 +796,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: US_Massivegrid_OpenAI
-  network: ws
-  port: 443
-  server: 104.21.71.112
-  servername: CccVF34ER4.288288.sHop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 895552fa-6284-4c1d-ba00-3944e0c7c626
-  ws-opts:
-    headers:
-      Host: cccvf34er4.288288.shop
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /C1SukvGdr58yeduy9AOG
-- flow: xtls-rprx-vision
-  name: US_Oracle Corporation_OpenAI1
-  port: 8443
-  reality-opts:
-    public-key: 4Qekb9y1dqO8hvRzVSGeSRNyhko_gqpeWD94zrLCvjs
-    short-id: 5488b0e7
-  server: sj-arm.nfsn666.gq
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06121b89-607b-44c9-9c01-cc2fc6a7321d
-- name: US_Oracle Corporation_OpenAI2
+- name: US_Oracle Corporation_OpenAI1
   network: ws
   port: 8880
   server: 156.238.18.76
@@ -948,7 +807,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI3
+- name: US_Oracle Corporation_OpenAI2
   network: ws
   port: 8880
   server: 156.238.18.106
@@ -959,7 +818,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI4
+- name: US_Oracle Corporation_OpenAI3
   network: ws
   port: 8880
   server: 156.238.18.197
@@ -973,7 +832,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI5
+- name: US_Oracle Corporation_OpenAI4
   network: ws
   port: 8880
   server: 156.238.18.239
@@ -1003,78 +862,72 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   name: US_Sharktech2
-  password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d
-  port: 8443
-  server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net
-  sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: chrome
-  name: US_Sharktech3
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 8443
   server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
   sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
   type: hysteria2
 - client-fingerprint: chrome
-  name: US_Sharktech4
+  name: US_Sharktech3
   password: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9
   port: 8443
   server: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net
   sni: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net
   type: hysteria2
 - client-fingerprint: chrome
-  name: US_Sharktech5
+  name: US_Sharktech4
   password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b
   port: 8443
   server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net
   sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net
   type: hysteria2
 - client-fingerprint: chrome
-  name: US_Sharktech6
+  name: US_Sharktech5
   password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b
   port: 8443
   server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net
   sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net
   type: hysteria2
 - client-fingerprint: chrome
-  name: US_Sharktech7
+  name: US_Sharktech6
   password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
   port: 8443
   server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
   sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
   type: hysteria2
 - client-fingerprint: chrome
-  name: US_Sharktech8
+  name: US_Sharktech7
   password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
   port: 8443
   server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
   sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
   type: hysteria2
 - client-fingerprint: chrome
-  name: US_Sharktech9
+  name: US_Sharktech8
   password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   port: 8443
   server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
   sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
   type: hysteria2
-- flow: xtls-rprx-vision
-  name: US_Spartan Host Ltd_OpenAI
-  port: 7885
-  reality-opts:
-    public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
-    short-id: 40cb281a
-  server: 45.150.165.121
-  servername: www.yahoo.com
+- name: US_Total Uptime Technologies_OpenAI
+  network: ws
+  port: 8880
+  server: 108.165.216.20
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
 - name: 🇺🇸 美国_1
   network: ws
   password: Aimer
-  port: 443
-  server: 154.197.64.206
+  port: 2083
+  server: 188.164.159.43
   skip-cert-verify: true
   sni: epccn.ambercc.filegear-sg.me
   type: trojan
@@ -1082,25 +935,25 @@ proxies:
   network: ws
   password: Aimer
   port: 2083
-  server: 108.165.152.78
+  server: 108.165.152.130
   skip-cert-verify: true
   sni: epccv.ambercc.filegear-sg.me
   type: trojan
 - name: 🇺🇸 美国_11
   network: ws
   password: Aimer
-  port: 2083
-  server: 108.165.152.31
+  port: 443
+  server: theo.ns.cloudflare.com
   skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
+  sni: epccn.ambercc.filegear-sg.me
   type: trojan
 - name: 🇺🇸 美国_12
   network: ws
   password: Aimer
   port: 2096
-  server: 5.182.85.189
+  server: 108.165.152.55
   skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
+  sni: epccn.ambercc.filegear-sg.me
   type: trojan
 - name: 🇺🇸 美国_13
   network: ws
@@ -1110,103 +963,15 @@ proxies:
   skip-cert-verify: true
   sni: epccn.ambercc.filegear-sg.me
   type: trojan
-- name: 🇺🇸 美国_14
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 108.165.152.143
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_15
-  network: ws
-  password: Aimer
-  port: 443
-  server: kip.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_16
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 188.164.159.234
-  skip-cert-verify: true
-  sni: epccn.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_17
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 188.164.159.25
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_18
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 66.81.247.230
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_19
-  network: ws
-  password: Aimer
-  port: 443
-  server: 188.164.159.171
-  skip-cert-verify: true
-  sni: epccn.ambercc.filegear-sg.me
-  type: trojan
 - name: 🇺🇸 美国_2
   network: ws
   password: Aimer
-  port: 2083
-  server: 27.50.49.47
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_20
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.5.85
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_21
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 5.182.84.52
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_22
-  network: ws
-  password: Aimer
-  port: 443
-  server: theo.ns.cloudflare.com
+  port: 2096
+  server: 188.164.159.107
   skip-cert-verify: true
   sni: epccn.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_23
-  network: ws
-  password: Aimer
-  port: 443
-  server: 192.0.54.7
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
   type: trojan
 - name: 🇺🇸 美国_3
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 199.34.228.66
-  skip-cert-verify: true
-  sni: epccn.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_4
   network: ws
   password: Aimer
   port: 443
@@ -1214,7 +979,23 @@ proxies:
   skip-cert-verify: true
   sni: epccv.ambercc.filegear-sg.me
   type: trojan
+- name: 🇺🇸 美国_4
+  network: ws
+  password: Aimer
+  port: 443
+  server: 176.124.223.92
+  skip-cert-verify: true
+  sni: epccn.ambercc.filegear-sg.me
+  type: trojan
 - name: 🇺🇸 美国_5
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 108.165.152.143
+  skip-cert-verify: true
+  sni: epccv.ambercc.filegear-sg.me
+  type: trojan
+- name: 🇺🇸 美国_6
   network: ws
   password: Aimer
   port: 2083
@@ -1222,7 +1003,15 @@ proxies:
   skip-cert-verify: true
   sni: epccn.ambercc.filegear-sg.me
   type: trojan
-- name: 🇺🇸 美国_6
+- name: 🇺🇸 美国_7
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 162.120.94.232
+  skip-cert-verify: true
+  sni: epccv.ambercc.filegear-sg.me
+  type: trojan
+- name: 🇺🇸 美国_8
   network: ws
   password: Aimer
   port: 443
@@ -1230,27 +1019,11 @@ proxies:
   skip-cert-verify: true
   sni: epccv.ambercc.filegear-sg.me
   type: trojan
-- name: 🇺🇸 美国_7
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.29
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
-- name: 🇺🇸 美国_8
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 154.211.8.18
-  skip-cert-verify: true
-  sni: epccv.ambercc.filegear-sg.me
-  type: trojan
 - name: 🇺🇸 美国_9
   network: ws
   password: Aimer
-  port: 8443
-  server: 27.50.48.239
+  port: 443
+  server: bestcf.030101.xyz
   skip-cert-verify: true
   sni: epccv.ambercc.filegear-sg.me
   type: trojan
@@ -1269,47 +1042,41 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 15|US_speednode_1
-  - 15|US_speednode_10
-  - 15|US_speednode_11
-  - 15|US_speednode_12
-  - 15|US_speednode_13
-  - 15|US_speednode_14
-  - 15|US_speednode_15
-  - 15|US_speednode_16
-  - 15|US_speednode_17
-  - 15|US_speednode_18
-  - 15|US_speednode_19
-  - 15|US_speednode_2
-  - 15|US_speednode_20
-  - 15|US_speednode_3
-  - 15|US_speednode_4
-  - 15|US_speednode_5
-  - 15|US_speednode_6
-  - 15|US_speednode_7
-  - 15|US_speednode_8
-  - 15|US_speednode_9
-  - 3,15|US_speednode_
-  - CA_Oracle Corporation
-  - DE_Amazon Technologies Inc._OpenAI
-  - DE_Hetzner Online GmbH
-  - FI_Hetzner Online GmbH
+  - 107.175.34.118_OpenAI
+  - 127.0.0.1_OpenAI
+  - 14|US_speednode_1
+  - 14|US_speednode_10
+  - 14|US_speednode_11
+  - 14|US_speednode_12
+  - 14|US_speednode_13
+  - 14|US_speednode_14
+  - 14|US_speednode_15
+  - 14|US_speednode_16
+  - 14|US_speednode_17
+  - 14|US_speednode_18
+  - 14|US_speednode_19
+  - 14|US_speednode_2
+  - 14|US_speednode_20
+  - 14|US_speednode_21
+  - 14|US_speednode_22
+  - 14|US_speednode_3
+  - 14|US_speednode_4
+  - 14|US_speednode_5
+  - 14|US_speednode_6
+  - 14|US_speednode_7
+  - 14|US_speednode_8
+  - 14|US_speednode_9
+  - 185.184.68.94_OpenAI
+  - DE_Hetzner Online GmbH_OpenAI
   - FI_Hetzner Online GmbH_OpenAI
+  - GB_OVH SAS_OpenAI
   - HK_Alibaba (US) Technology Co., Ltd.1
   - HK_Alibaba (US) Technology Co., Ltd.10
   - HK_Alibaba (US) Technology Co., Ltd.11
   - HK_Alibaba (US) Technology Co., Ltd.12
   - HK_Alibaba (US) Technology Co., Ltd.13
   - HK_Alibaba (US) Technology Co., Ltd.14
-  - HK_Alibaba (US) Technology Co., Ltd.15
-  - HK_Alibaba (US) Technology Co., Ltd.16
-  - HK_Alibaba (US) Technology Co., Ltd.17
-  - HK_Alibaba (US) Technology Co., Ltd.18
-  - HK_Alibaba (US) Technology Co., Ltd.19
   - HK_Alibaba (US) Technology Co., Ltd.2
-  - HK_Alibaba (US) Technology Co., Ltd.20
-  - HK_Alibaba (US) Technology Co., Ltd.21
-  - HK_Alibaba (US) Technology Co., Ltd.22
   - HK_Alibaba (US) Technology Co., Ltd.3
   - HK_Alibaba (US) Technology Co., Ltd.4
   - HK_Alibaba (US) Technology Co., Ltd.5
@@ -1317,12 +1084,9 @@ proxy-groups:
   - HK_Alibaba (US) Technology Co., Ltd.7
   - HK_Alibaba (US) Technology Co., Ltd.8
   - HK_Alibaba (US) Technology Co., Ltd.9
-  - JP_Amazon Technologies Inc_OpenAI
-  - KR_Oracle Corporation_OpenAI
-  - TW_Data Center Network Limited_OpenAI
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
-  - US_Amazon.com, Inc._OpenAI3
+  - KR_Oracle Corporation_OpenAI1
+  - KR_Oracle Corporation_OpenAI2
+  - NL_Servers Tech Fzco_OpenAI
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_FranTech Solutions_OpenAI
@@ -1332,13 +1096,10 @@ proxy-groups:
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_Massivegrid_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
   - US_Psychz Networks_OpenAI
   - US_Sharktech1
   - US_Sharktech2
@@ -1348,24 +1109,13 @@ proxy-groups:
   - US_Sharktech6
   - US_Sharktech7
   - US_Sharktech8
-  - US_Sharktech9
-  - US_Spartan Host Ltd_OpenAI
+  - US_Total Uptime Technologies_OpenAI
   - 🇺🇸 美国_1
   - 🇺🇸 美国_10
   - 🇺🇸 美国_11
   - 🇺🇸 美国_12
   - 🇺🇸 美国_13
-  - 🇺🇸 美国_14
-  - 🇺🇸 美国_15
-  - 🇺🇸 美国_16
-  - 🇺🇸 美国_17
-  - 🇺🇸 美国_18
-  - 🇺🇸 美国_19
   - 🇺🇸 美国_2
-  - 🇺🇸 美国_20
-  - 🇺🇸 美国_21
-  - 🇺🇸 美国_22
-  - 🇺🇸 美国_23
   - 🇺🇸 美国_3
   - 🇺🇸 美国_4
   - 🇺🇸 美国_5
@@ -1395,15 +1145,7 @@ proxy-groups:
   - HK_Alibaba (US) Technology Co., Ltd.12
   - HK_Alibaba (US) Technology Co., Ltd.13
   - HK_Alibaba (US) Technology Co., Ltd.14
-  - HK_Alibaba (US) Technology Co., Ltd.15
-  - HK_Alibaba (US) Technology Co., Ltd.16
-  - HK_Alibaba (US) Technology Co., Ltd.17
-  - HK_Alibaba (US) Technology Co., Ltd.18
-  - HK_Alibaba (US) Technology Co., Ltd.19
   - HK_Alibaba (US) Technology Co., Ltd.2
-  - HK_Alibaba (US) Technology Co., Ltd.20
-  - HK_Alibaba (US) Technology Co., Ltd.21
-  - HK_Alibaba (US) Technology Co., Ltd.22
   - HK_Alibaba (US) Technology Co., Ltd.3
   - HK_Alibaba (US) Technology Co., Ltd.4
   - HK_Alibaba (US) Technology Co., Ltd.5
@@ -1418,7 +1160,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - TW_Data Center Network Limited_OpenAI
+  - DIRECT
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -1426,7 +1168,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - JP_Amazon Technologies Inc_OpenAI
+  - DIRECT
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -1442,42 +1184,35 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 15|US_speednode_1
-  - 15|US_speednode_10
-  - 15|US_speednode_11
-  - 15|US_speednode_12
-  - 15|US_speednode_13
-  - 15|US_speednode_14
-  - 15|US_speednode_15
-  - 15|US_speednode_16
-  - 15|US_speednode_17
-  - 15|US_speednode_18
-  - 15|US_speednode_19
-  - 15|US_speednode_2
-  - 15|US_speednode_20
-  - 15|US_speednode_3
-  - 15|US_speednode_4
-  - 15|US_speednode_5
-  - 15|US_speednode_6
-  - 15|US_speednode_7
-  - 15|US_speednode_8
-  - 15|US_speednode_9
-  - 3,15|US_speednode_
+  - 14|US_speednode_1
+  - 14|US_speednode_10
+  - 14|US_speednode_11
+  - 14|US_speednode_12
+  - 14|US_speednode_13
+  - 14|US_speednode_14
+  - 14|US_speednode_15
+  - 14|US_speednode_16
+  - 14|US_speednode_17
+  - 14|US_speednode_18
+  - 14|US_speednode_19
+  - 14|US_speednode_2
+  - 14|US_speednode_20
+  - 14|US_speednode_21
+  - 14|US_speednode_22
+  - 14|US_speednode_3
+  - 14|US_speednode_4
+  - 14|US_speednode_5
+  - 14|US_speednode_6
+  - 14|US_speednode_7
+  - 14|US_speednode_8
+  - 14|US_speednode_9
   - HK_Alibaba (US) Technology Co., Ltd.1
   - HK_Alibaba (US) Technology Co., Ltd.10
   - HK_Alibaba (US) Technology Co., Ltd.11
   - HK_Alibaba (US) Technology Co., Ltd.12
   - HK_Alibaba (US) Technology Co., Ltd.13
   - HK_Alibaba (US) Technology Co., Ltd.14
-  - HK_Alibaba (US) Technology Co., Ltd.15
-  - HK_Alibaba (US) Technology Co., Ltd.16
-  - HK_Alibaba (US) Technology Co., Ltd.17
-  - HK_Alibaba (US) Technology Co., Ltd.18
-  - HK_Alibaba (US) Technology Co., Ltd.19
   - HK_Alibaba (US) Technology Co., Ltd.2
-  - HK_Alibaba (US) Technology Co., Ltd.20
-  - HK_Alibaba (US) Technology Co., Ltd.21
-  - HK_Alibaba (US) Technology Co., Ltd.22
   - HK_Alibaba (US) Technology Co., Ltd.3
   - HK_Alibaba (US) Technology Co., Ltd.4
   - HK_Alibaba (US) Technology Co., Ltd.5
@@ -1485,9 +1220,6 @@ proxy-groups:
   - HK_Alibaba (US) Technology Co., Ltd.7
   - HK_Alibaba (US) Technology Co., Ltd.8
   - HK_Alibaba (US) Technology Co., Ltd.9
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
-  - US_Amazon.com, Inc._OpenAI3
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_FranTech Solutions_OpenAI
@@ -1497,13 +1229,10 @@ proxy-groups:
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_Massivegrid_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
   - US_Psychz Networks_OpenAI
   - US_Sharktech1
   - US_Sharktech2
@@ -1513,24 +1242,13 @@ proxy-groups:
   - US_Sharktech6
   - US_Sharktech7
   - US_Sharktech8
-  - US_Sharktech9
-  - US_Spartan Host Ltd_OpenAI
+  - US_Total Uptime Technologies_OpenAI
   - 🇺🇸 美国_1
   - 🇺🇸 美国_10
   - 🇺🇸 美国_11
   - 🇺🇸 美国_12
   - 🇺🇸 美国_13
-  - 🇺🇸 美国_14
-  - 🇺🇸 美国_15
-  - 🇺🇸 美国_16
-  - 🇺🇸 美国_17
-  - 🇺🇸 美国_18
-  - 🇺🇸 美国_19
   - 🇺🇸 美国_2
-  - 🇺🇸 美国_20
-  - 🇺🇸 美国_21
-  - 🇺🇸 美国_22
-  - 🇺🇸 美国_23
   - 🇺🇸 美国_3
   - 🇺🇸 美国_4
   - 🇺🇸 美国_5
@@ -1545,14 +1263,15 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - DE_Amazon Technologies Inc._OpenAI
+  - 107.175.34.118_OpenAI
+  - 127.0.0.1_OpenAI
+  - 185.184.68.94_OpenAI
+  - DE_Hetzner Online GmbH_OpenAI
   - FI_Hetzner Online GmbH_OpenAI
-  - JP_Amazon Technologies Inc_OpenAI
-  - KR_Oracle Corporation_OpenAI
-  - TW_Data Center Network Limited_OpenAI
-  - US_Amazon.com, Inc._OpenAI1
-  - US_Amazon.com, Inc._OpenAI2
-  - US_Amazon.com, Inc._OpenAI3
+  - GB_OVH SAS_OpenAI
+  - KR_Oracle Corporation_OpenAI1
+  - KR_Oracle Corporation_OpenAI2
+  - NL_Servers Tech Fzco_OpenAI
   - US_Cloudflare, Inc._OpenAI1
   - US_Cloudflare, Inc._OpenAI2
   - US_FranTech Solutions_OpenAI
@@ -1561,15 +1280,12 @@ proxy-groups:
   - US_HostPapa_OpenAI3
   - US_HostPapa_OpenAI4
   - US_HostPapa_OpenAI5
-  - US_HostPapa_OpenAI6
-  - US_Massivegrid_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Oracle Corporation_OpenAI5
   - US_Psychz Networks_OpenAI
-  - US_Spartan Host Ltd_OpenAI
+  - US_Total Uptime Technologies_OpenAI
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
