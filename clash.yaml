@@ -71,126 +71,7 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 127.0.0.1_OpenAI
-  network: ws
-  port: 8880
-  server: 185.148.105.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: '12|Channel id: @ShadowProxy66🇺🇸 #'
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.207.162
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 15|US_speednode_1
-  network: ws
-  port: 8880
-  server: 156.238.18.252
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 15|US_speednode_2
-  network: ws
-  port: 8880
-  server: 104.254.140.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 15|US_speednode_3
-  network: ws
-  port: 8880
-  server: 14.102.228.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 51.75.92.93_OpenAI
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v23.pronetwork23.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v23.pronetwork23.com
-    path: /?ed=2048
-- name: DE_Amazon Technologies Inc.
-  network: ws
-  port: 8880
-  server: 45.159.216.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: DE_Hetzner Online GmbH_OpenAI1
-  network: ws
-  port: 8880
-  server: 104.129.167.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: DE_Hetzner Online GmbH_OpenAI2
-  network: ws
-  port: 8880
-  server: 14.102.229.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: DE_OVH SAS_OpenAI
+- name: 15|US_speednode_
   network: ws
   port: 80
   server: fastaly.dollardoon.com
@@ -204,7 +85,7 @@ proxies:
     headers:
       Host: vipfast_7.com
     path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048
-- name: IN_Oracle Corporation_OpenAI
+- name: DE_Amazon Technologies Inc._OpenAI1
   network: ws
   port: 8880
   server: 108.165.216.20
@@ -218,6 +99,69 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- name: DE_Amazon Technologies Inc._OpenAI2
+  network: ws
+  port: 8880
+  server: 108.162.198.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: DE_Hetzner Online GmbH_OpenAI
+  network: ws
+  port: 8880
+  server: 167.68.11.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: DE_OVH SAS_OpenAI
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v23.pronetwork23.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v23.pronetwork23.com
+    path: /?ed=2048
+- name: JP_Amazon Technologies Inc._OpenAI
+  password: 338b9800-fb4d-4934-8425-388f6d4342f5
+  port: 56309
+  server: jpaws.ccwink.cc
+  skip-cert-verify: true
+  sni: jpaws.ccwink.cc
+  type: hysteria2
+- name: JP_Tencent Cloud Computing (Beijing) Co_OpenAI
+  network: ws
+  port: 8880
+  server: 156.238.18.252
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
 - name: NL_DigitalOcean, LLC_OpenAI
   network: ws
   port: 80
@@ -232,38 +176,10 @@ proxies:
     headers:
       Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
     path: /ws/?ed=2048
-- name: NL_Servers Tech Fzco_OpenAI1
-  network: ws
-  port: 8880
-  server: 104.129.164.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: NL_Servers Tech Fzco_OpenAI2
-  network: ws
-  port: 8880
-  server: 108.162.198.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: TW_Chunghwa Telecom Co., Ltd.
+- name: TW_Chunghwa Telecom Co., Ltd.1
   network: ws
   port: 80
-  server: 141.193.213.227
+  server: 141.193.213.178
   servername: cs.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -274,7 +190,7 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
-- name: TW_Chunghwa Telecom Co., Ltd._OpenAI1
+- name: TW_Chunghwa Telecom Co., Ltd.2
   network: ws
   port: 80
   server: 141.193.213.98
@@ -288,21 +204,7 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: TW_Chunghwa Telecom Co., Ltd._OpenAI2
-  network: ws
-  port: 80
-  server: 141.193.213.187
-  servername: cs.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: cs.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: TW_Chunghwa Telecom Co., Ltd._OpenAI3
+- name: TW_Chunghwa Telecom Co., Ltd.3
   network: ws
   port: 80
   server: 141.193.213.118
@@ -316,7 +218,84 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
-- name: US_Amazon.com, Inc._OpenAI
+- name: TW_Chunghwa Telecom Co., Ltd.4
+  network: ws
+  port: 80
+  server: 141.193.213.187
+  servername: cs.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: TW_Chunghwa Telecom Co., Ltd._OpenAI1
+  network: ws
+  port: 80
+  server: 141.193.213.227
+  servername: cs.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
+- name: TW_Chunghwa Telecom Co., Ltd._OpenAI2
+  password: 338b9800-fb4d-4934-8425-388f6d4342f5
+  port: 30001
+  server: tw1-vds14.anyhk.co
+  skip-cert-verify: true
+  sni: tw1-vds14.anyhk.co
+  type: hysteria2
+- name: US_Amazon.com, Inc.
+  network: ws
+  port: 8880
+  server: 167.68.42.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: US_Amazon.com, Inc._OpenAI1
+  network: ws
+  port: 8880
+  server: 104.129.167.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: US_Amazon.com, Inc._OpenAI2
+  network: ws
+  port: 8880
+  server: 104.129.164.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: US_Amazon.com, Inc._OpenAI3
   network: ws
   port: 8880
   server: 104.129.166.20
@@ -330,6 +309,41 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- name: US_Amazon.com, Inc._OpenAI4
+  network: ws
+  port: 8880
+  server: 104.254.140.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: US_Amazon.com, Inc._OpenAI5
+  network: ws
+  port: 8880
+  server: 14.102.229.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: US_Cloudflare, Inc._OpenAI
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.207.162
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - name: US_Flexential Colorado Corp._OpenAI
   port: 33001
   reality-opts:
@@ -341,21 +355,21 @@ proxies:
   type: vless
   udp: true
   uuid: bfab9a68-5545-5270-bfdd-c9a5476ca066
-- name: US_FranTech Solutions_OpenAI
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
+- name: US_HostPapa_OpenAI1
+  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+  port: 3002
+  server: 107.175.34.118
+  sni: us.10101251.xyz
   type: hysteria2
 - client-fingerprint: chrome
-  name: US_HostPapa
+  name: US_HostPapa_OpenAI2
   password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
   port: 3002
   server: us.10101251.xyz
   skip-cert-verify: false
   sni: us.10101251.xyz
   type: hysteria2
-- name: US_HostPapa_OpenAI1
+- name: US_HostPapa_OpenAI3
   network: ws
   port: 443
   server: 104.21.53.113
@@ -369,7 +383,7 @@ proxies:
       Host: bba.890601.pp.ua
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /rU9rSjDSOd4yY2fOe
-- name: US_HostPapa_OpenAI2
+- name: US_HostPapa_OpenAI4
   network: ws
   port: 8443
   server: 190.93.246.246
@@ -383,7 +397,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: US_Massivegrid LTD_OpenAI
+- name: US_Massivegrid LTD_OpenAI1
   network: ws
   port: 443
   server: 104.21.71.112
@@ -397,6 +411,34 @@ proxies:
       Host: cccvf34er4.288288.shop
       User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /C1SukvGdr58yeduy9AOG
+- name: US_Massivegrid LTD_OpenAI2
+  network: ws
+  port: 443
+  server: 172.67.153.179
+  servername: 5eR.WWW890604.dPDNS.OrG
+  tls: true
+  type: vless
+  udp: true
+  uuid: 895552fa-6284-4c1d-ba00-3944e0c7c626
+  ws-opts:
+    headers:
+      Host: 5er.www890604.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /C1SukvGdr58yeduy9AOG
+- name: US_Oracle Corporation
+  network: ws
+  port: 8880
+  server: 155.46.213.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
 - name: US_Oracle Corporation_OpenAI1
   network: ws
   port: 8880
@@ -447,39 +489,17 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Psychz Networks_OpenAI1
+- name: US_Psychz Networks_OpenAI
   password: dongtaiwang.com
   port: 57773
   server: 108.181.5.130
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: US_Psychz Networks_OpenAI2
-  obfs: ''
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 208.87.242.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: US_Psychz Networks_OpenAI3
-  obfs: ''
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 108.181.23.255
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- name: US_Rackspace Hosting_OpenAI
+- name: US_Rackspace Hosting_OpenAI1
   network: ws
   port: 8880
-  server: 167.68.11.20
+  server: 14.102.228.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -490,10 +510,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: US_Total Uptime Technologies_OpenAI1
+- name: US_Rackspace Hosting_OpenAI2
   network: ws
   port: 8880
-  server: 167.68.42.20
+  server: 45.159.216.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -503,8 +523,93 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /
-- name: US_Total Uptime Technologies_OpenAI2
+    path: /?ed=2560
+- name: US_Rackspace Hosting_OpenAI3
+  network: ws
+  port: 8880
+  server: 185.148.105.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US_Sharktech1
+  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+  port: 8443
+  server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
+  sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech10
+  password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
+  port: 8443
+  server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
+  sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech2
+  password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+  port: 8443
+  server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net
+  sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech3
+  password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
+  port: 8443
+  server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
+  sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech4
+  password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
+  port: 8443
+  server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
+  sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech5
+  password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d
+  port: 8443
+  server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net
+  sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech6
+  password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
+  port: 8443
+  server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
+  sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech7
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 8443
+  server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
+  sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech8
+  password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
+  port: 8443
+  server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
+  sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: US_Sharktech9
+  password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9
+  port: 8443
+  server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net
+  type: hysteria2
+- name: US_Total Uptime Technologies_OpenAI
   network: ws
   port: 8880
   server: 209.46.30.20
@@ -533,41 +638,54 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 127.0.0.1_OpenAI
-  - '12|Channel id: @ShadowProxy66🇺🇸 #'
-  - 15|US_speednode_1
-  - 15|US_speednode_2
-  - 15|US_speednode_3
-  - 51.75.92.93_OpenAI
-  - DE_Amazon Technologies Inc.
-  - DE_Hetzner Online GmbH_OpenAI1
-  - DE_Hetzner Online GmbH_OpenAI2
+  - 15|US_speednode_
+  - DE_Amazon Technologies Inc._OpenAI1
+  - DE_Amazon Technologies Inc._OpenAI2
+  - DE_Hetzner Online GmbH_OpenAI
   - DE_OVH SAS_OpenAI
-  - IN_Oracle Corporation_OpenAI
+  - JP_Amazon Technologies Inc._OpenAI
+  - JP_Tencent Cloud Computing (Beijing) Co_OpenAI
   - NL_DigitalOcean, LLC_OpenAI
-  - NL_Servers Tech Fzco_OpenAI1
-  - NL_Servers Tech Fzco_OpenAI2
-  - TW_Chunghwa Telecom Co., Ltd.
+  - TW_Chunghwa Telecom Co., Ltd.1
+  - TW_Chunghwa Telecom Co., Ltd.2
+  - TW_Chunghwa Telecom Co., Ltd.3
+  - TW_Chunghwa Telecom Co., Ltd.4
   - TW_Chunghwa Telecom Co., Ltd._OpenAI1
   - TW_Chunghwa Telecom Co., Ltd._OpenAI2
-  - TW_Chunghwa Telecom Co., Ltd._OpenAI3
-  - US_Amazon.com, Inc._OpenAI
+  - US_Amazon.com, Inc.
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_Amazon.com, Inc._OpenAI4
+  - US_Amazon.com, Inc._OpenAI5
+  - US_Cloudflare, Inc._OpenAI
   - US_Flexential Colorado Corp._OpenAI
-  - US_FranTech Solutions_OpenAI
-  - US_HostPapa
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
-  - US_Massivegrid LTD_OpenAI
+  - US_HostPapa_OpenAI3
+  - US_HostPapa_OpenAI4
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
+  - US_Oracle Corporation
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
-  - US_Psychz Networks_OpenAI3
-  - US_Rackspace Hosting_OpenAI
-  - US_Total Uptime Technologies_OpenAI1
-  - US_Total Uptime Technologies_OpenAI2
+  - US_Psychz Networks_OpenAI
+  - US_Rackspace Hosting_OpenAI1
+  - US_Rackspace Hosting_OpenAI2
+  - US_Rackspace Hosting_OpenAI3
+  - US_Sharktech1
+  - US_Sharktech10
+  - US_Sharktech2
+  - US_Sharktech3
+  - US_Sharktech4
+  - US_Sharktech5
+  - US_Sharktech6
+  - US_Sharktech7
+  - US_Sharktech8
+  - US_Sharktech9
+  - US_Total Uptime Technologies_OpenAI
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -592,10 +710,12 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - TW_Chunghwa Telecom Co., Ltd.
+  - TW_Chunghwa Telecom Co., Ltd.1
+  - TW_Chunghwa Telecom Co., Ltd.2
+  - TW_Chunghwa Telecom Co., Ltd.3
+  - TW_Chunghwa Telecom Co., Ltd.4
   - TW_Chunghwa Telecom Co., Ltd._OpenAI1
   - TW_Chunghwa Telecom Co., Ltd._OpenAI2
-  - TW_Chunghwa Telecom Co., Ltd._OpenAI3
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -603,7 +723,8 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - DIRECT
+  - JP_Amazon Technologies Inc._OpenAI
+  - JP_Tencent Cloud Computing (Beijing) Co_OpenAI
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -619,26 +740,41 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 15|US_speednode_1
-  - 15|US_speednode_2
-  - 15|US_speednode_3
-  - US_Amazon.com, Inc._OpenAI
+  - 15|US_speednode_
+  - US_Amazon.com, Inc.
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_Amazon.com, Inc._OpenAI4
+  - US_Amazon.com, Inc._OpenAI5
+  - US_Cloudflare, Inc._OpenAI
   - US_Flexential Colorado Corp._OpenAI
-  - US_FranTech Solutions_OpenAI
-  - US_HostPapa
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
-  - US_Massivegrid LTD_OpenAI
+  - US_HostPapa_OpenAI3
+  - US_HostPapa_OpenAI4
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
+  - US_Oracle Corporation
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
-  - US_Psychz Networks_OpenAI3
-  - US_Rackspace Hosting_OpenAI
-  - US_Total Uptime Technologies_OpenAI1
-  - US_Total Uptime Technologies_OpenAI2
+  - US_Psychz Networks_OpenAI
+  - US_Rackspace Hosting_OpenAI1
+  - US_Rackspace Hosting_OpenAI2
+  - US_Rackspace Hosting_OpenAI3
+  - US_Sharktech1
+  - US_Sharktech10
+  - US_Sharktech2
+  - US_Sharktech3
+  - US_Sharktech4
+  - US_Sharktech5
+  - US_Sharktech6
+  - US_Sharktech7
+  - US_Sharktech8
+  - US_Sharktech9
+  - US_Total Uptime Technologies_OpenAI
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -646,34 +782,37 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 127.0.0.1_OpenAI
-  - 51.75.92.93_OpenAI
-  - DE_Hetzner Online GmbH_OpenAI1
-  - DE_Hetzner Online GmbH_OpenAI2
+  - DE_Amazon Technologies Inc._OpenAI1
+  - DE_Amazon Technologies Inc._OpenAI2
+  - DE_Hetzner Online GmbH_OpenAI
   - DE_OVH SAS_OpenAI
-  - IN_Oracle Corporation_OpenAI
+  - JP_Amazon Technologies Inc._OpenAI
+  - JP_Tencent Cloud Computing (Beijing) Co_OpenAI
   - NL_DigitalOcean, LLC_OpenAI
-  - NL_Servers Tech Fzco_OpenAI1
-  - NL_Servers Tech Fzco_OpenAI2
   - TW_Chunghwa Telecom Co., Ltd._OpenAI1
   - TW_Chunghwa Telecom Co., Ltd._OpenAI2
-  - TW_Chunghwa Telecom Co., Ltd._OpenAI3
-  - US_Amazon.com, Inc._OpenAI
+  - US_Amazon.com, Inc._OpenAI1
+  - US_Amazon.com, Inc._OpenAI2
+  - US_Amazon.com, Inc._OpenAI3
+  - US_Amazon.com, Inc._OpenAI4
+  - US_Amazon.com, Inc._OpenAI5
+  - US_Cloudflare, Inc._OpenAI
   - US_Flexential Colorado Corp._OpenAI
-  - US_FranTech Solutions_OpenAI
   - US_HostPapa_OpenAI1
   - US_HostPapa_OpenAI2
-  - US_Massivegrid LTD_OpenAI
+  - US_HostPapa_OpenAI3
+  - US_HostPapa_OpenAI4
+  - US_Massivegrid LTD_OpenAI1
+  - US_Massivegrid LTD_OpenAI2
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
   - US_Oracle Corporation_OpenAI4
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
-  - US_Psychz Networks_OpenAI3
-  - US_Rackspace Hosting_OpenAI
-  - US_Total Uptime Technologies_OpenAI1
-  - US_Total Uptime Technologies_OpenAI2
+  - US_Psychz Networks_OpenAI
+  - US_Rackspace Hosting_OpenAI1
+  - US_Rackspace Hosting_OpenAI2
+  - US_Rackspace Hosting_OpenAI3
+  - US_Total Uptime Technologies_OpenAI
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
