@@ -72,53 +72,14 @@ dns:
   - https://dns.alidns.com/dns-query
 proxies:
 - client-fingerprint: chrome
-  name: 107.175.34.118_OpenAI
+  name: US_HostPapa_OpenAI1
   password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
   port: 3002
   server: us.10101251.xyz
   skip-cert-verify: false
   sni: us.10101251.xyz
   type: hysteria2
-- name: 152.70.155.147_OpenAI
-  network: ws
-  port: 8880
-  server: 156.238.18.106
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 3|🇺🇸61 |  1.0MB/s|Disney
-  network: ws
-  port: 8880
-  server: 156.238.18.239
-  servername: yd.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Cloudflare, Inc._OpenAI
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: xv6.jpmj.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 897a4bec-26b8-11e8-94be-00505695472c
-  ws-opts:
-    headers:
-      Host: xv6.jpmj.dpdns.org
-    path: /bbs?ed=2048
-- name: US_HostPapa_OpenAI
+- name: US_HostPapa_OpenAI2
   network: ws
   port: 8443
   server: 190.93.246.246
@@ -132,6 +93,41 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
+- name: US_Oracle Corporation1
+  network: ws
+  port: 8880
+  server: 156.238.18.197
+  servername: yd.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: US_Oracle Corporation2
+  network: ws
+  port: 8880
+  server: 156.238.18.239
+  servername: yd.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: US_Sharktech
+  password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
+  port: 8443
+  server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
+  sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
+  type: hysteria2
 proxy-groups:
 - name: PROXY
   type: select
@@ -147,11 +143,11 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 107.175.34.118_OpenAI
-  - 152.70.155.147_OpenAI
-  - 3|🇺🇸61 |  1.0MB/s|Disney
-  - US_Cloudflare, Inc._OpenAI
-  - US_HostPapa_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
+  - US_Oracle Corporation1
+  - US_Oracle Corporation2
+  - US_Sharktech
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -200,8 +196,11 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_Cloudflare, Inc._OpenAI
-  - US_HostPapa_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
+  - US_Oracle Corporation1
+  - US_Oracle Corporation2
+  - US_Sharktech
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -209,10 +208,8 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 107.175.34.118_OpenAI
-  - 152.70.155.147_OpenAI
-  - US_Cloudflare, Inc._OpenAI
-  - US_HostPapa_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
