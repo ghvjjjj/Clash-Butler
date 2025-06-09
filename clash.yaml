@@ -71,7 +71,15 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: US_HostPapa_OpenAI
+- client-fingerprint: chrome
+  name: US_HostPapa_OpenAI1
+  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+  port: 3002
+  server: us.10101251.xyz
+  skip-cert-verify: false
+  sni: us.10101251.xyz
+  type: hysteria2
+- name: US_HostPapa_OpenAI2
   network: ws
   port: 8443
   server: 190.93.246.246
@@ -85,7 +93,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: US_Oracle Corporation1
+- name: US_Oracle Corporation_OpenAI1
   network: ws
   port: 8880
   server: 156.238.18.106
@@ -96,7 +104,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation2
+- name: US_Oracle Corporation_OpenAI2
   network: ws
   port: 8880
   server: 156.238.18.197
@@ -110,7 +118,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI
+- name: US_Oracle Corporation_OpenAI3
   network: ws
   port: 8880
   server: 156.238.18.239
@@ -124,6 +132,13 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: US_Sharktech
+  password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
+  port: 8443
+  server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
+  sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
+  type: hysteria2
 proxy-groups:
 - name: PROXY
   type: select
@@ -139,10 +154,12 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - US_HostPapa_OpenAI
-  - US_Oracle Corporation1
-  - US_Oracle Corporation2
-  - US_Oracle Corporation_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
+  - US_Oracle Corporation_OpenAI3
+  - US_Sharktech
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -191,10 +208,12 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_HostPapa_OpenAI
-  - US_Oracle Corporation1
-  - US_Oracle Corporation2
-  - US_Oracle Corporation_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
+  - US_Oracle Corporation_OpenAI3
+  - US_Sharktech
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -202,8 +221,11 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - US_HostPapa_OpenAI
-  - US_Oracle Corporation_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
+  - US_Oracle Corporation_OpenAI1
+  - US_Oracle Corporation_OpenAI2
+  - US_Oracle Corporation_OpenAI3
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
