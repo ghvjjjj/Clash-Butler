@@ -71,33 +71,67 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- client-fingerprint: chrome
-  name: US_HostPapa_OpenAI1
-  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
-  port: 3002
-  server: us.10101251.xyz
-  skip-cert-verify: false
-  sni: us.10101251.xyz
-  type: hysteria2
-- name: US_HostPapa_OpenAI2
+- name: 15|BG_speednode_
   network: ws
-  port: 8443
-  server: 190.93.246.246
-  servername: bitget1.asdasd.click
+  port: 8880
+  server: 147.78.140.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|DE_speednode_1
+  network: ws
+  port: 443
+  server: 5.39.249.146
+  servername: 0926.qiang2000.link
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+  ws-opts:
+    headers:
+      Host: 0926.qiang2000.link
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+- name: 15|DE_speednode_2
+  network: ws
+  port: 8880
+  server: 45.80.111.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|FI_speednode_
+  network: ws
+  port: 443
+  server: 77.221.159.70
+  servername: 0926.qiang2000.link
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
   ws-opts:
     headers:
-      Host: bitget1.asdasd.click
-    path: /?ed=2560
-- name: US_Oracle Corporation_OpenAI1
+      Host: 0926.qiang2000.link
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+- name: 15|GB_speednode_1
   network: ws
   port: 8880
-  server: 156.238.18.197
-  servername: yd.laoyoutiao.link
+  server: 91.193.58.4
+  servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
@@ -105,13 +139,13 @@ proxies:
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI2
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_10
   network: ws
   port: 8880
-  server: 156.238.18.239
-  servername: yd.laoyoutiao.link
+  server: 91.193.58.63
+  servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
@@ -119,11 +153,253 @@ proxies:
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_11
+  network: ws
+  port: 8880
+  server: 91.193.58.245
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_2
+  network: ws
+  port: 8880
+  server: 91.193.58.79
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_3
+  network: ws
+  port: 8880
+  server: 91.193.58.172
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_4
+  network: ws
+  port: 8880
+  server: 91.193.58.184
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_6
+  network: ws
+  port: 8880
+  server: 91.193.58.65
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_7
+  network: ws
+  port: 8880
+  server: 91.193.58.108
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_8
+  network: ws
+  port: 8880
+  server: 91.193.58.64
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_9
+  network: ws
+  port: 8880
+  server: 91.193.58.78
+  servername: cs.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /
+- name: 15|HK_speednode_
+  network: ws
+  port: 443
+  server: 47.76.218.163
+  servername: steep.skyfigure.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram @pgkj666 /?ed=2560
+- name: 15|NL_speednode_
+  network: ws
+  port: 443
+  server: 91.201.113.193
+  servername: 0926.qiang2000.link
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+  ws-opts:
+    headers:
+      Host: 0926.qiang2000.link
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+- name: 15|RU_speednode_
+  network: ws
+  port: 8880
+  server: 5.182.84.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|US_speednode_1
+  network: ws
+  port: 8880
+  server: 69.84.182.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /
+- name: 15|US_speednode_2
+  network: ws
+  port: 80
+  server: 162.251.82.187
+  servername: my-mail-management-pr0-git-land-manager.clients-github.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8c9a892c-e9d5-4fff-bfdb-8ef9c50272b1
+  ws-opts:
+    headers:
+      Host: my-mail-management-pr0-git-land-manager.clients-github.com
+    path: /58834/mail-template
+- name: 15|US_speednode_3
+  network: ws
+  port: 80
+  server: 151.101.64.155
+  servername: Aparatay.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 15face3d-979a-40e5-fcbe-62b82a46aed4
+  ws-opts:
+    headers:
+      Host: Aparatay.com
+    path: /tel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
+- name: 15|US_speednode_4
+  network: ws
+  port: 80
+  server: 141.193.213.190
+  servername: cs.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /
+- flow: xtls-rprx-vision
+  name: 2|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  network: tcp
+  port: 443
+  server: 204.10.194.78
+  servername: yfnl1.xn--4gq62f52gppi29k.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+- name: 2|🇺🇸111 |  1.0MB/s|61%|Disney
+  network: ws
+  port: 8880
+  server: 156.238.18.76
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
       Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 2|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
+  network: ws
+  port: 8880
+  server: 156.238.18.106
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
 - down: ''
   fingerprint: ''
-  name: US_Psychz Networks_OpenAI1
+  name: 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
   obfs: ''
   password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   port: 443
@@ -134,7 +410,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: US_Psychz Networks_OpenAI2
+  name: 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
   obfs: ''
   password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   port: 443
@@ -143,13 +419,6 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
-- client-fingerprint: chrome
-  name: US_Sharktech
-  password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
-  port: 8443
-  server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
-  sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net
-  type: hysteria2
 proxy-groups:
 - name: PROXY
   type: select
@@ -165,13 +434,32 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
-  - US_Oracle Corporation_OpenAI1
-  - US_Oracle Corporation_OpenAI2
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
-  - US_Sharktech
+  - 15|BG_speednode_
+  - 15|DE_speednode_1
+  - 15|DE_speednode_2
+  - 15|FI_speednode_
+  - 15|GB_speednode_1
+  - 15|GB_speednode_10
+  - 15|GB_speednode_11
+  - 15|GB_speednode_2
+  - 15|GB_speednode_3
+  - 15|GB_speednode_4
+  - 15|GB_speednode_6
+  - 15|GB_speednode_7
+  - 15|GB_speednode_8
+  - 15|GB_speednode_9
+  - 15|HK_speednode_
+  - 15|NL_speednode_
+  - 15|RU_speednode_
+  - 15|US_speednode_1
+  - 15|US_speednode_2
+  - 15|US_speednode_3
+  - 15|US_speednode_4
+  - 2|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  - 2|🇺🇸111 |  1.0MB/s|61%|Disney
+  - 2|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
+  - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+  - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -188,7 +476,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - DIRECT
+  - 15|HK_speednode_
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -220,13 +508,10 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
-  - US_Oracle Corporation_OpenAI1
-  - US_Oracle Corporation_OpenAI2
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
-  - US_Sharktech
+  - 15|US_speednode_1
+  - 15|US_speednode_2
+  - 15|US_speednode_3
+  - 15|US_speednode_4
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -234,12 +519,7 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
-  - US_Oracle Corporation_OpenAI1
-  - US_Oracle Corporation_OpenAI2
-  - US_Psychz Networks_OpenAI1
-  - US_Psychz Networks_OpenAI2
+  - PROXY
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
