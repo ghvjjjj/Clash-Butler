@@ -71,7 +71,15 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: US_HostPapa_OpenAI
+- client-fingerprint: chrome
+  name: US_HostPapa_OpenAI1
+  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+  port: 3002
+  server: us.10101251.xyz
+  skip-cert-verify: false
+  sni: us.10101251.xyz
+  type: hysteria2
+- name: US_HostPapa_OpenAI2
   network: ws
   port: 8443
   server: 190.93.246.246
@@ -88,17 +96,6 @@ proxies:
 - name: US_Oracle Corporation_OpenAI1
   network: ws
   port: 8880
-  server: 156.238.18.106
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI2
-  network: ws
-  port: 8880
   server: 156.238.18.197
   servername: yd.laoyoutiao.link
   skip-cert-verify: false
@@ -110,7 +107,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_Oracle Corporation_OpenAI3
+- name: US_Oracle Corporation_OpenAI2
   network: ws
   port: 8880
   server: 156.238.18.239
@@ -124,6 +121,28 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- down: ''
+  fingerprint: ''
+  name: US_Psychz Networks_OpenAI1
+  obfs: ''
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 208.87.242.215
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: US_Psychz Networks_OpenAI2
+  obfs: ''
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 108.181.23.255
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   name: US_Sharktech
   password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
@@ -146,10 +165,12 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - US_HostPapa_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
-  - US_Oracle Corporation_OpenAI3
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
   - US_Sharktech
 - name: Fallback
   type: fallback
@@ -199,10 +220,12 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_HostPapa_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
-  - US_Oracle Corporation_OpenAI3
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
   - US_Sharktech
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
@@ -211,10 +234,12 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - US_HostPapa_OpenAI
+  - US_HostPapa_OpenAI1
+  - US_HostPapa_OpenAI2
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
-  - US_Oracle Corporation_OpenAI3
+  - US_Psychz Networks_OpenAI1
+  - US_Psychz Networks_OpenAI2
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
