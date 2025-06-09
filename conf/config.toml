@@ -18,7 +18,7 @@ rename_pattern = "${COUNTRYCODE}_${ISP}"
 need_add_pool = true
 # 代理节点池
 pools = [
-    "https://subconverters.com/sub?target=clash&url=https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml&insert=false&sort=true&emoji=true&list=true&xudp=true&udp=true&tfo=true&expand=true&scv=true&fdn=false&new_name=true&include=美国|US|日本|JP|新加坡|SG|台湾|TW"
+    "https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml"
 ]
 
 # 测试分组大小
@@ -28,7 +28,7 @@ test_group_size = 50
 [connect_test]
 url = "http://www.google.com/generate_204"
 expected = 204
-timeout = 1000
+timeout = 500
 
 # 带宽测速配置
 [speed_test]
