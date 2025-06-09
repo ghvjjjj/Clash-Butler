@@ -71,15 +71,7 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- client-fingerprint: chrome
-  name: US_HostPapa_OpenAI1
-  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
-  port: 3002
-  server: us.10101251.xyz
-  skip-cert-verify: false
-  sni: us.10101251.xyz
-  type: hysteria2
-- name: US_HostPapa_OpenAI2
+- name: US_HostPapa_OpenAI
   network: ws
   port: 8443
   server: 190.93.246.246
@@ -154,8 +146,7 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
@@ -208,8 +199,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
@@ -221,8 +211,7 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - US_HostPapa_OpenAI1
-  - US_HostPapa_OpenAI2
+  - US_HostPapa_OpenAI
   - US_Oracle Corporation_OpenAI1
   - US_Oracle Corporation_OpenAI2
   - US_Oracle Corporation_OpenAI3
